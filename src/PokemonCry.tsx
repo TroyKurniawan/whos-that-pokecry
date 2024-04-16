@@ -1,7 +1,11 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const PokemonCry = ({ callback }: any) => {
+type PokemonCryProps = {
+  callback: React.Dispatch<React.SetStateAction<string>>;
+};
+
+const PokemonCry = ({ callback }: PokemonCryProps) => {
   const [cry, setCry] = useState();
   const [url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon/1/");
 
@@ -12,7 +16,7 @@ const PokemonCry = ({ callback }: any) => {
     let newUrl: string =
       "https://pokeapi.co/api/v2/pokemon/" +
       (Math.floor(Math.random() * 1025) + 1) +
-      "/";
+      "/"; // Concat a string of a random Pokemon
     console.log(newUrl);
     setUrl(newUrl);
   };
@@ -21,25 +25,23 @@ const PokemonCry = ({ callback }: any) => {
   useEffect(() => {
     axios.get(url).then((res) => {
       console.log(res);
-      setCry(res.data.cries.latest);
-      callback(res.data.name);
+      setCry(res.data.cries.latest); // Sets the URL of the new Pokemon's cry.
+      callback(res.data.name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
     });
   }, [url]);
 
   // ===============================================
 
   return (
-    <div className="w-96 h-auto bg-white grid justify-center content-center rounded-xl m-4">
+    <div className="w-96 h-96 bg-white grid justify-center content-center rounded-xl m-4">
+      <audio src={cry} controls autoPlay hidden className="m-4" />
+
       <button
         onClick={randomCry}
-        className="bg-red-500 text-white font-bold text-2xl p-4 m-4 hover:bg-red-600 rounded-xl"
+        className="bg-red-500 text-white font-bold text-xl p-4 m-4 hover:bg-red-600 rounded-xl"
       >
-        NEW CRY
+        Skip
       </button>
-
-      <audio src={cry} controls autoPlay className="m-4">
-        Your browser does not support the audio tag.
-      </audio>
     </div>
   );
 };
