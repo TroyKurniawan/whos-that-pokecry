@@ -40,7 +40,6 @@ const PlayerInput = ({ callback }: PlayerInputProps) => {
           placeholder="Search Pokémon..."
           type="search"
           id="playerInput"
-          required={true}
           autoComplete="off"
           className="w-96 m-4 pl-14 p-4 rounded-xl"
           onChange={(e) => console.log("change")}
