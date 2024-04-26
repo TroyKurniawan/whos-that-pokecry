@@ -43,7 +43,7 @@ const PokemonCry = ({ callback }: PokemonCryProps) => {
       <audio src={cry} controls autoPlay hidden className="m-4" id="audio" />
 
       <button
-        className="size-52 p-4 m-4 bg-gray-700 rounded-full text-white font-bold text-xl hover:bg-gray-800 active:bg-gray-900"
+        className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl hover:bg-gray-800 active:bg-gray-900"
         onClick={playAudio}
       >
         Play
@@ -51,7 +51,7 @@ const PokemonCry = ({ callback }: PokemonCryProps) => {
 
       <button
         onClick={randomCry}
-        className="bg-red-500 text-white font-bold text-xl p-4 m-4 rounded-xl hover:bg-red-600 active:bg-red-700"
+        className="bg-red-500 text-white font-bold text-xl p-4 m-4 w-52 rounded-xl hover:bg-red-600 active:bg-red-700"
       >
         Skip
       </button>

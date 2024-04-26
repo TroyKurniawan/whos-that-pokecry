@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import SearchResultContainer from "./SearchResultContainer";
 
 type PlayerInputProps = {
@@ -5,13 +6,12 @@ type PlayerInputProps = {
 };
 
 const PlayerInput = ({ callback }: PlayerInputProps) => {
+  const [currentInput, setCurrentInput] = useState("");
+
   return (
     <div className="relative flex">
-      {/* <SearchResultContainer
-        input={
-          (document.getElementById("playerInput") as HTMLInputElement)!.value
-        }
-      /> */}
+      <SearchResultContainer input={currentInput} />
+
       <div className="absolute m-4 p-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -28,9 +28,7 @@ const PlayerInput = ({ callback }: PlayerInputProps) => {
       <form
         onSubmit={(e) => {
           e.preventDefault();
-          callback(
-            (document.getElementById("playerInput") as HTMLInputElement)!.value
-          );
+          callback(currentInput);
           (document.getElementById("playerInput") as HTMLInputElement)!.value =
             "";
         }}
@@ -42,7 +40,12 @@ const PlayerInput = ({ callback }: PlayerInputProps) => {
           id="playerInput"
           autoComplete="off"
           className="w-96 m-4 pl-14 p-4 rounded-xl"
-          onChange={(e) => console.log("change")}
+          onChange={(e) =>
+            setCurrentInput(
+              (document.getElementById("playerInput") as HTMLInputElement)!
+                .value
+            )
+          }
         ></input>
         {/* <button className="m-4 border">Submit</button> */}
       </form>
