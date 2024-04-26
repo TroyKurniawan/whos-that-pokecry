@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:
+      {
+        'low-poly': "url('./assets/low-poly-bg.svg')"
+      }
+    },
   },
   plugins: [],
 }
