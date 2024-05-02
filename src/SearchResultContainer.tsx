@@ -1,7 +1,18 @@
-import { useState, useEffect } from "react";
+import { ReactNode } from "react";
+import axios from "axios";
+import { PokemonList } from "./assets/pokemon-list.js";
 
 type SearchResultContainerProps = {
   input: string;
+};
+
+const getPokemon = () => {
+  for (let i = 1; i <= 1025; i++) {
+    let url: string = "https://pokeapi.co/api/v2/pokemon/" + i + "/"; // Concat a string of Pokemon from 1 to 1025
+    axios.get(url).then((res) => {
+      return <div> {res.data.name} </div>;
+    });
+  }
 };
 
 const SearchResultContainer = ({ input }: SearchResultContainerProps) => {
@@ -14,9 +25,13 @@ const SearchResultContainer = ({ input }: SearchResultContainerProps) => {
     return (
       <div
         id="search"
-        className="absolute m-4 bottom-16 p-4 w-96 h-96 bg-white justify-center content-center rounded-xl"
+        className="grid overflow-auto absolute m-4 bottom-16 p-4 size-96 bg-white justify-center rounded-xl"
       >
-        <ul>{input}</ul>
+        {PokemonList.map((pkmn: any) => (
+          <div className="text-center font-bold text-xl w-48 h-10">
+            {pkmn.name + "\n"}
+          </div>
+        ))}
       </div>
     );
   }

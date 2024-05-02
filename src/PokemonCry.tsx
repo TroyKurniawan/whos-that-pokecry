@@ -39,14 +39,14 @@ const PokemonCry = ({ callback }: PokemonCryProps) => {
   // ===============================================
 
   return (
-    <div className="w-96 h-96 bg-white grid justify-center content-center justify-items-center rounded-xl m-4">
+    <div className="size-96 bg-white grid justify-center content-center justify-items-center rounded-xl m-4">
       <audio src={cry} controls autoPlay hidden className="m-4" id="audio" />
 
       <button
         className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl hover:bg-gray-800 active:bg-gray-900"
         onClick={playAudio}
       >
-        Play
+        Listen
       </button>
 
       <button

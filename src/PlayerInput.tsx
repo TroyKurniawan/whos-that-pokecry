@@ -29,6 +29,7 @@ const PlayerInput = ({ callback }: PlayerInputProps) => {
         onSubmit={(e) => {
           e.preventDefault();
           callback(currentInput);
+          setCurrentInput("");
           (document.getElementById("playerInput") as HTMLInputElement)!.value =
             "";
         }}
