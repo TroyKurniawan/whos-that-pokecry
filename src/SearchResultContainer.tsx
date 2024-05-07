@@ -25,20 +25,26 @@ const SearchResultContainer = ({ input }: SearchResultContainerProps) => {
     return (
       <div
         id="search"
-        className="grid overflow-auto absolute m-4 bottom-16 p-4 size-96 size bg-white justify-center rounded-xl"
+        className="overflow-auto absolute m-4 bottom-16 p-4 size-96 size bg-white justify-center rounded-xl"
       >
-        {PokemonList.map((pkmn) => (
-          <>
+        {PokemonList.filter((pkmn) =>
+          pkmn.name.toLowerCase().includes(input)
+        ).map((pkmn) => (
+          <div key={pkmn.id} className="grid justify-center">
             <button
               onClick={(e) => {
                 alert("test");
               }}
               className="text-center items-center font-bold text-xl w-80 h-14 border-b hover:bg-gray-100 cursor-pointer flex"
             >
-              <img src={pkmn.sprite} className="size-10 m-10"></img>
+              <img
+                src={pkmn.sprite}
+                alt={pkmn.name}
+                className="size-10 ml-16 mr-4"
+              ></img>
               {pkmn.name}
             </button>
-          </>
+          </div>
         ))}
       </div>
     );

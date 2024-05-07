@@ -16,6 +16,7 @@ with open(write_file, 'w', errors='ignore') as w_file:
 
             line = line.strip()
             w_file.write("  {\n")
+            w_file.write("    " + "\"id\": \"" + str(i) + "\",\n")
             w_file.write("    " + "\"name\": \"" + line + "\",\n")
             w_file.write("    " + "\"sprite\": \"" + "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + str(i) + ".png" + "\",\n")
             w_file.write("  },\n")
