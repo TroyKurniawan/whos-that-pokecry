@@ -46,11 +46,11 @@ const Footer = () => {
         </a>
         . Icons by{" "}
         <a
-          href="https://tablericons.com"
+          href="https://heroicons.com"
           target="_blank"
           className="font-bold hover:text-red-600"
         >
-          Tabler Icons
+          Heroicons
         </a>
         <br />
         ©️ 2024{" "}
