@@ -1,5 +1,5 @@
 import Header from "./Header";
-import Game from "./Game";
+import MainMenu from "./MainMenu";
 import Footer from "./Footer";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       {/* Page */}
       <div className="h-screen bg-gray-300">
         <Header />
-        <Game />
+        <MainMenu />
         <Footer />
       </div>
     </>

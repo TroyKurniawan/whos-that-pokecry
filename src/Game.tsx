@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-
 import PlayerInput from "./PlayerInput";
 import PokemonCry from "./PokemonCry";
 
@@ -23,7 +22,7 @@ const Game = () => {
   // ===============================================
 
   return (
-    <div className="h-3/4 grid justify-center content-center">
+    <div className="">
       {/* Pokémon's Cry */}
       <PokemonCry callback={setCurrentPokemon} />
 

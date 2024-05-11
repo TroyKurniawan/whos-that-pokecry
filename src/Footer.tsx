@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="w-screen h-36 text-center grid content-center bottom-0">
-      <p className="text-xs">
+    <footer className="w-screen h-36 text-center grid content-end">
+      <p className="text-xs m-4">
         Built with{" "}
         <a
           href="https://react.dev"
@@ -46,11 +46,11 @@ const Footer = () => {
         </a>
         . Icons by{" "}
         <a
-          href="https://icons8.com"
+          href="https://tablericons.com"
           target="_blank"
           className="font-bold hover:text-red-600"
         >
-          Icons8
+          Tabler Icons
         </a>
         <br />
         ©️ 2024{" "}

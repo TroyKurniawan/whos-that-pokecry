@@ -27,9 +27,15 @@ with open(write_file, 'w', errors='ignore') as w_file:
             w_file.write("    " + "\"id\": \"" + str(i) + "\",\n")
             w_file.write("    " + "\"name\": \"" + line + "\",\n")
             w_file.write("    " + "\"sprite\": \"" + "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + str(i) + ".png" + "\",\n")
+            w_file.write("    " + "\"latest_cry\": \"" + "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/" + str(i) + ".ogg" + "\",\n")
+            w_file.write("    " + "\"legacy_cry\": \"" + "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/" + str(i) + ".ogg" + "\",\n")
             w_file.write("  },\n")
 
             # Increment "i"
             i = i + 1
 
-print("Text has been written to", write_file.")
+print("") 
+print("================") 
+print("WRITING COMPLETE")
+print("================") 
+print("") 

@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-import axios from "axios";
 import { PokemonList } from "./assets/pokemon-list.js";
 
 type SearchResultContainerProps = {
