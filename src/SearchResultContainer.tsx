@@ -29,7 +29,7 @@ const SearchResultContainer = ({
               onClick={(e) => {
                 answer(pkmn.name);
               }}
-              className="text-center items-center font-bold text-xl w-80 h-14 border-b hover:bg-gray-100 cursor-pointer flex"
+              className="text-center items-center text-xl w-80 h-14 border-b hover:bg-gray-100 cursor-pointer flex"
             >
               <img
                 src={pkmn.sprite}

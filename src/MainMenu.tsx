@@ -1,16 +1,28 @@
 import Game from "./Game";
 
-const MainMenu = () => {
+type MainMenuProps = {
+  callback: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+const MainMenu = ({ callback }: MainMenuProps) => {
+  // Display/hide practice window
+  const togglePractice = () => {
+    callback((prevPractice) => !prevPractice);
+  };
+
+  // ================================================
+
   return (
     <div className="h-3/4 grid justify-center content-center">
       {/* Game Itself */}
-      <div className="">
-        <Game />
-      </div>
+      <Game />
 
       {/* Practice and Settings Buttons */}
       <div className="flex justify-between">
-        <button className="w-1/2 p-2 m-4 border border-gray-500 text-gray-500 rounded-xl text-lg hover:border-gray-600 hover:text-gray-600 active:border-gray-700 active:text-gray-700 flex content-center justify-center items-center hover:stroke-gray-900">
+        <button
+          className="w-1/2 p-2 m-4 border border-gray-500 text-gray-500 rounded-xl text-lg hover:border-gray-600 hover:text-gray-600 active:border-gray-700 active:text-gray-700 flex content-center justify-center items-center hover:stroke-gray-900"
+          onClick={togglePractice}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

@@ -6,8 +6,8 @@ type PokemonCryProps = {
 };
 
 const PokemonCry = ({ callback }: PokemonCryProps) => {
-  const [cry, setCry] = useState();
-  const [url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon/1/");
+  const [cry, setCry] = useState("");
+  const [url, setUrl] = useState("");
   const audio = document.getElementById("audio") as HTMLAudioElement;
 
   // ===============================================
@@ -24,16 +24,20 @@ const PokemonCry = ({ callback }: PokemonCryProps) => {
 
   // Get new cry using new url string
   useEffect(() => {
-    axios.get(url).then((res) => {
-      console.log(res);
-      setCry(res.data.cries.latest); // Sets the URL of the new Pokemon's cry.
-      callback(res.data.name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
-    });
+    if (url) {
+      axios.get(url).then((res) => {
+        console.log(res);
+        setCry(res.data.cries.latest); // Sets the URL of the new Pokemon's cry.
+        callback(res.data.name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
+      });
+    }
   }, [url]);
 
   // Plays
   const playAudio = () => {
-    audio!.play();
+    if (cry) {
+      audio!.play();
+    }
   };
 
   // ===============================================
