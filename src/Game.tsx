@@ -22,7 +22,7 @@ const Game = () => {
       (document.getElementById("playerInput") as HTMLInputElement)!.value = "";
       setPlayerAnswer("");
     }
-  }, [playerAnswer]);
+  }, [playerAnswer, currentPokemon]);
 
   // ===============================================
 

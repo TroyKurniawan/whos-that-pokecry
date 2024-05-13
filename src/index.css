@@ -15,3 +15,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --toggle-width: 50px;
+  --toggle-height: calc(var(--toggle-width)/2);
+}

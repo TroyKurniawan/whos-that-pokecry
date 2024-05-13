@@ -28,7 +28,10 @@ with open(write_file, 'w', errors='ignore') as w_file:
             w_file.write("    " + "\"name\": \"" + line + "\",\n")
             w_file.write("    " + "\"sprite\": \"" + "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + str(i) + ".png" + "\",\n")
             w_file.write("    " + "\"latest_cry\": \"" + "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/" + str(i) + ".ogg" + "\",\n")
-            w_file.write("    " + "\"legacy_cry\": \"" + "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/" + str(i) + ".ogg" + "\",\n")
+            if i < 650:
+                w_file.write("    " + "\"legacy_cry\": \"" + "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/" + str(i) + ".ogg" + "\",\n")
+            else:
+                w_file.write("    " + "\"legacy_cry\": \"" + "\",\n")
             w_file.write("  },\n")
 
             # Increment "i"

@@ -4,14 +4,12 @@ type SearchResultContainerProps = {
   input: string;
   answer: React.Dispatch<React.SetStateAction<string>>;
   focus: boolean;
-  setfocus: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 const SearchResultContainer = ({
   input,
   answer,
   focus,
-  setfocus,
 }: SearchResultContainerProps) => {
   // If user focuses, display results
   if (focus && input.length > 1) {
@@ -29,6 +27,7 @@ const SearchResultContainer = ({
               <button
                 onMouseDown={(e) => {
                   answer(pkmn.name);
+                  input = "";
                 }}
                 className="text-center items-center text-xl w-80 h-14 border-b hover:bg-gray-100 cursor-pointer flex"
               >

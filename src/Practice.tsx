@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { PokemonList } from "./assets/pokemon-list.js";
+import ToggleSwitch from "./ToggleSwitch";
 
 type PracticeProps = {
   callback: React.Dispatch<React.SetStateAction<boolean>>;
@@ -7,6 +8,7 @@ type PracticeProps = {
 
 const Practice = ({ callback }: PracticeProps) => {
   const [cry, setCry] = useState("");
+  const [latestCry, setLatestCry] = useState(true);
   const audioPractice = document.getElementById(
     "audioPractice"
   ) as HTMLAudioElement;
@@ -18,16 +20,28 @@ const Practice = ({ callback }: PracticeProps) => {
 
   useEffect(() => {
     if (cry) {
-      audioPractice.volume = 0.3;
-      audioPractice!.play();
+      // Setup play
+      const audioPracticePromise = audioPractice.play();
+
+      // Begin play's promise
+      if (audioPracticePromise !== undefined) {
+        audioPracticePromise
+          .then((_) => {
+            // Success
+            audioPractice.volume = 0.3;
+          })
+          .catch((error) => {
+            // Auto-play was prevented
+          });
+      }
     }
-  }, [cry]);
+  }, [cry, audioPractice]);
 
   return (
     // Dim background
     <div className="fixed size-full bg-black bg-opacity-50 grid justify-center content-center z-10">
       {/* Cry */}
-      <audio src={cry} controls autoPlay hidden id="audioPractice" />
+      <audio src={cry} autoPlay hidden preload="none" id="audioPractice" />
 
       {/* Container */}
       <div className="grid justify-center content-center w-[26rem] h-[48rem] bg-white rounded-xl text-center p-4">
@@ -48,9 +62,14 @@ const Practice = ({ callback }: PracticeProps) => {
           />
         </svg>
 
-        <h1 className="text-xl font-bold pb-4 mb border-b">
-          Listen to all Pokémon cries:
-        </h1>
+        {/* Header */}
+        <div className="mb border-b">
+          <h1 className="text-xl font-bold">Listen to all Pokémon cries:</h1>
+          <div className="inline-flex justify-center items-center">
+            <p>Use Old Cries</p>
+            <ToggleSwitch callback={setLatestCry} />
+          </div>
+        </div>
 
         {/* Contents */}
         <div className="overflow-auto">
@@ -58,10 +77,25 @@ const Practice = ({ callback }: PracticeProps) => {
             <div key={pkmn.id} className="grid justify-center">
               <button
                 onClick={(e) => {
+                  // If the player clicks the same Pokemon's cry again
                   if (cry === pkmn.latest_cry) {
                     audioPractice!.play();
                   }
-                  setCry(pkmn.latest_cry);
+                  // If Latest Cry
+                  if (latestCry) {
+                    console.log("Latest!");
+                    setCry(pkmn.latest_cry);
+                  }
+                  // If Legacy Cry
+                  else {
+                    // Only if legacy cry is present
+                    if (pkmn.legacy_cry !== "") {
+                      console.log("Legacy!");
+                      setCry(pkmn.legacy_cry);
+                    }
+                    // If not use latest cry
+                    else setCry(pkmn.latest_cry);
+                  }
                 }}
                 className="text-center items-center text-xl w-80 h-14 border-b hover:bg-gray-100 cursor-pointer flex"
               >

@@ -9,19 +9,15 @@ const PlayerInput = ({ callback }: PlayerInputProps) => {
   const [currentInput, setCurrentInput] = useState("");
   const [inputFocus, setInputFocus] = useState(false);
 
-  const bruh = () => {
-    alert("hi");
-  };
-
   return (
     <div className="relative flex">
       <SearchResultContainer
         input={currentInput}
         answer={callback}
         focus={inputFocus}
-        setfocus={setInputFocus}
       />
 
+      {/* Magnifying Glass SVG */}
       <div className="absolute m-4 p-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -40,6 +36,8 @@ const PlayerInput = ({ callback }: PlayerInputProps) => {
           <path d="M21 21l-6 -6" />
         </svg>
       </div>
+
+      {/* Input Field */}
       <input
         maxLength={12}
         placeholder="Search Pokémon..."
