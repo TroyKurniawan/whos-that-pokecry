@@ -11,11 +11,16 @@ const Game = () => {
   // Check answer
   useEffect(() => {
     if (playerAnswer !== "") {
+      // Correct or Incorrect
       if (playerAnswer.toLowerCase() === currentPokemon.toLowerCase()) {
         alert("Yippee!");
       } else {
         alert("Nah lmao");
       }
+
+      // Clear playerAnswer and input field
+      (document.getElementById("playerInput") as HTMLInputElement)!.value = "";
+      setPlayerAnswer("");
     }
   }, [playerAnswer]);
 

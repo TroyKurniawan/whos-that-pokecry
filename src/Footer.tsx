@@ -24,7 +24,7 @@ const Footer = () => {
           target="_blank"
           className="font-bold hover:text-red-600"
         >
-          Tailwind
+          Tailwind CSS
         </a>
         .
         <br />

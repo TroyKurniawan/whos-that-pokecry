@@ -7,10 +7,20 @@ type PlayerInputProps = {
 
 const PlayerInput = ({ callback }: PlayerInputProps) => {
   const [currentInput, setCurrentInput] = useState("");
+  const [inputFocus, setInputFocus] = useState(false);
+
+  const bruh = () => {
+    alert("hi");
+  };
 
   return (
     <div className="relative flex">
-      <SearchResultContainer input={currentInput} answer={callback} />
+      <SearchResultContainer
+        input={currentInput}
+        answer={callback}
+        focus={inputFocus}
+        setfocus={setInputFocus}
+      />
 
       <div className="absolute m-4 p-4">
         <svg
@@ -42,6 +52,8 @@ const PlayerInput = ({ callback }: PlayerInputProps) => {
             (document.getElementById("playerInput") as HTMLInputElement)!.value
           )
         }
+        onFocus={(e) => setInputFocus(true)}
+        onBlur={(e) => setInputFocus(false)}
       ></input>
     </div>
   );

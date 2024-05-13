@@ -7,7 +7,9 @@ type PracticeProps = {
 
 const Practice = ({ callback }: PracticeProps) => {
   const [cry, setCry] = useState("");
-  const audio = document.getElementById("audio") as HTMLAudioElement;
+  const audioPractice = document.getElementById(
+    "audioPractice"
+  ) as HTMLAudioElement;
 
   // Hide Practice window when X is clicked
   const togglePractice = () => {
@@ -16,34 +18,32 @@ const Practice = ({ callback }: PracticeProps) => {
 
   useEffect(() => {
     if (cry) {
-      audio!.play();
+      audioPractice.volume = 0.3;
+      audioPractice!.play();
     }
   }, [cry]);
-
-  //   Plays cry
-  const playAudio = () => {};
 
   return (
     // Dim background
     <div className="fixed size-full bg-black bg-opacity-50 grid justify-center content-center z-10">
       {/* Cry */}
-      <audio src={cry} controls autoPlay hidden id="audio" />
+      <audio src={cry} controls autoPlay hidden id="audioPractice" />
 
       {/* Container */}
-      <div className="grid justify-center content-center w-[24rem] h-[48rem] bg-white rounded-xl text-center p-4">
+      <div className="grid justify-center content-center w-[26rem] h-[48rem] bg-white rounded-xl text-center p-4">
         {/* X button */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke-width="2"
+          strokeWidth="2"
           stroke="currentColor"
           className="w-6 h-6 absolute stroke-gray-500 hover:stroke-gray-600 cursor-pointer justify-self-end grid"
           onClick={togglePractice}
         >
           <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             d="M6 18 18 6M6 6l12 12"
           />
         </svg>
@@ -58,6 +58,9 @@ const Practice = ({ callback }: PracticeProps) => {
             <div key={pkmn.id} className="grid justify-center">
               <button
                 onClick={(e) => {
+                  if (cry === pkmn.latest_cry) {
+                    audioPractice!.play();
+                  }
                   setCry(pkmn.latest_cry);
                 }}
                 className="text-center items-center text-xl w-80 h-14 border-b hover:bg-gray-100 cursor-pointer flex"

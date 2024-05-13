@@ -8,7 +8,7 @@ type PokemonCryProps = {
 const PokemonCry = ({ callback }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
   const [url, setUrl] = useState("");
-  const audio = document.getElementById("audio") as HTMLAudioElement;
+  const audioGame = document.getElementById("audioGame") as HTMLAudioElement;
 
   // ===============================================
 
@@ -36,7 +36,8 @@ const PokemonCry = ({ callback }: PokemonCryProps) => {
   // Plays
   const playAudio = () => {
     if (cry) {
-      audio!.play();
+      audioGame.volume = 0.3;
+      audioGame!.play();
     }
   };
 
@@ -44,10 +45,19 @@ const PokemonCry = ({ callback }: PokemonCryProps) => {
 
   return (
     <div className="size-96 bg-white grid justify-center content-center justify-items-center rounded-xl m-4">
-      <audio src={cry} controls autoPlay hidden className="m-4" id="audio" />
+      <audio
+        src={cry}
+        controls
+        autoPlay
+        hidden
+        className="m-4"
+        id="audioGame"
+      />
 
       <button
-        className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl hover:bg-gray-800 active:bg-gray-900"
+        className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl
+        hover:bg-gray-800 active:bg-gray-900
+        transition ease-out duration-75"
         onClick={playAudio}
       >
         Listen
@@ -55,7 +65,9 @@ const PokemonCry = ({ callback }: PokemonCryProps) => {
 
       <button
         onClick={randomCry}
-        className="bg-red-500 text-white font-bold text-xl p-4 m-4 w-52 rounded-xl hover:bg-red-600 active:bg-red-700"
+        className="bg-red-500 text-white font-bold text-xl p-4 m-4 w-52 rounded-xl
+        hover:bg-red-600 active:bg-red-700
+        transition ease-out duration-75"
       >
         Skip
       </button>
