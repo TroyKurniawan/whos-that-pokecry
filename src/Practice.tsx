@@ -13,11 +13,6 @@ const Practice = ({ callback }: PracticeProps) => {
     "audioPractice"
   ) as HTMLAudioElement;
 
-  // Hide Practice window when X is clicked
-  const togglePractice = () => {
-    callback(false);
-  };
-
   useEffect(() => {
     if (cry) {
       // Setup play
@@ -32,6 +27,7 @@ const Practice = ({ callback }: PracticeProps) => {
           })
           .catch((error) => {
             // Auto-play was prevented
+            console.log(error);
           });
       }
     }
@@ -41,7 +37,7 @@ const Practice = ({ callback }: PracticeProps) => {
     // Dim background
     <div className="fixed size-full bg-black bg-opacity-50 grid justify-center content-center z-10">
       {/* Cry */}
-      <audio src={cry} autoPlay hidden preload="none" id="audioPractice" />
+      <audio src={cry} autoPlay hidden id="audioPractice" />
 
       {/* Container */}
       <div className="grid justify-center content-center w-[26rem] h-[48rem] bg-white rounded-xl text-center p-4">
@@ -53,7 +49,7 @@ const Practice = ({ callback }: PracticeProps) => {
           strokeWidth="2"
           stroke="currentColor"
           className="w-6 h-6 absolute stroke-gray-500 hover:stroke-gray-600 cursor-pointer justify-self-end grid"
-          onClick={togglePractice}
+          onClick={(e) => callback(false)}
         >
           <path
             strokeLinecap="round"
@@ -78,8 +74,8 @@ const Practice = ({ callback }: PracticeProps) => {
               <button
                 onClick={(e) => {
                   // If the player clicks the same Pokemon's cry again
-                  if (cry === pkmn.latest_cry) {
-                    audioPractice!.play();
+                  if (cry === pkmn.latest_cry || pkmn.legacy_cry) {
+                    setCry(cry);
                   }
                   // If Latest Cry
                   if (latestCry) {

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Header from "./Header";
 import MainMenu from "./MainMenu";
 import Footer from "./Footer";
@@ -14,7 +14,9 @@ function App() {
       {/* Page */}
       <div className="h-screen bg-gray-300">
         {/* Practice */}
-        {practice && <Practice callback={setPractice} />}
+        <div className={practice ? "visible animate-fadeIn" : " hidden"}>
+          <Practice callback={setPractice} />
+        </div>
 
         <Header />
         <MainMenu callback={setPractice} />

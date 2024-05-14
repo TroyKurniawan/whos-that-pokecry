@@ -5,6 +5,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        fadeIn: 'fadeIn 100ms ease-out',
+      },
+
+      keyframes: theme => ({
+        fadeIn: {
+          '100%': { opacity: 1 },
+          '0%': { opacity: 0 },
+        },
+      }),
+
       backgroundImage:
       {
         'low-poly': "url('./assets/low-poly-bg.svg')"

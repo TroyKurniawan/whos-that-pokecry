@@ -31,7 +31,7 @@ const PokemonCry = ({ callback }: PokemonCryProps) => {
         callback(res.data.name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
       });
     }
-  }, [url]);
+  }, [url, audioGame, callback]);
 
   // Plays
   const playAudio = () => {
