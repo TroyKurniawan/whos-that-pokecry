@@ -30,7 +30,7 @@ const Settings = ({
     // Dim background
     <div className="fixed size-full bg-black bg-opacity-50 grid justify-center content-center z-10">
       {/* Container */}
-      <div className="grid justify-center content-center w-[28rem] h-[48rem] bg-white rounded-xl text-center p-4">
+      <div className="grid justify-center content-center w-[28rem] h-[32rem] bg-white rounded-xl text-center p-4">
         {/* X button */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -49,53 +49,70 @@ const Settings = ({
         </svg>
 
         {/* Header */}
-        <div className="p-4 border-b">
+        <div className="pb-4 border-b">
           <h1 className="text-2xl font-bold">Settings</h1>
         </div>
 
         {/* Contents */}
-        {/* <div className="grid"></div>
-        <h2>Filter Generation:</h2>
-        <div className="inline-flex justify-center items-center">
-          <p>1</p>
-          <ToggleSwitch callback={filterGen1} />
+        <h2 className="text-start font-bold text-lg my-2">
+          Filter Generation:
+        </h2>
+        <div className="justify-center items-center">
+          <ToggleSwitch
+            callback={filterGen1}
+            title={"Gen 1"}
+            subtitle={""}
+            init={true}
+          />
+          <ToggleSwitch
+            callback={filterGen2}
+            title={"Gen 2"}
+            subtitle={""}
+            init={true}
+          />
+          <ToggleSwitch
+            callback={filterGen3}
+            title={"Gen 3"}
+            subtitle={""}
+            init={true}
+          />
+          <ToggleSwitch
+            callback={filterGen4}
+            title={"Gen 4"}
+            subtitle={""}
+            init={true}
+          />
+          <ToggleSwitch
+            callback={filterGen5}
+            title={"Gen 5"}
+            subtitle={""}
+            init={true}
+          />
+          <ToggleSwitch
+            callback={filterGen6}
+            title={"Gen 6"}
+            subtitle={""}
+            init={true}
+          />
+          <ToggleSwitch
+            callback={filterGen7}
+            title={"Gen 7"}
+            subtitle={""}
+            init={true}
+          />
+          <ToggleSwitch
+            callback={filterGen8}
+            title={"Gen 8"}
+            subtitle={""}
+            init={true}
+          />
+          <ToggleSwitch
+            callback={filterGen9}
+            title={"Gen 9"}
+            subtitle={""}
+            init={true}
+          />
         </div>
-        <div className="inline-flex justify-center items-center">
-          <p>2</p>
-          <ToggleSwitch callback={filterGen1} />
-        </div>
-        <div className="inline-flex justify-center items-center">
-          <p>3</p>
-          <ToggleSwitch callback={filterGen1} />
-        </div>
-        <div className="inline-flex justify-center items-center">
-          <p>4</p>
-          <ToggleSwitch callback={filterGen1} />
-        </div>
-        <div className="inline-flex justify-center items-center">
-          <p>5</p>
-          <ToggleSwitch callback={filterGen1} />
-        </div>
-        <div className="inline-flex justify-center items-center">
-          <p>6</p>
-          <ToggleSwitch callback={filterGen1} />
-        </div>
-        <div className="inline-flex justify-center items-center">
-          <p>7</p>
-          <ToggleSwitch callback={filterGen1} />
-        </div>
-        <div className="inline-flex justify-center items-center">
-          <p>8</p>
-          <ToggleSwitch callback={filterGen1} />
-        </div>
-        <div className="inline-flex justify-center items-center">
-          <p>9</p>
-          <ToggleSwitch callback={filterGen1} />
-        </div>
-        <div className="inline-flex justify-center items-center">
-          <p>1</p>
-          <ToggleSwitch callback={filterGen1} />
-        </div> */}
       </div>
     </div>
   );

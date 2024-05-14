@@ -63,11 +63,14 @@ const Practice = ({ closePractice }: PracticeProps) => {
 
         {/* Header */}
         <div className="border-b">
-          <h1 className="text-2xl font-bold">Listen to all Pokémon cries!</h1>
+          <h1 className="text-2xl font-bold mb-2">
+            Listen to all Pokémon cries!
+          </h1>
           <ToggleSwitch
             callback={setLatestCry}
             title={title}
             subtitle={subtitle}
+            init={false}
           />
         </div>
 
