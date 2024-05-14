@@ -2,20 +2,21 @@ import React from "react";
 
 type ToggleSwitchProps = {
   callback: React.Dispatch<React.SetStateAction<boolean>>;
+  title: string;
+  subtitle: string;
 };
 
-const ToggleSwitch = ({ callback }: ToggleSwitchProps) => {
-  //   const checkbox = document.getElementById("toggle") as HTMLInputElement;
-  //   if (checkbox.checked) {
-  //     alert("hi");
-  //   }
-
+const ToggleSwitch = ({ callback, title, subtitle }: ToggleSwitchProps) => {
   return (
-    <div className="grid items-center">
-      <label
-        className="w-[var(--toggle-width)] h-[var(--toggle-height)]
-        rounded-full inline-block cursor-pointer m-4"
-      >
+    <div>
+      {/* Label = Clickable Area */}
+      <label className="w-80 p-2 place-content-between flex cursor-pointer m-2 hover:bg-gray-200 items-center">
+        {/* Title/Subtitle */}
+        <div className="text-start">
+          <h2 className="font-bold">{title}</h2>
+          <h3 className="text-xs">{subtitle}</h3>
+        </div>
+
         {/* Hidden Checkbox */}
         <input
           id="toggle"
@@ -29,7 +30,7 @@ const ToggleSwitch = ({ callback }: ToggleSwitchProps) => {
 
         {/* Toggle Switch Itself */}
         <div
-          className="w-[var(--toggle-width)] h-[var(--toggle-height)]
+          className="w-[var(--toggle-width)] h-[var(--toggle-height)] ml-4 mr-2
           relative rounded-full bg-gray-300 peer-checked:bg-green-500
           transition ease-out duration-100
           after:absolute after:top-0 after:left-0 after:h-[var(--toggle-height)] after:w-[var(--toggle-height)]

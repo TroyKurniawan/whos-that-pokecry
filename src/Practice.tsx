@@ -3,15 +3,18 @@ import { PokemonList } from "./assets/pokemon-list.js";
 import ToggleSwitch from "./ToggleSwitch";
 
 type PracticeProps = {
-  callback: React.Dispatch<React.SetStateAction<boolean>>;
+  closePractice: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-const Practice = ({ callback }: PracticeProps) => {
+const Practice = ({ closePractice }: PracticeProps) => {
   const [cry, setCry] = useState("");
   const [latestCry, setLatestCry] = useState(true);
   const audioPractice = document.getElementById(
     "audioPractice"
   ) as HTMLAudioElement;
+  const title: string = "Legacy cries";
+  const subtitle: string =
+    "When available, play cries from before generation 6.";
 
   useEffect(() => {
     if (cry) {
@@ -49,7 +52,7 @@ const Practice = ({ callback }: PracticeProps) => {
           strokeWidth="2"
           stroke="currentColor"
           className="w-6 h-6 absolute stroke-gray-500 hover:stroke-gray-600 cursor-pointer justify-self-end grid"
-          onClick={(e) => callback(false)}
+          onClick={(e) => closePractice(false)}
         >
           <path
             strokeLinecap="round"
@@ -59,16 +62,17 @@ const Practice = ({ callback }: PracticeProps) => {
         </svg>
 
         {/* Header */}
-        <div className="mb border-b">
-          <h1 className="text-xl font-bold">Listen to all Pokémon cries:</h1>
-          <div className="inline-flex justify-center items-center">
-            <p>Use Old Cries</p>
-            <ToggleSwitch callback={setLatestCry} />
-          </div>
+        <div className="border-b">
+          <h1 className="text-2xl font-bold">Listen to all Pokémon cries!</h1>
+          <ToggleSwitch
+            callback={setLatestCry}
+            title={title}
+            subtitle={subtitle}
+          />
         </div>
 
         {/* Contents */}
-        <div className="overflow-auto">
+        <div className="overflow-y-auto">
           {PokemonList.map((pkmn) => (
             <div key={pkmn.id} className="grid justify-center">
               <button

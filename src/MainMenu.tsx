@@ -1,13 +1,18 @@
 import Game from "./Game";
 
 type MainMenuProps = {
-  callback: React.Dispatch<React.SetStateAction<boolean>>;
+  callbackPractice: React.Dispatch<React.SetStateAction<boolean>>;
+  callbackSettings: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-const MainMenu = ({ callback }: MainMenuProps) => {
+const MainMenu = ({ callbackPractice, callbackSettings }: MainMenuProps) => {
   // Display/hide practice window
   const togglePractice = () => {
-    callback((prevPractice) => !prevPractice);
+    callbackPractice((prevPractice) => !prevPractice);
+  };
+  // Display/hide settings window
+  const toggleSettings = () => {
+    callbackSettings((prevSettings) => !prevSettings);
   };
 
   // ================================================
@@ -48,6 +53,7 @@ const MainMenu = ({ callback }: MainMenuProps) => {
         hover:border-gray-600 hover:text-gray-600 active:border-gray-700 active:text-gray-700
           transition ease-out duration-75
           flex content-center justify-center items-center"
+          onClick={toggleSettings}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

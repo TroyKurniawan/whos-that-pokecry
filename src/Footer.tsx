@@ -5,6 +5,7 @@ const Footer = () => {
         Built with{" "}
         <a
           href="https://react.dev"
+          rel="noreferrer"
           target="_blank"
           className="font-bold hover:text-red-600"
         >
@@ -13,6 +14,7 @@ const Footer = () => {
         ,{" "}
         <a
           href="https://www.typescriptlang.org"
+          rel="noreferrer"
           target="_blank"
           className="font-bold hover:text-red-600"
         >
@@ -21,6 +23,7 @@ const Footer = () => {
         , and{" "}
         <a
           href="https://tailwindcss.com"
+          rel="noreferrer"
           target="_blank"
           className="font-bold hover:text-red-600"
         >
@@ -31,6 +34,7 @@ const Footer = () => {
         Deployed with{" "}
         <a
           href="https://vercel.com"
+          rel="noreferrer"
           target="_blank"
           className="font-bold hover:text-red-600"
         >
@@ -39,6 +43,7 @@ const Footer = () => {
         . Pokémon data API by{" "}
         <a
           href="https://pokeapi.co"
+          rel="noreferrer"
           target="_blank"
           className="font-bold hover:text-red-600"
         >
@@ -47,6 +52,7 @@ const Footer = () => {
         . Icons by{" "}
         <a
           href="https://heroicons.com"
+          rel="noreferrer"
           target="_blank"
           className="font-bold hover:text-red-600"
         >
@@ -56,6 +62,7 @@ const Footer = () => {
         ©️ 2024{" "}
         <a
           href="https://github.com/TroyKurniawan"
+          rel="noreferrer"
           target="_blank"
           className="font-bold hover:text-red-600"
         >
