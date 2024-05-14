@@ -197,7 +197,7 @@ export const PokemonList = [
   },
   {
     "id": "29",
-    "name": "Nidoranâ™€",
+    "name": "Nidoran♀",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/29.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/29.ogg",
@@ -218,7 +218,7 @@ export const PokemonList = [
   },
   {
     "id": "32",
-    "name": "Nidoranâ™‚",
+    "name": "Nidoran♂",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/32.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/32.ogg",

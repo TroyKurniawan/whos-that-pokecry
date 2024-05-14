@@ -40,7 +40,7 @@ const Practice = ({ callback }: PracticeProps) => {
       <audio src={cry} autoPlay hidden id="audioPractice" />
 
       {/* Container */}
-      <div className="grid justify-center content-center w-[26rem] h-[48rem] bg-white rounded-xl text-center p-4">
+      <div className="grid justify-center content-center w-[28rem] h-[48rem] bg-white rounded-xl text-center p-4">
         {/* X button */}
         <svg
           xmlns="http://www.w3.org/2000/svg"

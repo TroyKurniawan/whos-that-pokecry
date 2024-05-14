@@ -17,7 +17,6 @@ function App() {
         <div className={practice ? "visible animate-fadeIn" : " hidden"}>
           <Practice callback={setPractice} />
         </div>
-
         <Header />
         <MainMenu callback={setPractice} />
         <Footer />
