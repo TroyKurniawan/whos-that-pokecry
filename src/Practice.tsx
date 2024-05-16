@@ -71,11 +71,14 @@ const Practice = ({ closePractice }: PracticeProps) => {
             title={title}
             subtitle={subtitle}
             init={false}
+            icon={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gb-sounds.png"
+            }
           />
         </div>
 
         {/* Contents */}
-        <div className="overflow-y-auto">
+        <div className="overflow-y-auto overflow-x-hidden">
           {PokemonList.map((pkmn) => (
             <div key={pkmn.id} className="grid justify-center">
               <button

@@ -5,6 +5,7 @@ type ToggleSwitchProps = {
   title: string;
   subtitle: string;
   init: boolean;
+  icon: string;
 };
 
 const ToggleSwitch = ({
@@ -12,15 +13,19 @@ const ToggleSwitch = ({
   title,
   subtitle,
   init,
+  icon,
 }: ToggleSwitchProps) => {
+  // Handles the initial state of the switch
   const [initCheck, setInitCheck] = useState(init);
 
   return (
     <div className="grid justify-center">
       {/* Label = Clickable Area */}
       <label className="w-80 p-2 place-content-between flex cursor-pointer hover:bg-gray-200 items-center">
+        <img src={icon} alt="toggle switch icon" className="size-7" />
+
         {/* Title/Subtitle */}
-        <div className="text-start">
+        <div className="text-start w-48">
           <h2 className="font-bold">{title}</h2>
           <h3 className="text-xs">{subtitle}</h3>
         </div>
@@ -33,7 +38,9 @@ const ToggleSwitch = ({
           checked={initCheck}
           onChange={(e) => {
             console.log("Flip");
+            // Toggle appearance of switch
             setInitCheck(!initCheck);
+            // Invoke callback function
             callback((prevLatestCry) => !prevLatestCry);
           }}
         ></input>

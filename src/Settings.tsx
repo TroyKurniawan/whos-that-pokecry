@@ -3,34 +3,15 @@ import ToggleSwitch from "./ToggleSwitch";
 
 type SettingsProps = {
   closeSettings: React.Dispatch<React.SetStateAction<boolean>>;
-  filterGen1: React.Dispatch<React.SetStateAction<boolean>>;
-  filterGen2: React.Dispatch<React.SetStateAction<boolean>>;
-  filterGen3: React.Dispatch<React.SetStateAction<boolean>>;
-  filterGen4: React.Dispatch<React.SetStateAction<boolean>>;
-  filterGen5: React.Dispatch<React.SetStateAction<boolean>>;
-  filterGen6: React.Dispatch<React.SetStateAction<boolean>>;
-  filterGen7: React.Dispatch<React.SetStateAction<boolean>>;
-  filterGen8: React.Dispatch<React.SetStateAction<boolean>>;
-  filterGen9: React.Dispatch<React.SetStateAction<boolean>>;
+  filterGens: React.Dispatch<React.SetStateAction<boolean>>[];
 };
 
-const Settings = ({
-  closeSettings,
-  filterGen1,
-  filterGen2,
-  filterGen3,
-  filterGen4,
-  filterGen5,
-  filterGen6,
-  filterGen7,
-  filterGen8,
-  filterGen9,
-}: SettingsProps) => {
+const Settings = ({ closeSettings, filterGens }: SettingsProps) => {
   return (
     // Dim background
     <div className="fixed size-full bg-black bg-opacity-50 grid justify-center content-center z-10">
       {/* Container */}
-      <div className="grid justify-center content-center w-[28rem] h-[32rem] bg-white rounded-xl text-center p-4">
+      <div className="grid justify-center content-center w-[28rem] h-[48rem] bg-white rounded-xl text-center p-4">
         {/* X button */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -55,62 +36,90 @@ const Settings = ({
 
         {/* Contents */}
         <h2 className="text-start font-bold text-lg my-2">
-          Filter Generation:
+          Filter Generations
         </h2>
+        {/* Switches */}
         <div className="justify-center items-center">
           <ToggleSwitch
-            callback={filterGen1}
-            title={"Gen 1"}
-            subtitle={""}
+            callback={filterGens[0]}
+            title={"Generation 1"}
+            subtitle={"Bulbasaur - Mew"}
             init={true}
+            icon={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+            }
           />
           <ToggleSwitch
-            callback={filterGen2}
-            title={"Gen 2"}
-            subtitle={""}
+            callback={filterGens[1]}
+            title={"Generation 2"}
+            subtitle={"Chikorita - Celebi"}
             init={true}
+            icon={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png"
+            }
           />
           <ToggleSwitch
-            callback={filterGen3}
-            title={"Gen 3"}
-            subtitle={""}
+            callback={filterGens[2]}
+            title={"Generation 3"}
+            subtitle={"Treecko - Deoxys"}
             init={true}
+            icon={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png"
+            }
           />
           <ToggleSwitch
-            callback={filterGen4}
-            title={"Gen 4"}
-            subtitle={""}
+            callback={filterGens[3]}
+            title={"Generation 4"}
+            subtitle={"Turtwig - Arceus"}
             init={true}
+            icon={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png"
+            }
           />
           <ToggleSwitch
-            callback={filterGen5}
-            title={"Gen 5"}
-            subtitle={""}
+            callback={filterGens[4]}
+            title={"Generation 5"}
+            subtitle={"Victini - Genesect"}
             init={true}
+            icon={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png"
+            }
           />
           <ToggleSwitch
-            callback={filterGen6}
-            title={"Gen 6"}
-            subtitle={""}
+            callback={filterGens[5]}
+            title={"Generation 6"}
+            subtitle={"Chespin - Volcanion"}
             init={true}
+            icon={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+            }
           />
           <ToggleSwitch
-            callback={filterGen7}
-            title={"Gen 7"}
-            subtitle={""}
+            callback={filterGens[6]}
+            title={"Generation 7"}
+            subtitle={"Rowlet - Melmetal"}
             init={true}
+            icon={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png"
+            }
           />
           <ToggleSwitch
-            callback={filterGen8}
-            title={"Gen 8"}
-            subtitle={""}
+            callback={filterGens[7]}
+            title={"Generation 8"}
+            subtitle={"Grookey - Enamorus"}
             init={true}
+            icon={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png"
+            }
           />
           <ToggleSwitch
-            callback={filterGen9}
-            title={"Gen 9"}
-            subtitle={""}
+            callback={filterGens[8]}
+            title={"Generation 9"}
+            subtitle={"Sprigatito - Pecharunt"}
             init={true}
+            icon={
+              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png"
+            }
           />
         </div>
       </div>

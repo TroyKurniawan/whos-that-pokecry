@@ -18,7 +18,7 @@ const MainMenu = ({ callbackPractice, callbackSettings }: MainMenuProps) => {
   // ================================================
 
   return (
-    <div className="h-3/4 grid justify-center content-center">
+    <div className="h-[36rem] grid justify-center content-center">
       {/* Game Itself */}
       <Game />
 

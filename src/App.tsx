@@ -11,43 +11,44 @@ function App() {
   const [settings, setSettings] = useState(false);
 
   // Generation Filter Bools
-  const [gen1, setGen1] = useState(true);
-  const [gen2, setGen2] = useState(true);
-  const [gen3, setGen3] = useState(true);
-  const [gen4, setGen4] = useState(true);
-  const [gen5, setGen5] = useState(true);
-  const [gen6, setGen6] = useState(true);
-  const [gen7, setGen7] = useState(true);
-  const [gen8, setGen8] = useState(true);
-  const [gen9, setGen9] = useState(true);
+  const [filterGen1, setFilterGen1] = useState(true);
+  const [filterGen2, setFilterGen2] = useState(true);
+  const [filterGen3, setFilterGen3] = useState(true);
+  const [filterGen4, setFilterGen4] = useState(true);
+  const [filterGen5, setFilterGen5] = useState(true);
+  const [filterGen6, setFilterGen6] = useState(true);
+  const [filterGen7, setFilterGen7] = useState(true);
+  const [filterGen8, setFilterGen8] = useState(true);
+  const [filterGen9, setFilterGen9] = useState(true);
+
+  const setFilterGens = [
+    setFilterGen1,
+    setFilterGen2,
+    setFilterGen3,
+    setFilterGen4,
+    setFilterGen5,
+    setFilterGen6,
+    setFilterGen7,
+    setFilterGen8,
+    setFilterGen9,
+  ];
 
   // ==============================
 
   return (
     <>
+      {/* Practice */}
+      <div className={practice ? "visible animate-fadeIn" : "hidden"}>
+        <Practice closePractice={setPractice} />
+      </div>
+
+      {/* Settings */}
+      <div className={settings ? "visible animate-fadeIn" : "hidden"}>
+        <Settings closeSettings={setSettings} filterGens={setFilterGens} />
+      </div>
+
       {/* Page */}
-      <div className="h-screen bg-gray-300">
-        {/* Practice */}
-        <div className={practice ? "visible animate-fadeIn" : " hidden"}>
-          <Practice closePractice={setPractice} />
-        </div>
-
-        {/* Settings */}
-        <div className={settings ? "visible animate-fadeIn" : " hidden"}>
-          <Settings
-            closeSettings={setSettings}
-            filterGen1={setGen1}
-            filterGen2={setGen2}
-            filterGen3={setGen3}
-            filterGen4={setGen4}
-            filterGen5={setGen5}
-            filterGen6={setGen6}
-            filterGen7={setGen7}
-            filterGen8={setGen8}
-            filterGen9={setGen9}
-          />
-        </div>
-
+      <div className="h-screen bg-gray-300 grid content-between">
         <Header />
 
         <MainMenu
