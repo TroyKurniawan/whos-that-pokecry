@@ -2,10 +2,10 @@ import { useState } from "react";
 import SearchResultContainer from "./SearchResultContainer";
 
 type PlayerInputProps = {
-  callback: React.Dispatch<React.SetStateAction<string>>;
+  callbackPlayerAnswer: React.Dispatch<React.SetStateAction<string>>;
 };
 
-const PlayerInput = ({ callback }: PlayerInputProps) => {
+const PlayerInput = ({ callbackPlayerAnswer }: PlayerInputProps) => {
   const [currentInput, setCurrentInput] = useState("");
   const [inputFocus, setInputFocus] = useState(false);
 
@@ -13,7 +13,7 @@ const PlayerInput = ({ callback }: PlayerInputProps) => {
     <div className="relative flex">
       <SearchResultContainer
         input={currentInput}
-        answer={callback}
+        callbackPlayerAnswer={callbackPlayerAnswer}
         focus={inputFocus}
       />
 

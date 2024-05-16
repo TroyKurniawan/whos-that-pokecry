@@ -3,9 +3,16 @@ import Game from "./Game";
 type MainMenuProps = {
   callbackPractice: React.Dispatch<React.SetStateAction<boolean>>;
   callbackSettings: React.Dispatch<React.SetStateAction<boolean>>;
+  legacyCry: boolean;
+  callbackFilterGens: React.Dispatch<React.SetStateAction<boolean>>[];
 };
 
-const MainMenu = ({ callbackPractice, callbackSettings }: MainMenuProps) => {
+const MainMenu = ({
+  callbackPractice,
+  callbackSettings,
+  legacyCry,
+  callbackFilterGens,
+}: MainMenuProps) => {
   // Display/hide practice window
   const togglePractice = () => {
     callbackPractice((prevPractice) => !prevPractice);
@@ -20,7 +27,7 @@ const MainMenu = ({ callbackPractice, callbackSettings }: MainMenuProps) => {
   return (
     <div className="h-[36rem] grid justify-center content-center">
       {/* Game Itself */}
-      <Game />
+      <Game legacyCry={legacyCry} callbackFilterGens={callbackFilterGens} />
 
       {/* Practice and Settings Buttons */}
       <div className="flex justify-between">

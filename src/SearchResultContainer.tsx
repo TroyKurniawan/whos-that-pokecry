@@ -2,13 +2,13 @@ import { PokemonList } from "./assets/pokemon-list.js";
 
 type SearchResultContainerProps = {
   input: string;
-  answer: React.Dispatch<React.SetStateAction<string>>;
+  callbackPlayerAnswer: React.Dispatch<React.SetStateAction<string>>;
   focus: boolean;
 };
 
 const SearchResultContainer = ({
   input,
-  answer,
+  callbackPlayerAnswer,
   focus,
 }: SearchResultContainerProps) => {
   // If user focuses, display results
@@ -26,7 +26,7 @@ const SearchResultContainer = ({
             <div key={pkmn.id} className="grid justify-center">
               <button
                 onMouseDown={(e) => {
-                  answer(pkmn.name);
+                  callbackPlayerAnswer(pkmn.name);
                   input = "";
                 }}
                 className="text-center items-center text-xl w-80 h-14 border-b hover:bg-gray-100 cursor-pointer flex"

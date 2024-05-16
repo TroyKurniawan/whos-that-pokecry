@@ -61,6 +61,8 @@ function App() {
         <MainMenu
           callbackPractice={setPractice}
           callbackSettings={setSettings}
+          legacyCry={legacyCry}
+          callbackFilterGens={setFilterGens}
         />
 
         <Footer />

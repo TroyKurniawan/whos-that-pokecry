@@ -2,7 +2,12 @@ import { useState, useEffect } from "react";
 import PlayerInput from "./PlayerInput";
 import PokemonCry from "./PokemonCry";
 
-const Game = () => {
+type GameProps = {
+  legacyCry: boolean;
+  callbackFilterGens: React.Dispatch<React.SetStateAction<boolean>>[];
+};
+
+const Game = ({ legacyCry, callbackFilterGens }: GameProps) => {
   const [currentPokemon, setCurrentPokemon] = useState("");
   const [playerAnswer, setPlayerAnswer] = useState("");
 
@@ -29,10 +34,13 @@ const Game = () => {
   return (
     <div className="">
       {/* Pokémon's Cry */}
-      <PokemonCry callback={setCurrentPokemon} />
+      <PokemonCry
+        callbackCurrentPokemon={setCurrentPokemon}
+        legacyCry={legacyCry}
+      />
 
       {/* Player Input */}
-      <PlayerInput callback={setPlayerAnswer} />
+      <PlayerInput callbackPlayerAnswer={setPlayerAnswer} />
     </div>
   );
 };

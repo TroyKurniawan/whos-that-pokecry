@@ -2,10 +2,11 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 type PokemonCryProps = {
-  callback: React.Dispatch<React.SetStateAction<string>>;
+  callbackCurrentPokemon: React.Dispatch<React.SetStateAction<string>>;
+  legacyCry: boolean;
 };
 
-const PokemonCry = ({ callback }: PokemonCryProps) => {
+const PokemonCry = ({ callbackCurrentPokemon, legacyCry }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
   const [url, setUrl] = useState("");
   const audioGame = document.getElementById("audioGame") as HTMLAudioElement;
@@ -27,11 +28,14 @@ const PokemonCry = ({ callback }: PokemonCryProps) => {
       axios.get(url).then((res) => {
         console.log(res);
         audioGame.volume = 0.3;
-        setCry(res.data.cries.latest); // Sets the URL of the new Pokemon's cry.
-        callback(res.data.name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
+        // Sets the URL of the new Pokemon's cry to Legacy.
+        if (legacyCry && res.data.cries.legacy) setCry(res.data.cries.legacy);
+        // Sets the URL of the new Pokemon's cry to Latest.
+        else setCry(res.data.cries.latest);
+        callbackCurrentPokemon(res.data.name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
       });
     }
-  }, [url, audioGame, callback]);
+  }, [url, audioGame, callbackCurrentPokemon]);
 
   // Plays
   const playAudio = () => {
