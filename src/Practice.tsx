@@ -12,9 +12,6 @@ const Practice = ({ closePractice }: PracticeProps) => {
   const audioPractice = document.getElementById(
     "audioPractice"
   ) as HTMLAudioElement;
-  const title: string = "Legacy cries";
-  const subtitle: string =
-    "When available, play cries from before generation 6.";
 
   useEffect(() => {
     if (cry) {
@@ -68,8 +65,8 @@ const Practice = ({ closePractice }: PracticeProps) => {
           </h1>
           <ToggleSwitch
             callback={setLatestCry}
-            title={title}
-            subtitle={subtitle}
+            title={"Legacy cries"}
+            subtitle={"When available, play cries from before generation 6."}
             init={false}
             icon={
               "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gb-sounds.png"

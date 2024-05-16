@@ -33,6 +33,9 @@ function App() {
     setFilterGen9,
   ];
 
+  // Legacy cry for game
+  const [legacyCry, setLegacyCry] = useState(false);
+
   // ==============================
 
   return (
@@ -44,7 +47,11 @@ function App() {
 
       {/* Settings */}
       <div className={settings ? "visible animate-fadeIn" : "hidden"}>
-        <Settings closeSettings={setSettings} filterGens={setFilterGens} />
+        <Settings
+          closeSettings={setSettings}
+          filterGens={setFilterGens}
+          legacyCry={setLegacyCry}
+        />
       </div>
 
       {/* Page */}
