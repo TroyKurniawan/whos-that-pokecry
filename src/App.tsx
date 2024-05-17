@@ -69,8 +69,10 @@ function App() {
         />
       </div>
 
+      <div className="h-screen w-screen fixed bg-gray-300 -z-50" />
+
       {/* Page */}
-      <div className="h-screen bg-gray-300 grid content-between">
+      <div className="h-screen grid content-between">
         <Header />
 
         <MainMenu

@@ -16,6 +16,8 @@ const Game = ({ legacyCry, filterGens }: GameProps) => {
 
   // Check answer
   useEffect(() => {
+    let result: boolean;
+
     if (playerAnswer !== "") {
       console.log("playerAnswer: " + playerAnswer);
       console.log("currentPokemon: " + currentPokemon);
@@ -24,38 +26,45 @@ const Game = ({ legacyCry, filterGens }: GameProps) => {
       if (legacyCry) {
         // Charizard/Rhyhorn and Poliwag/Ditto edge case
         if (
-          currentPokemon.toLowerCase() == "charizard" ||
-          currentPokemon.toLowerCase() == "rhyhorn"
+          currentPokemon.toLowerCase() === "charizard" ||
+          currentPokemon.toLowerCase() === "rhyhorn"
         ) {
           if (
-            playerAnswer.toLowerCase() == "charizard" ||
-            playerAnswer.toLowerCase() == "rhyhorn"
+            playerAnswer.toLowerCase() === "charizard" ||
+            playerAnswer.toLowerCase() === "rhyhorn"
           ) {
-            alert("Yippee!");
+            result = true;
           } else {
-            alert("Nah lmao");
+            result = false;
           }
         } else if (
-          currentPokemon.toLowerCase() == "poliwag" ||
-          currentPokemon.toLowerCase() == "ditto"
+          currentPokemon.toLowerCase() === "poliwag" ||
+          currentPokemon.toLowerCase() === "ditto"
         ) {
           if (
-            playerAnswer.toLowerCase() == "poliwag" ||
-            playerAnswer.toLowerCase() == "ditto"
+            playerAnswer.toLowerCase() === "poliwag" ||
+            playerAnswer.toLowerCase() === "ditto"
           ) {
-            alert("Yippee!");
+            result = true;
           } else {
-            alert("Nah lmao");
+            result = false;
           }
         }
       }
       // Not Legacy Cry
       else {
-        if (playerAnswer.toLowerCase() == currentPokemon.toLowerCase()) {
-          alert("Yippee!");
+        if (playerAnswer.toLowerCase() === currentPokemon.toLowerCase()) {
+          result = true;
         } else {
-          alert("Nah lmao");
+          result = false;
         }
+      }
+
+      // Result
+      if (result!) {
+        alert("Yippee!");
+      } else {
+        alert("Nah lmao");
       }
 
       // Clear playerAnswer and input field

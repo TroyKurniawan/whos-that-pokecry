@@ -34,13 +34,18 @@ const Practice = ({ closePractice }: PracticeProps) => {
   }, [cry, audioPractice]);
 
   return (
-    // Dim background
-    <div className="fixed size-full bg-black bg-opacity-50 grid justify-center content-center z-10">
+    <div className="h-screen w-screen fixed grid justify-center content-center">
       {/* Cry */}
       <audio src={cry} autoPlay hidden id="audioPractice" />
 
+      {/* Dim background */}
+      <div
+        className="h-screen w-screen fixed bg-black opacity-50 -z-10"
+        onClick={(e) => closePractice(false)}
+      />
+
       {/* Container */}
-      <div className="grid justify-center content-center w-[28rem] h-[48rem] bg-white rounded-xl text-center p-4">
+      <div className="grid justify-center content-center w-[28rem] h-[48rem] bg-white rounded-xl text-center p-4 z-50">
         {/* X button */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
