@@ -88,7 +88,7 @@ const PokemonCry = ({
   // Get new cry using new url string
   useEffect(() => {
     if (url) {
-      axios.get("https://pokeapi.co/api/v2/pokemon/60/").then((res) => {
+      axios.get(url).then((res) => {
         console.log(res);
         audioGame.volume = 0.3;
         // Sets the URL of the new Pokemon's cry to Legacy.
@@ -148,20 +148,42 @@ const PokemonCry = ({
       />
 
       <button
-        className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl
+        className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl grid justify-center items-center
         hover:bg-gray-800 active:bg-gray-900
         transition ease-out duration-75"
         onClick={playAudio}
       >
-        Listen
+        <div className="grid">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="size-24"
+          >
+            <path
+              fillRule="evenodd"
+              d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm14.024-.983a1.125 1.125 0 0 1 0 1.966l-5.603 3.113A1.125 1.125 0 0 1 9 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113Z"
+              clipRule="evenodd"
+            />
+          </svg>
+          Listen
+        </div>
       </button>
 
       <button
         onClick={randomCry}
-        className="bg-red-500 text-white font-bold text-xl p-4 m-4 w-52 rounded-xl justify-center grid
+        className="bg-red-500 text-white font-bold text-xl p-4 m-4 w-52 rounded-xl flex justify-center items-center
         hover:bg-red-600 active:bg-red-700
         transition ease-out duration-75"
       >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          className="size-6 mr-2"
+        >
+          <path d="M5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628L12 14.471v2.34c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256l-7.108-4.061C13.555 6.346 12 7.249 12 8.689v2.34L5.055 7.061Z" />
+        </svg>
         Skip
         {/* <svg
           className="animate-spin h-5 w-5 text-white"
