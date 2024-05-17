@@ -1,19 +1,13 @@
-import Game from "./Game";
-
 type MainMenuProps = {
   callbackPractice: React.Dispatch<React.SetStateAction<boolean>>;
   callbackSettings: React.Dispatch<React.SetStateAction<boolean>>;
-  legacyCry: boolean;
-  callbackFilterGens: React.Dispatch<React.SetStateAction<boolean>>[];
-  filterGens: boolean[];
+  setToggleGame: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 const MainMenu = ({
   callbackPractice,
   callbackSettings,
-  legacyCry,
-  callbackFilterGens,
-  filterGens,
+  setToggleGame,
 }: MainMenuProps) => {
   // Display/hide practice window
   const togglePractice = () => {
@@ -27,18 +21,21 @@ const MainMenu = ({
   // ================================================
 
   return (
-    <div className="h-[36rem] grid justify-center content-center">
-      {/* Game Itself */}
-      <Game
-        legacyCry={legacyCry}
-        callbackFilterGens={callbackFilterGens}
-        filterGens={filterGens}
-      />
+    <div className="size-96 bg-white grid justify-center content-center justify-items-center rounded-xl m-4">
+      {/* Start */}
+      <button
+        className="size-64 p-4 m-4 bg-green-700 rounded-xl text-white font-bold text-4xl grid justify-center items-center
+        hover:bg-green-800 active:bg-green-900
+        transition ease-out duration-75"
+        onClick={(e) => setToggleGame(true)}
+      >
+        Start
+      </button>
 
       {/* Practice and Settings Buttons */}
-      <div className="flex justify-between">
+      <div className="flex justify-between w-64 m-4">
         <button
-          className="w-1/2 p-2 m-4 border border-gray-500 text-gray-500 rounded-xl  text-lg
+          className="w-32 p-2 border border-gray-500 text-gray-500 rounded-xl  text-lg
           hover:border-gray-600 hover:text-gray-600 active:border-gray-700 active:text-gray-700
             transition ease-out duration-75
             flex content-center justify-center items-center"
@@ -61,8 +58,10 @@ const MainMenu = ({
           Practice
         </button>
 
+        <div className="w-2"></div>
+
         <button
-          className="w-1/2 p-2 m-4 border border-gray-500 text-gray-500 rounded-xl  text-lg
+          className="w-32 p-2 border border-gray-500 text-gray-500 rounded-xl  text-lg
         hover:border-gray-600 hover:text-gray-600 active:border-gray-700 active:text-gray-700
           transition ease-out duration-75
           flex content-center justify-center items-center"

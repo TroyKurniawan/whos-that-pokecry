@@ -5,12 +5,14 @@ type PokemonCryProps = {
   callbackCurrentPokemon: React.Dispatch<React.SetStateAction<string>>;
   legacyCry: boolean;
   filterGens: boolean[];
+  toggleGame: boolean;
 };
 
 const PokemonCry = ({
   callbackCurrentPokemon,
   legacyCry,
   filterGens,
+  toggleGame,
 }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
   const [url, setUrl] = useState("");
@@ -59,30 +61,32 @@ const PokemonCry = ({
 
   // Generate new url string
   const randomCry = () => {
-    console.log(filterGens);
-    let newCry: number;
-    while (true) {
-      // Generate a number from 1 - 1025
-      newCry = Math.floor(Math.random() * 1025) + 1;
-      console.log(newCry);
+    if (toggleGame) {
+      console.log(filterGens);
+      let newCry: number;
+      while (true) {
+        // Generate a number from 1 - 1025
+        newCry = Math.floor(Math.random() * 1025) + 1;
+        console.log(newCry);
 
-      // Check generation filter
-      if (filterGens[0] && checkGen1(newCry)) break;
-      if (filterGens[1] && checkGen2(newCry)) break;
-      if (filterGens[2] && checkGen3(newCry)) break;
-      if (filterGens[3] && checkGen4(newCry)) break;
-      if (filterGens[4] && checkGen5(newCry)) break;
-      if (filterGens[5] && checkGen6(newCry)) break;
-      if (filterGens[6] && checkGen7(newCry)) break;
-      if (filterGens[7] && checkGen8(newCry)) break;
-      if (filterGens[8] && checkGen9(newCry)) break;
+        // Check generation filter
+        if (filterGens[0] && checkGen1(newCry)) break;
+        if (filterGens[1] && checkGen2(newCry)) break;
+        if (filterGens[2] && checkGen3(newCry)) break;
+        if (filterGens[3] && checkGen4(newCry)) break;
+        if (filterGens[4] && checkGen5(newCry)) break;
+        if (filterGens[5] && checkGen6(newCry)) break;
+        if (filterGens[6] && checkGen7(newCry)) break;
+        if (filterGens[7] && checkGen8(newCry)) break;
+        if (filterGens[8] && checkGen9(newCry)) break;
 
-      // If the number fails all checks, generate a new number
+        // If the number fails all checks, generate a new number
+      }
+
+      // Concat a string of the random Pokemon
+      let newUrl: string = "https://pokeapi.co/api/v2/pokemon/" + newCry + "/";
+      setUrl(newUrl);
     }
-
-    // Concat a string of the random Pokemon
-    let newUrl: string = "https://pokeapi.co/api/v2/pokemon/" + newCry + "/";
-    setUrl(newUrl);
   };
 
   // Get new cry using new url string
@@ -114,7 +118,7 @@ const PokemonCry = ({
     }
   }, [url, audioGame, callbackCurrentPokemon]);
 
-  // Plays
+  // Play cry
   const playAudio = () => {
     if (cry) {
       // Setup play
@@ -185,26 +189,6 @@ const PokemonCry = ({
           <path d="M5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628L12 14.471v2.34c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256l-7.108-4.061C13.555 6.346 12 7.249 12 8.689v2.34L5.055 7.061Z" />
         </svg>
         Skip
-        {/* <svg
-          className="animate-spin h-5 w-5 text-white"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-        >
-          <circle
-            className="opacity-25"
-            cx="12"
-            cy="12"
-            r="10"
-            stroke="currentColor"
-            stroke-width="4"
-          ></circle>
-          <path
-            className="opacity-75"
-            fill="currentColor"
-            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-          ></path>
-        </svg> */}
       </button>
     </div>
   );

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./Header";
 import MainMenu from "./MainMenu";
+import Game from "./Game";
 import Footer from "./Footer";
 import Practice from "./Practice";
 import Settings from "./Settings";
@@ -50,6 +51,9 @@ function App() {
   // Legacy cry for game
   const [legacyCry, setLegacyCry] = useState(false);
 
+  // Switch to game view
+  const [toggleGame, setToggleGame] = useState(false);
+
   // ==============================
 
   return (
@@ -72,16 +76,27 @@ function App() {
       <div className="h-screen w-screen fixed bg-gray-300 -z-50" />
 
       {/* Page */}
-      <div className="h-screen grid content-between">
+      <div className="h-screen w-screen grid content-between justify-items-center">
         <Header />
 
-        <MainMenu
-          callbackPractice={setPractice}
-          callbackSettings={setSettings}
-          legacyCry={legacyCry}
-          callbackFilterGens={setFilterGens}
-          filterGens={filterGens}
-        />
+        {/* Main Menu */}
+        {!toggleGame && (
+          <MainMenu
+            callbackPractice={setPractice}
+            callbackSettings={setSettings}
+            setToggleGame={setToggleGame}
+          />
+        )}
+
+        {/* Game Itself */}
+        {toggleGame && (
+          <Game
+            legacyCry={legacyCry}
+            filterGens={filterGens}
+            setToggleGame={setToggleGame}
+            toggleGame={toggleGame}
+          />
+        )}
 
         <Footer />
       </div>
