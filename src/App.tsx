@@ -21,6 +21,7 @@ function App() {
   const [filterGen8, setFilterGen8] = useState(true);
   const [filterGen9, setFilterGen9] = useState(true);
 
+  // Array of setStates
   const setFilterGens = [
     setFilterGen1,
     setFilterGen2,
@@ -31,6 +32,19 @@ function App() {
     setFilterGen7,
     setFilterGen8,
     setFilterGen9,
+  ];
+
+  // Array of states
+  const filterGens = [
+    filterGen1,
+    filterGen2,
+    filterGen3,
+    filterGen4,
+    filterGen5,
+    filterGen6,
+    filterGen7,
+    filterGen8,
+    filterGen9,
   ];
 
   // Legacy cry for game
@@ -49,7 +63,8 @@ function App() {
       <div className={settings ? "visible animate-fadeIn" : "hidden"}>
         <Settings
           closeSettings={setSettings}
-          filterGens={setFilterGens}
+          setFilterGens={setFilterGens}
+          filterGens={filterGens}
           legacyCry={setLegacyCry}
         />
       </div>
@@ -63,6 +78,7 @@ function App() {
           callbackSettings={setSettings}
           legacyCry={legacyCry}
           callbackFilterGens={setFilterGens}
+          filterGens={filterGens}
         />
 
         <Footer />

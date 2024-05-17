@@ -5,9 +5,10 @@ import PokemonCry from "./PokemonCry";
 type GameProps = {
   legacyCry: boolean;
   callbackFilterGens: React.Dispatch<React.SetStateAction<boolean>>[];
+  filterGens: boolean[];
 };
 
-const Game = ({ legacyCry, callbackFilterGens }: GameProps) => {
+const Game = ({ legacyCry, filterGens }: GameProps) => {
   const [currentPokemon, setCurrentPokemon] = useState("");
   const [playerAnswer, setPlayerAnswer] = useState("");
 
@@ -16,6 +17,8 @@ const Game = ({ legacyCry, callbackFilterGens }: GameProps) => {
   // Check answer
   useEffect(() => {
     if (playerAnswer !== "") {
+      console.log("playerAnswer: " + playerAnswer);
+      console.log("currentPokemon: " + currentPokemon);
       // Correct or Incorrect
       if (playerAnswer.toLowerCase() === currentPokemon.toLowerCase()) {
         alert("Yippee!");
@@ -37,6 +40,7 @@ const Game = ({ legacyCry, callbackFilterGens }: GameProps) => {
       <PokemonCry
         callbackCurrentPokemon={setCurrentPokemon}
         legacyCry={legacyCry}
+        filterGens={filterGens}
       />
 
       {/* Player Input */}

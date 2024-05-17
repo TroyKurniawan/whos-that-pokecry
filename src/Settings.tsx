@@ -3,11 +3,17 @@ import ToggleSwitch from "./ToggleSwitch";
 
 type SettingsProps = {
   closeSettings: React.Dispatch<React.SetStateAction<boolean>>;
-  filterGens: React.Dispatch<React.SetStateAction<boolean>>[];
+  setFilterGens: React.Dispatch<React.SetStateAction<boolean>>[];
+  filterGens: boolean[];
   legacyCry: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
+const Settings = ({
+  closeSettings,
+  setFilterGens,
+  filterGens,
+  legacyCry,
+}: SettingsProps) => {
   return (
     // Dim background
     <div className="fixed size-full bg-black bg-opacity-50 grid justify-center content-center z-10">
@@ -21,7 +27,15 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
           strokeWidth="2"
           stroke="currentColor"
           className="w-6 h-6 absolute stroke-gray-500 hover:stroke-gray-600 cursor-pointer justify-self-end grid"
-          onClick={(e) => closeSettings(false)}
+          onClick={(e) => {
+            for (const check of filterGens) {
+              if (check) {
+                closeSettings(false);
+                return;
+              }
+            }
+            alert("Please select at least one generation!");
+          }}
         >
           <path
             strokeLinecap="round"
@@ -44,7 +58,7 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
             {/* Switches */}
             <div className="justify-center items-center">
               <ToggleSwitch
-                callback={filterGens[0]}
+                callback={setFilterGens[0]}
                 title={"Generation 1"}
                 subtitle={"Bulbasaur - Mew"}
                 init={true}
@@ -53,7 +67,7 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
                 }
               />
               <ToggleSwitch
-                callback={filterGens[1]}
+                callback={setFilterGens[1]}
                 title={"Generation 2"}
                 subtitle={"Chikorita - Celebi"}
                 init={true}
@@ -62,7 +76,7 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
                 }
               />
               <ToggleSwitch
-                callback={filterGens[2]}
+                callback={setFilterGens[2]}
                 title={"Generation 3"}
                 subtitle={"Treecko - Deoxys"}
                 init={true}
@@ -71,7 +85,7 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
                 }
               />
               <ToggleSwitch
-                callback={filterGens[3]}
+                callback={setFilterGens[3]}
                 title={"Generation 4"}
                 subtitle={"Turtwig - Arceus"}
                 init={true}
@@ -80,7 +94,7 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
                 }
               />
               <ToggleSwitch
-                callback={filterGens[4]}
+                callback={setFilterGens[4]}
                 title={"Generation 5"}
                 subtitle={"Victini - Genesect"}
                 init={true}
@@ -89,7 +103,7 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
                 }
               />
               <ToggleSwitch
-                callback={filterGens[5]}
+                callback={setFilterGens[5]}
                 title={"Generation 6"}
                 subtitle={"Chespin - Volcanion"}
                 init={true}
@@ -98,7 +112,7 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
                 }
               />
               <ToggleSwitch
-                callback={filterGens[6]}
+                callback={setFilterGens[6]}
                 title={"Generation 7"}
                 subtitle={"Rowlet - Melmetal"}
                 init={true}
@@ -107,7 +121,7 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
                 }
               />
               <ToggleSwitch
-                callback={filterGens[7]}
+                callback={setFilterGens[7]}
                 title={"Generation 8"}
                 subtitle={"Grookey - Enamorus"}
                 init={true}
@@ -116,7 +130,7 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
                 }
               />
               <ToggleSwitch
-                callback={filterGens[8]}
+                callback={setFilterGens[8]}
                 title={"Generation 9"}
                 subtitle={"Sprigatito - Pecharunt"}
                 init={true}
@@ -137,7 +151,7 @@ const Settings = ({ closeSettings, filterGens, legacyCry }: SettingsProps) => {
                 callback={legacyCry}
                 title={"Legacy cries"}
                 subtitle={
-                  "When available, play cries from before generation 6."
+                  "When available, play original cries made before generation 6's update."
                 }
                 init={false}
                 icon={

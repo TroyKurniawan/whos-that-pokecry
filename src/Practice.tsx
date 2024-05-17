@@ -66,7 +66,9 @@ const Practice = ({ closePractice }: PracticeProps) => {
           <ToggleSwitch
             callback={setLatestCry}
             title={"Legacy cries"}
-            subtitle={"When available, play cries from before generation 6."}
+            subtitle={
+              "When available, play original cries made before generation 6's update."
+            }
             init={false}
             icon={
               "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gb-sounds.png"
