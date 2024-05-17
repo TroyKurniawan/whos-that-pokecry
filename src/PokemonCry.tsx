@@ -100,20 +100,25 @@ const PokemonCry = ({
         // Sets the URL of the new Pokemon's cry to Latest.
         else setCry(res.data.cries.latest);
 
-        // Some Pokemon have "-"" in their name
+        const name: string = res.data.species.name;
+
+        // Some Pokemon have "-" in their name
         if (
-          res.data.name == "Ho-oh" ||
-          "Porygon-Z" ||
-          "Jangmo-o" ||
-          "Hakamo-o" ||
-          "Kommo-o" ||
-          "Wo-Chien" ||
-          "Chien-Pao" ||
-          "Ting-Lu" ||
-          "Chi-Yu"
+          [
+            "ho-oh",
+            "porygon-Z",
+            "jangmo-o",
+            "hakamo-o",
+            "kommo-o",
+            "wo-chien",
+            "chien-pao",
+            "ting-lu",
+            "chi-yu",
+          ].includes(name)
         ) {
-          callbackCurrentPokemon(res.data.species.name); // Send the name of the new Pokemon to Game.tsx;
-        } else callbackCurrentPokemon(res.data.species.name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
+          console.log("- in name");
+          callbackCurrentPokemon(name); // Send the name of the new Pokemon to Game.tsx;
+        } else callbackCurrentPokemon(name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
       });
     }
   }, [url, audioGame, callbackCurrentPokemon]);
