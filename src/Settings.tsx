@@ -53,6 +53,7 @@ const Settings = ({
         <h1 className="text-2xl font-bold mb-2">Settings</h1>
 
         <div className="my-2 border-b" />
+
         {/* Scroll Container */}
         <div className="overflow-y-auto overflow-x-hidden pr-2">
           {/* Filter Generations */}
@@ -148,7 +149,7 @@ const Settings = ({
 
           <div className="my-2 border-b" />
 
-          {/* Other */}
+          {/* Sound */}
           <div>
             <h2 className="text-start font-bold text-lg my-1">Sound</h2>
             <div className="pb-2 grid justify-center items-center content-center">
@@ -187,6 +188,24 @@ const Settings = ({
               </div>
             </div>
           </div>
+
+          {/* <div className="my-2 border-b" /> */}
+
+          {/* Gameplay */}
+          {/* <div>
+            <h2 className="text-start font-bold text-lg my-1">Gameplay</h2>
+            <div className="pb-2 grid justify-center items-center content-center">
+              <ToggleSwitch
+                callback={}
+                title={"Multiple choice mode"}
+                subtitle={"Play game with four options."}
+                init={false}
+                icon={
+                  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-band.png"
+                }
+              />
+            </div>
+          </div> */}
         </div>
       </div>
     </div>

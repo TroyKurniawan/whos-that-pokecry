@@ -1,4 +1,4 @@
-fetch('https://pokeapi.co/api/v2/pokemon/718/')
+fetch('https://pokeapi.co/api/v2/pokemon/877')
   .then(res => res.json())
   .then(console.log)
 

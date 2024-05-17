@@ -112,8 +112,8 @@ const PokemonCry = ({
           "Ting-Lu" ||
           "Chi-Yu"
         ) {
-          callbackCurrentPokemon(res.data.name); // Send the name of the new Pokemon to Game.tsx;
-        } else callbackCurrentPokemon(res.data.name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
+          callbackCurrentPokemon(res.data.species.name); // Send the name of the new Pokemon to Game.tsx;
+        } else callbackCurrentPokemon(res.data.species.name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
       });
     }
   }, [url, audioGame, callbackCurrentPokemon]);
@@ -137,6 +137,11 @@ const PokemonCry = ({
       }
     }
   };
+
+  useEffect(() => {
+    console.log("tests");
+    randomCry();
+  }, [toggleGame]);
 
   // ===============================================
 
