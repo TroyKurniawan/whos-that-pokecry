@@ -19,11 +19,43 @@ const Game = ({ legacyCry, filterGens }: GameProps) => {
     if (playerAnswer !== "") {
       console.log("playerAnswer: " + playerAnswer);
       console.log("currentPokemon: " + currentPokemon);
-      // Correct or Incorrect
-      if (playerAnswer.toLowerCase() === currentPokemon.toLowerCase()) {
-        alert("Yippee!");
-      } else {
-        alert("Nah lmao");
+
+      // Legacy Cry
+      if (legacyCry) {
+        // Charizard/Rhyhorn and Poliwag/Ditto edge case
+        if (
+          currentPokemon.toLowerCase() == "charizard" ||
+          currentPokemon.toLowerCase() == "rhyhorn"
+        ) {
+          if (
+            playerAnswer.toLowerCase() == "charizard" ||
+            playerAnswer.toLowerCase() == "rhyhorn"
+          ) {
+            alert("Yippee!");
+          } else {
+            alert("Nah lmao");
+          }
+        } else if (
+          currentPokemon.toLowerCase() == "poliwag" ||
+          currentPokemon.toLowerCase() == "ditto"
+        ) {
+          if (
+            playerAnswer.toLowerCase() == "poliwag" ||
+            playerAnswer.toLowerCase() == "ditto"
+          ) {
+            alert("Yippee!");
+          } else {
+            alert("Nah lmao");
+          }
+        }
+      }
+      // Not Legacy Cry
+      else {
+        if (playerAnswer.toLowerCase() == currentPokemon.toLowerCase()) {
+          alert("Yippee!");
+        } else {
+          alert("Nah lmao");
+        }
       }
 
       // Clear playerAnswer and input field
@@ -35,7 +67,7 @@ const Game = ({ legacyCry, filterGens }: GameProps) => {
   // ===============================================
 
   return (
-    <div className="">
+    <div>
       {/* Pokémon's Cry */}
       <PokemonCry
         callbackCurrentPokemon={setCurrentPokemon}

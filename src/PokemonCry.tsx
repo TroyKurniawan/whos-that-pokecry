@@ -88,7 +88,7 @@ const PokemonCry = ({
   // Get new cry using new url string
   useEffect(() => {
     if (url) {
-      axios.get(url).then((res) => {
+      axios.get("https://pokeapi.co/api/v2/pokemon/60/").then((res) => {
         console.log(res);
         audioGame.volume = 0.3;
         // Sets the URL of the new Pokemon's cry to Legacy.
@@ -96,7 +96,7 @@ const PokemonCry = ({
         // Sets the URL of the new Pokemon's cry to Latest.
         else setCry(res.data.cries.latest);
 
-        // Some Pokemon have - in their name
+        // Some Pokemon have "-"" in their name
         if (
           res.data.name == "Ho-oh" ||
           "Porygon-Z" ||
