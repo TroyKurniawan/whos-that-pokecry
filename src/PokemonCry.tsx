@@ -2,17 +2,19 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 type PokemonCryProps = {
-  callbackCurrentPokemon: React.Dispatch<React.SetStateAction<string>>;
+  setCurrentPokemon: React.Dispatch<React.SetStateAction<string>>;
   legacyCry: boolean;
   filterGens: boolean[];
   toggleGame: boolean;
+  setStreak: React.Dispatch<React.SetStateAction<number>>;
 };
 
 const PokemonCry = ({
-  callbackCurrentPokemon,
+  setCurrentPokemon,
   legacyCry,
   filterGens,
   toggleGame,
+  setStreak,
 }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
   const [url, setUrl] = useState("");
@@ -117,11 +119,11 @@ const PokemonCry = ({
           ].includes(name)
         ) {
           console.log("- in name");
-          callbackCurrentPokemon(name); // Send the name of the new Pokemon to Game.tsx;
-        } else callbackCurrentPokemon(name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
+          setCurrentPokemon(name); // Send the name of the new Pokemon to Game.tsx;
+        } else setCurrentPokemon(name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
       });
     }
-  }, [url, audioGame, callbackCurrentPokemon]);
+  }, [url, audioGame, setCurrentPokemon]);
 
   // Play cry
   const playAudio = () => {
@@ -185,7 +187,10 @@ const PokemonCry = ({
       </button>
 
       <button
-        onClick={randomCry}
+        onClick={(e) => {
+          setStreak(0);
+          randomCry();
+        }}
         className="bg-red-500 text-white font-bold text-xl p-4 m-4 w-52 rounded-xl flex justify-center items-center
         hover:bg-red-600 active:bg-red-700
         transition ease-out duration-100"

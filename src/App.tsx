@@ -79,6 +79,8 @@ function App() {
       <div className="h-screen w-screen grid content-between justify-items-center">
         <Header />
 
+        <div className="h-16 w-screen"></div>
+
         {/* Main Menu */}
         {!toggleGame && (
           <MainMenu

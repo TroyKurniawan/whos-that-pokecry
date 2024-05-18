@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import PlayerInput from "./PlayerInput";
 import PokemonCry from "./PokemonCry";
+import Score from "./Score";
 
 type GameProps = {
   legacyCry: boolean;
@@ -17,6 +18,10 @@ const Game = ({
 }: GameProps) => {
   const [currentPokemon, setCurrentPokemon] = useState("");
   const [playerAnswer, setPlayerAnswer] = useState("");
+  const [streak, setStreak] = useState(0);
+  const [maxStreak, setMaxStreak] = useState(0);
+  const [correct, setCorrect] = useState(false);
+  const [incorrect, setIncorrect] = useState(false);
 
   // ===============================================
 
@@ -66,11 +71,29 @@ const Game = ({
         }
       }
 
-      // Result
+      // Correct
       if (result!) {
-        alert("Yippee!");
-      } else {
-        alert("Nah lmao");
+        // alert("Yippee!");
+        setCorrect(true);
+        setTimeout(() => {
+          setCorrect(false);
+        }, 1000);
+
+        // Update strek
+        setStreak((prevStreak) => prevStreak + 1);
+        if (streak >= maxStreak)
+          setMaxStreak((prevMaxStreak) => prevMaxStreak + 1);
+      }
+      // Incorrect
+      else {
+        // alert("Nah lmao");
+        setIncorrect(true);
+        setTimeout(() => {
+          setIncorrect(false);
+        }, 1000);
+
+        // Reset streak
+        setStreak(0);
       }
 
       // Clear playerAnswer and input field
@@ -83,17 +106,27 @@ const Game = ({
 
   return (
     <div className="grid justify-items-center">
+      {/* Score */}
+      <Score
+        streak={streak}
+        maxStreak={maxStreak}
+        correct={correct}
+        incorrect={incorrect}
+      />
+
       {/* Pokémon's Cry */}
       <PokemonCry
-        callbackCurrentPokemon={setCurrentPokemon}
+        setCurrentPokemon={setCurrentPokemon}
         legacyCry={legacyCry}
         filterGens={filterGens}
         toggleGame={toggleGame}
+        setStreak={setStreak}
       />
 
       {/* Player Input */}
       <PlayerInput callbackPlayerAnswer={setPlayerAnswer} />
 
+      {/* Exit */}
       <button
         className="w-24 m-4 p-2 border border-red-500 text-red-500 rounded-xl  text-lg
           hover:bg-red-500 hover:text-white active:bg-red-600 active:text-white
