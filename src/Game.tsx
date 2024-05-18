@@ -35,7 +35,7 @@ const Game = ({
 
       // Legacy Cry
       if (legacyCry) {
-        // Charizard/Rhyhorn and Poliwag/Ditto edge case
+        // Charizard/Rhyhorn edge case
         if (
           currentPokemon.toLowerCase() === "charizard" ||
           currentPokemon.toLowerCase() === "rhyhorn"
@@ -48,7 +48,10 @@ const Game = ({
           } else {
             result = false;
           }
-        } else if (
+        }
+
+        // Poliwag/Ditto edge case
+        else if (
           currentPokemon.toLowerCase() === "poliwag" ||
           currentPokemon.toLowerCase() === "ditto"
         ) {
@@ -61,7 +64,17 @@ const Game = ({
             result = false;
           }
         }
+
+        // Normal Check
+        else {
+          if (playerAnswer.toLowerCase() === currentPokemon.toLowerCase()) {
+            result = true;
+          } else {
+            result = false;
+          }
+        }
       }
+
       // Not Legacy Cry
       else {
         if (playerAnswer.toLowerCase() === currentPokemon.toLowerCase()) {
@@ -73,7 +86,7 @@ const Game = ({
 
       // Correct
       if (result!) {
-        // alert("Yippee!");
+        console.log("Yippee!");
         setCorrect(true);
         setTimeout(() => {
           setCorrect(false);
@@ -86,7 +99,7 @@ const Game = ({
       }
       // Incorrect
       else {
-        // alert("Nah lmao");
+        console.log("Nah lmao");
         setIncorrect(true);
         setTimeout(() => {
           setIncorrect(false);
