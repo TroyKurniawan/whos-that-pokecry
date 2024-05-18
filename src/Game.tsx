@@ -82,7 +82,7 @@ const Game = ({
   // ===============================================
 
   return (
-    <div>
+    <div className="grid justify-items-center">
       {/* Pokémon's Cry */}
       <PokemonCry
         callbackCurrentPokemon={setCurrentPokemon}
@@ -95,9 +95,9 @@ const Game = ({
       <PlayerInput callbackPlayerAnswer={setPlayerAnswer} />
 
       <button
-        className="w-96 m-4 p-2 border border-gray-500 text-gray-500 rounded-xl  text-lg
-          hover:border-gray-600 hover:text-gray-600 active:border-gray-700 active:text-gray-700
-            transition ease-out duration-75
+        className="w-24 m-4 p-2 border border-red-500 text-red-500 rounded-xl  text-lg
+          hover:bg-red-500 hover:text-white active:bg-red-600 active:text-white
+            transition ease-out duration-100
             flex content-center justify-center items-center"
         onClick={(e) => setToggleGame(false)}
       >

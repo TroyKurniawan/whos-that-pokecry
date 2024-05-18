@@ -9,6 +9,7 @@ type PracticeProps = {
 const Practice = ({ closePractice }: PracticeProps) => {
   const [cry, setCry] = useState("");
   const [latestCry, setLatestCry] = useState(true);
+  const [practiceInput, setPracticeInput] = useState("");
   const audioPractice = document.getElementById(
     "audioPractice"
   ) as HTMLAudioElement;
@@ -45,7 +46,7 @@ const Practice = ({ closePractice }: PracticeProps) => {
       />
 
       {/* Container */}
-      <div className="grid justify-center content-center w-[28rem] h-[48rem] bg-white rounded-xl text-center p-4 z-50">
+      <div className="grid content-start w-[28rem] h-[46rem] bg-white rounded-xl text-center p-4 z-50">
         {/* X button */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +65,7 @@ const Practice = ({ closePractice }: PracticeProps) => {
         </svg>
 
         {/* Header */}
-        <div className="border-b">
+        <div className="border-b pb-2">
           <h1 className="text-2xl font-bold mb-2">
             Listen to all Pokémon cries!
           </h1>
@@ -79,11 +80,49 @@ const Practice = ({ closePractice }: PracticeProps) => {
               "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gb-sounds.png"
             }
           />
+
+          {/* Magnifying Glass SVG */}
+          <div className="absolute pl-[3.2rem] m-4 p-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="opacity-30"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              strokeWidth="2"
+              stroke="#000000"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+              <path d="M21 21l-6 -6" />
+            </svg>
+          </div>
+
+          {/* Input Field */}
+          <input
+            maxLength={12}
+            placeholder="Search Pokémon..."
+            type="search"
+            id="practiceInput"
+            autoComplete="off"
+            className="w-80 m-4 pl-14 p-4 rounded-xl border-2"
+            onChange={(e) =>
+              setPracticeInput(
+                (document.getElementById("practiceInput") as HTMLInputElement)!
+                  .value
+              )
+            }
+          ></input>
         </div>
 
         {/* Contents */}
         <div className="overflow-y-auto overflow-x-hidden">
-          {PokemonList.map((pkmn) => (
+          {PokemonList.filter((pkmn) =>
+            pkmn.name.toLowerCase().includes(practiceInput)
+          ).map((pkmn) => (
             <div key={pkmn.id} className="grid justify-center">
               <button
                 onClick={(e) => {

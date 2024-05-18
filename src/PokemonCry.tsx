@@ -164,7 +164,7 @@ const PokemonCry = ({
       <button
         className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl grid justify-center items-center
         hover:bg-gray-800 active:bg-gray-900
-        transition ease-out duration-75"
+        transition ease-out duration-100"
         onClick={playAudio}
       >
         <div className="grid">
@@ -172,7 +172,7 @@ const PokemonCry = ({
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="size-24"
+            className="size-16"
           >
             <path
               fillRule="evenodd"
@@ -188,7 +188,7 @@ const PokemonCry = ({
         onClick={randomCry}
         className="bg-red-500 text-white font-bold text-xl p-4 m-4 w-52 rounded-xl flex justify-center items-center
         hover:bg-red-600 active:bg-red-700
-        transition ease-out duration-75"
+        transition ease-out duration-100"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
