@@ -13,12 +13,23 @@ const Settings = ({
   filterGens,
   legacyCry,
 }: SettingsProps) => {
+  // Make sure at least one generation is selected in the filters
+  const checkGenerationFilter = () => {
+    for (const check of filterGens) {
+      if (check) {
+        closeSettings(false);
+        return;
+      }
+    }
+    alert("Please select at least one generation!");
+  };
+
   return (
     <div className="h-screen w-screen fixed grid justify-center content-center">
       {/* Dim background */}
       <div
         className="h-screen w-screen fixed bg-black opacity-50 -z-10"
-        onClick={(e) => closeSettings(false)}
+        onClick={(e) => checkGenerationFilter()}
       />
 
       {/* Container */}
@@ -31,15 +42,7 @@ const Settings = ({
           strokeWidth="2"
           stroke="currentColor"
           className="w-6 h-6 absolute stroke-gray-500 hover:stroke-gray-600 cursor-pointer justify-self-end grid"
-          onClick={(e) => {
-            for (const check of filterGens) {
-              if (check) {
-                closeSettings(false);
-                return;
-              }
-            }
-            alert("Please select at least one generation!");
-          }}
+          onClick={(e) => checkGenerationFilter()}
         >
           <path
             strokeLinecap="round"
