@@ -7,6 +7,7 @@ type PokemonCryProps = {
   filterGens: boolean[];
   toggleGame: boolean;
   setStreak: React.Dispatch<React.SetStateAction<number>>;
+  nextPokemon: boolean;
 };
 
 const PokemonCry = ({
@@ -15,6 +16,7 @@ const PokemonCry = ({
   filterGens,
   toggleGame,
   setStreak,
+  nextPokemon,
 }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
   const [url, setUrl] = useState("");
@@ -145,10 +147,10 @@ const PokemonCry = ({
     }
   };
 
+  // Generate new cry if new game started or answer was correct.
   useEffect(() => {
-    console.log("tests");
     randomCry();
-  }, [toggleGame]);
+  }, [toggleGame, nextPokemon]);
 
   // ===============================================
 

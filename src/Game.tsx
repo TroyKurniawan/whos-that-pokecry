@@ -22,6 +22,7 @@ const Game = ({
   const [maxStreak, setMaxStreak] = useState(0);
   const [correct, setCorrect] = useState(false);
   const [incorrect, setIncorrect] = useState(false);
+  const [nextPokemon, setNextPokemon] = useState(false);
 
   // ===============================================
 
@@ -92,10 +93,13 @@ const Game = ({
           setCorrect(false);
         }, 1000);
 
-        // Update strek
+        // Update streak
         setStreak((prevStreak) => prevStreak + 1);
         if (streak >= maxStreak)
           setMaxStreak((prevMaxStreak) => prevMaxStreak + 1);
+
+        // Invoke the randomcry function in PokemonCry
+        setNextPokemon((prev) => !prev);
       }
       // Incorrect
       else {
@@ -134,6 +138,7 @@ const Game = ({
         filterGens={filterGens}
         toggleGame={toggleGame}
         setStreak={setStreak}
+        nextPokemon={nextPokemon}
       />
 
       {/* Player Input */}
