@@ -54,13 +54,17 @@ function App() {
   // Switch to game view
   const [toggleGame, setToggleGame] = useState(false);
 
+  // Volume
+  // (0.3 is the current max volume level, see VolumeSlider.tsx, line 15)
+  const [volume, setVolume] = useState(0.15);
+
   // ==============================
 
   return (
     <>
       {/* Practice */}
       <div className={practice ? "visible animate-fadeIn" : "hidden"}>
-        <Practice closePractice={setPractice} />
+        <Practice closePractice={setPractice} volume={volume} />
       </div>
 
       {/* Settings */}
@@ -77,28 +81,32 @@ function App() {
 
       {/* Page */}
       <div className="h-screen w-screen grid content-between justify-items-center">
-        <Header />
+        <Header setVolume={setVolume} />
 
         <div className="h-16 w-screen"></div>
 
-        {/* Main Menu */}
-        {!toggleGame && (
-          <MainMenu
-            callbackPractice={setPractice}
-            callbackSettings={setSettings}
-            setToggleGame={setToggleGame}
-          />
-        )}
+        {/* Add fade in loading */}
+        <div className="animate-load">
+          {/* Main Menu */}
+          {!toggleGame && (
+            <MainMenu
+              callbackPractice={setPractice}
+              callbackSettings={setSettings}
+              setToggleGame={setToggleGame}
+            />
+          )}
 
-        {/* Game Itself */}
-        {toggleGame && (
-          <Game
-            legacyCry={legacyCry}
-            filterGens={filterGens}
-            setToggleGame={setToggleGame}
-            toggleGame={toggleGame}
-          />
-        )}
+          {/* Game Itself */}
+          {toggleGame && (
+            <Game
+              legacyCry={legacyCry}
+              filterGens={filterGens}
+              setToggleGame={setToggleGame}
+              toggleGame={toggleGame}
+              volume={volume}
+            />
+          )}
+        </div>
 
         <Footer />
       </div>

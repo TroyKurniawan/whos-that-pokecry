@@ -8,6 +8,7 @@ type PokemonCryProps = {
   toggleGame: boolean;
   setStreak: React.Dispatch<React.SetStateAction<number>>;
   nextPokemon: boolean;
+  volume: number;
 };
 
 const PokemonCry = ({
@@ -17,6 +18,7 @@ const PokemonCry = ({
   toggleGame,
   setStreak,
   nextPokemon,
+  volume,
 }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
   const [url, setUrl] = useState("");
@@ -98,7 +100,7 @@ const PokemonCry = ({
     if (url) {
       axios.get(url).then((res) => {
         console.log(res);
-        audioGame.volume = 0.3;
+        audioGame.volume = volume;
         // Sets the URL of the new Pokemon's cry to Legacy.
         if (legacyCry && res.data.cries.legacy) setCry(res.data.cries.legacy);
         // Sets the URL of the new Pokemon's cry to Latest.
@@ -138,7 +140,7 @@ const PokemonCry = ({
         audioGamePromise
           .then((_) => {
             // Success
-            audioGame.volume = 0.3;
+            audioGame.volume = volume;
           })
           .catch((error) => {
             // Auto-play was prevented

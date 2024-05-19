@@ -4,9 +4,10 @@ import ToggleSwitch from "./ToggleSwitch";
 
 type PracticeProps = {
   closePractice: React.Dispatch<React.SetStateAction<boolean>>;
+  volume: number;
 };
 
-const Practice = ({ closePractice }: PracticeProps) => {
+const Practice = ({ closePractice, volume }: PracticeProps) => {
   const [cry, setCry] = useState("");
   const [latestCry, setLatestCry] = useState(true);
   const [practiceInput, setPracticeInput] = useState("");
@@ -24,7 +25,7 @@ const Practice = ({ closePractice }: PracticeProps) => {
         audioPracticePromise
           .then((_) => {
             // Success
-            audioPractice.volume = 0.3;
+            audioPractice.volume = volume;
           })
           .catch((error) => {
             // Auto-play was prevented
@@ -35,7 +36,7 @@ const Practice = ({ closePractice }: PracticeProps) => {
   }, [cry, audioPractice]);
 
   return (
-    <div className="h-screen w-screen fixed grid justify-center content-center">
+    <div className="h-screen w-screen fixed grid justify-center content-center z-10">
       {/* Cry */}
       <audio src={cry} autoPlay hidden id="audioPractice" />
 

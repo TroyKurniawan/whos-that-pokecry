@@ -25,7 +25,7 @@ const Settings = ({
   };
 
   return (
-    <div className="h-screen w-screen fixed grid justify-center content-center">
+    <div className="h-screen w-screen fixed grid justify-center content-center z-10">
       {/* Dim background */}
       <div
         className="h-screen w-screen fixed bg-black opacity-50 -z-10"

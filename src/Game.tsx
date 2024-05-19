@@ -8,6 +8,7 @@ type GameProps = {
   filterGens: boolean[];
   setToggleGame: React.Dispatch<React.SetStateAction<boolean>>;
   toggleGame: boolean;
+  volume: number;
 };
 
 const Game = ({
@@ -15,6 +16,7 @@ const Game = ({
   filterGens,
   setToggleGame,
   toggleGame,
+  volume,
 }: GameProps) => {
   const [currentPokemon, setCurrentPokemon] = useState("");
   const [playerAnswer, setPlayerAnswer] = useState("");
@@ -139,6 +141,7 @@ const Game = ({
         toggleGame={toggleGame}
         setStreak={setStreak}
         nextPokemon={nextPokemon}
+        volume={volume}
       />
 
       {/* Player Input */}
