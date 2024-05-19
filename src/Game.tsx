@@ -122,7 +122,7 @@ const Game = ({
   // ===============================================
 
   return (
-    <div className="grid justify-items-center">
+    <div className="grid justify-items-center animate-bump">
       {/* Score */}
       <Score
         streak={streak}
