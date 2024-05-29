@@ -1,21 +1,22 @@
 type MainMenuProps = {
-  callbackPractice: React.Dispatch<React.SetStateAction<boolean>>;
-  callbackSettings: React.Dispatch<React.SetStateAction<boolean>>;
-  setToggleGame: React.Dispatch<React.SetStateAction<boolean>>;
+  setWindow: React.Dispatch<React.SetStateAction<boolean>>[];
 };
 
-const MainMenu = ({
-  callbackPractice,
-  callbackSettings,
-  setToggleGame,
-}: MainMenuProps) => {
+const MainMenu = ({ setWindow }: MainMenuProps) => {
+  // Display/hide game window
+  const toggleGame = () => {
+    setWindow[1]((prevPractice) => !prevPractice);
+    setWindow[0]((prevMainmenu) => !prevMainmenu);
+  };
   // Display/hide practice window
   const togglePractice = () => {
-    callbackPractice((prevPractice) => !prevPractice);
+    setWindow[2]((prevPractice) => !prevPractice);
+    setWindow[0]((prevMainmenu) => !prevMainmenu);
   };
   // Display/hide settings window
   const toggleSettings = () => {
-    callbackSettings((prevSettings) => !prevSettings);
+    setWindow[3]((prevSettings) => !prevSettings);
+    setWindow[0]((prevMainmenu) => !prevMainmenu);
   };
 
   // ================================================
@@ -27,7 +28,7 @@ const MainMenu = ({
         className="size-64 p-4 m-4 bg-green-700 rounded-xl text-white font-bold text-4xl grid justify-center items-center
         hover:bg-green-800 active:bg-green-900
         transition ease-out duration-100"
-        onClick={(e) => setToggleGame(true)}
+        onClick={toggleGame}
       >
         Start
       </button>

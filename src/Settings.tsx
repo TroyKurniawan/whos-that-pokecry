@@ -1,23 +1,31 @@
 import ToggleSwitch from "./ToggleSwitch";
 
 type SettingsProps = {
-  closeSettings: React.Dispatch<React.SetStateAction<boolean>>;
+  setWindow: React.Dispatch<React.SetStateAction<boolean>>[];
   setFilterGens: React.Dispatch<React.SetStateAction<boolean>>[];
   filterGens: boolean[];
-  legacyCry: React.Dispatch<React.SetStateAction<boolean>>;
+  setLegacyCry: React.Dispatch<React.SetStateAction<boolean>>;
+  legacyCry: boolean;
 };
 
 const Settings = ({
-  closeSettings,
+  setWindow,
   setFilterGens,
   filterGens,
+  setLegacyCry,
   legacyCry,
 }: SettingsProps) => {
+  // Display/hide game window
+  const toggleSettings = () => {
+    setWindow[3]((prevSettings) => !prevSettings);
+    setWindow[0]((prevMainmenu) => !prevMainmenu);
+  };
+
   // Make sure at least one generation is selected in the filters
   const checkGenerationFilter = () => {
     for (const check of filterGens) {
       if (check) {
-        closeSettings(false);
+        toggleSettings();
         return;
       }
     }
@@ -25,32 +33,9 @@ const Settings = ({
   };
 
   return (
-    <div className="h-screen w-screen fixed grid justify-center content-center z-10">
-      {/* Dim background */}
-      <div
-        className="h-screen w-screen fixed bg-black opacity-50 -z-10"
-        onClick={(e) => checkGenerationFilter()}
-      />
-
+    <div className="grid justify-items-center animate-bump">
       {/* Container */}
-      <div className="grid justify-center content-center w-[28rem] h-[46rem] bg-white rounded-xl text-center p-4">
-        {/* X button */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="2"
-          stroke="currentColor"
-          className="w-6 h-6 absolute stroke-gray-500 hover:stroke-gray-600 cursor-pointer justify-self-end grid"
-          onClick={(e) => checkGenerationFilter()}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M6 18 18 6M6 6l12 12"
-          />
-        </svg>
-
+      <div className="grid justify-center content-center w-[28rem] h-[38rem] bg-white rounded-xl text-center p-4">
         {/* Header */}
         <h1 className="text-2xl font-bold mb-2">Settings</h1>
 
@@ -70,7 +55,7 @@ const Settings = ({
                   callback={setFilterGens[0]}
                   title={"Generation 1"}
                   subtitle={"Bulbasaur - Mew"}
-                  init={true}
+                  init={filterGens[0]}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
                   }
@@ -79,7 +64,7 @@ const Settings = ({
                   callback={setFilterGens[1]}
                   title={"Generation 2"}
                   subtitle={"Chikorita - Celebi"}
-                  init={true}
+                  init={filterGens[1]}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png"
                   }
@@ -88,7 +73,7 @@ const Settings = ({
                   callback={setFilterGens[2]}
                   title={"Generation 3"}
                   subtitle={"Treecko - Deoxys"}
-                  init={true}
+                  init={filterGens[2]}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png"
                   }
@@ -97,7 +82,7 @@ const Settings = ({
                   callback={setFilterGens[3]}
                   title={"Generation 4"}
                   subtitle={"Turtwig - Arceus"}
-                  init={true}
+                  init={filterGens[3]}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png"
                   }
@@ -106,7 +91,7 @@ const Settings = ({
                   callback={setFilterGens[4]}
                   title={"Generation 5"}
                   subtitle={"Victini - Genesect"}
-                  init={true}
+                  init={filterGens[4]}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png"
                   }
@@ -115,7 +100,7 @@ const Settings = ({
                   callback={setFilterGens[5]}
                   title={"Generation 6"}
                   subtitle={"Chespin - Volcanion"}
-                  init={true}
+                  init={filterGens[5]}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
                   }
@@ -124,7 +109,7 @@ const Settings = ({
                   callback={setFilterGens[6]}
                   title={"Generation 7"}
                   subtitle={"Rowlet - Melmetal"}
-                  init={true}
+                  init={filterGens[6]}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png"
                   }
@@ -133,7 +118,7 @@ const Settings = ({
                   callback={setFilterGens[7]}
                   title={"Generation 8"}
                   subtitle={"Grookey - Enamorus"}
-                  init={true}
+                  init={filterGens[7]}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png"
                   }
@@ -142,7 +127,7 @@ const Settings = ({
                   callback={setFilterGens[8]}
                   title={"Generation 9"}
                   subtitle={"Sprigatito - Pecharunt"}
-                  init={true}
+                  init={filterGens[8]}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png"
                   }
@@ -157,12 +142,12 @@ const Settings = ({
               <h2 className="text-start font-bold text-lg my-2">Sound</h2>
               <div className="pb-2 grid justify-center items-center content-center">
                 <ToggleSwitch
-                  callback={legacyCry}
+                  callback={setLegacyCry}
                   title={"Legacy cries"}
                   subtitle={
                     "When available, play original cries made before generation 6's update."
                   }
-                  init={false}
+                  init={legacyCry}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gb-sounds.png"
                   }
@@ -212,6 +197,28 @@ const Settings = ({
           </div> */}
         </div>
       </div>
+      {/* Exit */}
+      <button
+        className="w-24 m-4 p-2 border border-red-500 text-red-500 rounded-xl  text-lg
+          hover:bg-red-500 hover:text-white active:bg-red-600 active:text-white
+            transition ease-out duration-100
+            flex content-center justify-center items-center"
+        onClick={checkGenerationFilter}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          className="size-5 mr-1"
+        >
+          <path
+            fillRule="evenodd"
+            d="M9.53 2.47a.75.75 0 0 1 0 1.06L4.81 8.25H15a6.75 6.75 0 0 1 0 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0Z"
+            clipRule="evenodd"
+          />
+        </svg>
+        Exit
+      </button>
     </div>
   );
 };

@@ -7,10 +7,6 @@ import Practice from "./Practice";
 import Settings from "./Settings";
 
 function App() {
-  // Practice and Settings Window Bools
-  const [practice, setPractice] = useState(false);
-  const [settings, setSettings] = useState(false);
-
   // Generation Filter Bools
   const [filterGen1, setFilterGen1] = useState(true);
   const [filterGen2, setFilterGen2] = useState(true);
@@ -51,8 +47,12 @@ function App() {
   // Legacy cry for game
   const [legacyCry, setLegacyCry] = useState(false);
 
-  // Switch to game view
-  const [toggleGame, setToggleGame] = useState(false);
+  // Switch to mainmenu, game, practice, and setting view
+  const [mainmenu, setMainmenu] = useState(true);
+  const [game, setGame] = useState(false);
+  const [practice, setPractice] = useState(false);
+  const [settings, setSettings] = useState(false);
+  const setWindow = [setMainmenu, setGame, setPractice, setSettings];
 
   // Volume
   // (0.3 is the current max volume level, see VolumeSlider.tsx, line 15)
@@ -62,48 +62,41 @@ function App() {
 
   return (
     <>
-      {/* Practice */}
-      <div className={practice ? "visible animate-fadeIn" : "hidden"}>
-        <Practice closePractice={setPractice} volume={volume} />
-      </div>
-
-      {/* Settings */}
-      <div className={settings ? "visible animate-fadeIn" : "hidden"}>
-        <Settings
-          closeSettings={setSettings}
-          setFilterGens={setFilterGens}
-          filterGens={filterGens}
-          legacyCry={setLegacyCry}
-        />
-      </div>
-
       <div className="h-screen w-screen fixed bg-gray-300 -z-50" />
 
       {/* Page */}
       <div className="h-screen w-screen grid content-between justify-items-center">
         <Header setVolume={setVolume} />
 
-        <div className="h-16 w-screen"></div>
+        <div className="h-20 w-screen"></div>
 
         {/* Add fade in loading */}
-        <div className="animate-load">
+        <div className="animate-load flex items-center">
           {/* Main Menu */}
-          {!toggleGame && (
-            <MainMenu
-              callbackPractice={setPractice}
-              callbackSettings={setSettings}
-              setToggleGame={setToggleGame}
-            />
-          )}
+          {mainmenu && <MainMenu setWindow={setWindow} />}
 
           {/* Game Itself */}
-          {toggleGame && (
+          {game && (
             <Game
               legacyCry={legacyCry}
               filterGens={filterGens}
-              setToggleGame={setToggleGame}
-              toggleGame={toggleGame}
+              setWindow={setWindow}
+              game={game}
               volume={volume}
+            />
+          )}
+
+          {/* Practice */}
+          {practice && <Practice setWindow={setWindow} volume={volume} />}
+
+          {/* Settings */}
+          {settings && (
+            <Settings
+              setWindow={setWindow}
+              setFilterGens={setFilterGens}
+              filterGens={filterGens}
+              setLegacyCry={setLegacyCry}
+              legacyCry={legacyCry}
             />
           )}
         </div>

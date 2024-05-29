@@ -5,7 +5,7 @@ type PokemonCryProps = {
   setCurrentPokemon: React.Dispatch<React.SetStateAction<string>>;
   legacyCry: boolean;
   filterGens: boolean[];
-  toggleGame: boolean;
+  game: boolean;
   setStreak: React.Dispatch<React.SetStateAction<number>>;
   nextPokemon: boolean;
   volume: number;
@@ -15,7 +15,7 @@ const PokemonCry = ({
   setCurrentPokemon,
   legacyCry,
   filterGens,
-  toggleGame,
+  game,
   setStreak,
   nextPokemon,
   volume,
@@ -67,7 +67,7 @@ const PokemonCry = ({
 
   // Generate new url string
   const randomCry = () => {
-    if (toggleGame) {
+    if (game) {
       console.log(filterGens);
       let newCry: number;
       while (true) {
@@ -152,7 +152,7 @@ const PokemonCry = ({
   // Generate new cry if new game started or answer was correct.
   useEffect(() => {
     randomCry();
-  }, [toggleGame, nextPokemon]);
+  }, [game, nextPokemon]);
 
   // ===============================================
 

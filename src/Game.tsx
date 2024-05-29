@@ -6,16 +6,16 @@ import Score from "./Score";
 type GameProps = {
   legacyCry: boolean;
   filterGens: boolean[];
-  setToggleGame: React.Dispatch<React.SetStateAction<boolean>>;
-  toggleGame: boolean;
+  setWindow: React.Dispatch<React.SetStateAction<boolean>>[];
+  game: boolean;
   volume: number;
 };
 
 const Game = ({
   legacyCry,
   filterGens,
-  setToggleGame,
-  toggleGame,
+  setWindow,
+  game,
   volume,
 }: GameProps) => {
   const [currentPokemon, setCurrentPokemon] = useState("");
@@ -25,6 +25,12 @@ const Game = ({
   const [correct, setCorrect] = useState(false);
   const [incorrect, setIncorrect] = useState(false);
   const [nextPokemon, setNextPokemon] = useState(false);
+
+  // Display/hide game window
+  const toggleGame = () => {
+    setWindow[1]((prevPractice) => !prevPractice);
+    setWindow[0]((prevMainmenu) => !prevMainmenu);
+  };
 
   // ===============================================
 
@@ -115,9 +121,9 @@ const Game = ({
         setStreak(0);
       }
 
-      // Clear playerAnswer and input field
-      (document.getElementById("playerInput") as HTMLInputElement)!.value = "";
+      // Clear playerAnswer
       setPlayerAnswer("");
+      // (document.getElementById("playerInput") as HTMLInputElement)!.value = "";
     }
   }, [playerAnswer, currentPokemon]);
 
@@ -138,7 +144,7 @@ const Game = ({
         setCurrentPokemon={setCurrentPokemon}
         legacyCry={legacyCry}
         filterGens={filterGens}
-        toggleGame={toggleGame}
+        game={game}
         setStreak={setStreak}
         nextPokemon={nextPokemon}
         volume={volume}
@@ -153,7 +159,7 @@ const Game = ({
           hover:bg-red-500 hover:text-white active:bg-red-600 active:text-white
             transition ease-out duration-100
             flex content-center justify-center items-center"
-        onClick={(e) => setToggleGame(false)}
+        onClick={toggleGame}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

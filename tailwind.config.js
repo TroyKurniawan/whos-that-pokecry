@@ -8,7 +8,7 @@ module.exports = {
       animation: {
         fadeIn: 'fadeIn 100ms ease-in-out',
         bump: 'bump 200ms',
-        load: 'load 2000ms ease-out'
+        load: 'load 1000ms ease-out'
       },
 
       keyframes: theme => ({

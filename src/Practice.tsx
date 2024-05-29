@@ -3,17 +3,23 @@ import { PokemonList } from "./assets/pokemon-list.js";
 import ToggleSwitch from "./ToggleSwitch";
 
 type PracticeProps = {
-  closePractice: React.Dispatch<React.SetStateAction<boolean>>;
+  setWindow: React.Dispatch<React.SetStateAction<boolean>>[];
   volume: number;
 };
 
-const Practice = ({ closePractice, volume }: PracticeProps) => {
+const Practice = ({ setWindow, volume }: PracticeProps) => {
   const [cry, setCry] = useState("");
   const [latestCry, setLatestCry] = useState(true);
   const [practiceInput, setPracticeInput] = useState("");
   const audioPractice = document.getElementById(
     "audioPractice"
   ) as HTMLAudioElement;
+
+  // Display/hide game window
+  const togglePractice = () => {
+    setWindow[2]((prevPractice) => !prevPractice);
+    setWindow[0]((prevMainmenu) => !prevMainmenu);
+  };
 
   useEffect(() => {
     if (cry) {
@@ -36,35 +42,12 @@ const Practice = ({ closePractice, volume }: PracticeProps) => {
   }, [cry, audioPractice]);
 
   return (
-    <div className="h-screen w-screen fixed grid justify-center content-center z-10">
+    <div className="grid justify-items-center animate-bump">
       {/* Cry */}
       <audio src={cry} autoPlay hidden id="audioPractice" />
 
-      {/* Dim background */}
-      <div
-        className="h-screen w-screen fixed bg-black opacity-50 -z-10"
-        onClick={(e) => closePractice(false)}
-      />
-
       {/* Container */}
-      <div className="grid content-start w-[28rem] h-[46rem] bg-white rounded-xl text-center p-4 z-50">
-        {/* X button */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="2"
-          stroke="currentColor"
-          className="w-6 h-6 absolute stroke-gray-500 hover:stroke-gray-600 cursor-pointer justify-self-end grid"
-          onClick={(e) => closePractice(false)}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M6 18 18 6M6 6l12 12"
-          />
-        </svg>
-
+      <div className="grid content-start w-[28rem] h-[38rem] bg-white rounded-xl text-center p-4 z-50">
         {/* Header */}
         <div className="border-b pb-2">
           <h1 className="text-2xl font-bold mb-2">
@@ -160,6 +143,29 @@ const Practice = ({ closePractice, volume }: PracticeProps) => {
           ))}
         </div>
       </div>
+
+      {/* Exit */}
+      <button
+        className="w-24 m-4 p-2 border border-red-500 text-red-500 rounded-xl  text-lg
+          hover:bg-red-500 hover:text-white active:bg-red-600 active:text-white
+            transition ease-out duration-100
+            flex content-center justify-center items-center"
+        onClick={togglePractice}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          className="size-5 mr-1"
+        >
+          <path
+            fillRule="evenodd"
+            d="M9.53 2.47a.75.75 0 0 1 0 1.06L4.81 8.25H15a6.75 6.75 0 0 1 0 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0Z"
+            clipRule="evenodd"
+          />
+        </svg>
+        Exit
+      </button>
     </div>
   );
 };
