@@ -158,14 +158,7 @@ const PokemonCry = ({
 
   return (
     <div className="size-96 bg-white grid justify-center content-center justify-items-center rounded-xl m-4">
-      <audio
-        src={cry}
-        controls
-        autoPlay
-        hidden
-        className="m-4"
-        id="audioGame"
-      />
+      <audio src={cry} controls hidden className="m-4" id="audioGame" />
 
       <button
         className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl grid justify-center items-center

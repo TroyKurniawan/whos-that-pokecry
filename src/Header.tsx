@@ -8,7 +8,7 @@ const Header = ({ setVolume }: HeaderProps) => {
   return (
     <header className="bg-white w-screen h-16 text-center flex justify-between fixed items-center">
       {/* Volume slider */}
-      <div className="w-64 grid justify-start z-10">
+      <div className="w-64 grid justify-start">
         <VolumeSlider setVolume={setVolume} />
       </div>
 

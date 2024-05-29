@@ -44,7 +44,7 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
   return (
     <div className="grid justify-items-center animate-bump">
       {/* Cry */}
-      <audio src={cry} autoPlay hidden id="audioPractice" />
+      <audio src={cry} hidden id="audioPractice" />
 
       {/* Container */}
       <div className="grid content-start w-[28rem] h-[38rem] bg-white rounded-xl text-center p-4 z-50">

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import PlayerInput from "./PlayerInput";
 import PokemonCry from "./PokemonCry";
 import Score from "./Score";
+import PokemonResult from "./PokemonResult";
 
 type GameProps = {
   legacyCry: boolean;
@@ -152,6 +153,9 @@ const Game = ({
 
       {/* Player Input */}
       <PlayerInput callbackPlayerAnswer={setPlayerAnswer} />
+
+      {/* Pokemon Result */}
+      {/* <PokemonResult pokemonName="" pokemonSprite="" /> */}
 
       {/* Exit */}
       <button
