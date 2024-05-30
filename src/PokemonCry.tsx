@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { TIMER } from "./App";
 
 type PokemonCryProps = {
   setCurrentPokemon: React.Dispatch<React.SetStateAction<string>>;
@@ -146,11 +147,11 @@ const PokemonCry = ({
         setCurrentPokemon(name); // Send the name of the new Pokemon to Game.tsx
         console.log(name);
 
-        // After 1 sec, set the new Pokemon's name and sprite.
+        // Set the new Pokemon's name and sprite.
         setTimeout(() => {
           setSprite(res.data.sprites.front_default);
           setPokemonAnswer(toTitleCase(name));
-        }, 1000);
+        }, TIMER);
       });
     }
   }, [url, audioGame, setCurrentPokemon]);
@@ -222,7 +223,7 @@ const PokemonCry = ({
               // Show Pokemon Answer for 1 sec
               setTimeout(() => {
                 setShowResult(false);
-              }, 1000);
+              }, TIMER);
 
               // Get new cry
               randomCry();

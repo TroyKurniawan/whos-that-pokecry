@@ -5,6 +5,10 @@ import Game from "./Game";
 import Footer from "./Footer";
 import Practice from "./Practice";
 import Settings from "./Settings";
+import exp from "constants";
+
+// Master timer to set how long results appear for
+export const TIMER = 1900;
 
 function App() {
   // Generation Filter Bools

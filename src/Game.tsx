@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import PlayerInput from "./PlayerInput";
 import PokemonCry from "./PokemonCry";
 import Score from "./Score";
+import { TIMER } from "./App";
 
 type GameProps = {
   legacyCry: boolean;
@@ -102,7 +103,7 @@ const Game = ({
         setTimeout(() => {
           setCorrect(false);
           setShowResult(false);
-        }, 1000);
+        }, TIMER);
 
         // Update streak
         setStreak((prevStreak) => prevStreak + 1);
@@ -118,7 +119,7 @@ const Game = ({
         setIncorrect(true);
         setTimeout(() => {
           setIncorrect(false);
-        }, 1000);
+        }, TIMER);
 
         // Reset streak
         setStreak(0);
