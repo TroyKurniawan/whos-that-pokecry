@@ -9,6 +9,17 @@ type PokemonCryProps = {
   setStreak: React.Dispatch<React.SetStateAction<number>>;
   nextPokemon: boolean;
   volume: number;
+  showResult: boolean;
+  setShowResult: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+const toTitleCase = (str: string) => {
+  return str
+    .split(" ")
+    .map(function (word) {
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
 };
 
 const PokemonCry = ({
@@ -19,10 +30,14 @@ const PokemonCry = ({
   setStreak,
   nextPokemon,
   volume,
+  showResult,
+  setShowResult,
 }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
   const [url, setUrl] = useState("");
   const audioGame = document.getElementById("audioGame") as HTMLAudioElement;
+  const [sprite, setSprite] = useState("");
+  const [pokemonAnswer, setPokemonAnswer] = useState("");
 
   // ===============================================
 
@@ -106,9 +121,8 @@ const PokemonCry = ({
         // Sets the URL of the new Pokemon's cry to Latest.
         else setCry(res.data.cries.latest);
 
-        const name: string = res.data.species.name;
-
         // Some Pokemon have "-" in their name
+        let name: string = res.data.species.name;
         if (
           [
             "ho-oh",
@@ -122,9 +136,19 @@ const PokemonCry = ({
             "chi-yu",
           ].includes(name)
         ) {
+          // Keep "-"
           console.log("- in name");
-          setCurrentPokemon(name); // Send the name of the new Pokemon to Game.tsx;
-        } else setCurrentPokemon(name.replace("-", " ")); // Send the name of the new Pokemon to Game.tsx; replace "-" with " "
+        } else {
+          name = name.replace("-", " "); // replace "-" with " "
+        }
+        setCurrentPokemon(name); // Send the name of the new Pokemon to Game.tsx
+        console.log(name);
+
+        // After 1 sec, set the new Pokemon's name and sprite.
+        setTimeout(() => {
+          setSprite(res.data.sprites.front_default);
+          setPokemonAnswer(toTitleCase(name));
+        }, 1000);
       });
     }
   }, [url, audioGame, setCurrentPokemon]);
@@ -160,48 +184,71 @@ const PokemonCry = ({
     <div className="size-96 bg-white grid justify-center content-center justify-items-center rounded-xl m-4">
       <audio src={cry} controls hidden className="m-4" id="audioGame" />
 
-      <button
-        className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl grid justify-center items-center
+      {!showResult && (
+        <div>
+          <button
+            className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl grid justify-center items-center
         hover:bg-gray-800 active:bg-gray-900
         transition ease-out duration-100"
-        onClick={playAudio}
-      >
-        <div className="grid">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            className="size-16"
+            onClick={playAudio}
           >
-            <path
-              fillRule="evenodd"
-              d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm14.024-.983a1.125 1.125 0 0 1 0 1.966l-5.603 3.113A1.125 1.125 0 0 1 9 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113Z"
-              clipRule="evenodd"
-            />
-          </svg>
-          Listen
-        </div>
-      </button>
-
-      <button
-        onClick={(e) => {
-          setStreak(0);
-          randomCry();
-        }}
-        className="bg-red-500 text-white font-bold text-xl p-4 m-4 w-52 rounded-xl flex justify-center items-center
+            <div className="grid">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="size-16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm14.024-.983a1.125 1.125 0 0 1 0 1.966l-5.603 3.113A1.125 1.125 0 0 1 9 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113Z"
+                  clipRule="evenodd"
+                />
+              </svg>
+              Listen
+            </div>
+          </button>
+          <button
+            onClick={(e) => {
+              setStreak(0);
+              setShowResult(true);
+              // Show Pokemon Answer for 1 sec
+              setTimeout(() => {
+                setShowResult(false);
+              }, 1000);
+              randomCry();
+            }}
+            className="bg-red-500 text-white font-bold text-xl p-4 m-4 w-52 h-16 rounded-xl flex justify-center items-center
         hover:bg-red-600 active:bg-red-700
         transition ease-out duration-100"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          className="size-6 mr-2"
-        >
-          <path d="M5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628L12 14.471v2.34c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256l-7.108-4.061C13.555 6.346 12 7.249 12 8.689v2.34L5.055 7.061Z" />
-        </svg>
-        Skip
-      </button>
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="size-6 mr-2"
+            >
+              <path d="M5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628L12 14.471v2.34c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256l-7.108-4.061C13.555 6.346 12 7.249 12 8.689v2.34L5.055 7.061Z" />
+            </svg>
+            Skip
+          </button>
+        </div>
+      )}
+
+      {/* --------------------- */}
+
+      {/* Pokemon Answer */}
+      {showResult && (
+        <div className="animate-bump">
+          <div className="size-52 m-4 p-4 bg-yellow-600 rounded-xl grid justify-center items-center">
+            <img src={sprite} className="size-36" />
+            {/* <h1>{pokemonName}</h1> */}
+          </div>
+          <div className="w-52 h-16 m-4 bg-yellow-600 rounded-xl grid justify-center items-center">
+            <p className="text-xl font-bold text-white">{pokemonAnswer}</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import PlayerInput from "./PlayerInput";
 import PokemonCry from "./PokemonCry";
 import Score from "./Score";
-import PokemonResult from "./PokemonResult";
 
 type GameProps = {
   legacyCry: boolean;
@@ -26,6 +25,7 @@ const Game = ({
   const [correct, setCorrect] = useState(false);
   const [incorrect, setIncorrect] = useState(false);
   const [nextPokemon, setNextPokemon] = useState(false);
+  const [showResult, setShowResult] = useState(false);
 
   // Display/hide game window
   const toggleGame = () => {
@@ -98,8 +98,10 @@ const Game = ({
       if (result!) {
         console.log("Yippee!");
         setCorrect(true);
+        setShowResult(true);
         setTimeout(() => {
           setCorrect(false);
+          setShowResult(false);
         }, 1000);
 
         // Update streak
@@ -149,13 +151,12 @@ const Game = ({
         setStreak={setStreak}
         nextPokemon={nextPokemon}
         volume={volume}
+        showResult={showResult}
+        setShowResult={setShowResult}
       />
 
       {/* Player Input */}
       <PlayerInput callbackPlayerAnswer={setPlayerAnswer} />
-
-      {/* Pokemon Result */}
-      {/* <PokemonResult pokemonName="" pokemonSprite="" /> */}
 
       {/* Exit */}
       <button
