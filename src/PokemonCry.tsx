@@ -11,6 +11,7 @@ type PokemonCryProps = {
   volume: number;
   showResult: boolean;
   setShowResult: React.Dispatch<React.SetStateAction<boolean>>;
+  correct: boolean;
 };
 
 const toTitleCase = (str: string) => {
@@ -32,6 +33,7 @@ const PokemonCry = ({
   volume,
   showResult,
   setShowResult,
+  correct,
 }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
   const [url, setUrl] = useState("");
@@ -186,6 +188,7 @@ const PokemonCry = ({
 
       {!showResult && (
         <div>
+          {/* LISTEN */}
           <button
             className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl grid justify-center items-center
         hover:bg-gray-800 active:bg-gray-900
@@ -208,14 +211,20 @@ const PokemonCry = ({
               Listen
             </div>
           </button>
+
+          {/* SKIP */}
           <button
             onClick={(e) => {
+              // Clear streak, show result
               setStreak(0);
               setShowResult(true);
+
               // Show Pokemon Answer for 1 sec
               setTimeout(() => {
                 setShowResult(false);
               }, 1000);
+
+              // Get new cry
               randomCry();
             }}
             className="bg-red-500 text-white font-bold text-xl p-4 m-4 w-52 h-16 rounded-xl flex justify-center items-center
@@ -237,14 +246,39 @@ const PokemonCry = ({
 
       {/* --------------------- */}
 
-      {/* Pokemon Answer */}
-      {showResult && (
+      {/* CORRECT Pokemon Answer */}
+      {showResult && correct && (
         <div className="animate-bump">
-          <div className="size-52 m-4 p-4 bg-yellow-600 rounded-xl grid justify-center items-center">
+          <div
+            id="pokemonSpriteResult"
+            className="size-52 m-4 p-4 bg-green-500 rounded-xl grid justify-center items-center"
+          >
             <img src={sprite} className="size-36" />
             {/* <h1>{pokemonName}</h1> */}
           </div>
-          <div className="w-52 h-16 m-4 bg-yellow-600 rounded-xl grid justify-center items-center">
+          <div
+            id="pokemonNameResult"
+            className="w-52 h-16 m-4 bg-green-500 rounded-xl grid justify-center items-center"
+          >
+            <p className="text-xl font-bold text-white">{pokemonAnswer}</p>
+          </div>
+        </div>
+      )}
+
+      {/* WRONG Pokemon Answer */}
+      {showResult && !correct && (
+        <div className="animate-bump">
+          <div
+            id="pokemonSpriteResult"
+            className="size-52 m-4 p-4 bg-red-500 rounded-xl grid justify-center items-center"
+          >
+            <img src={sprite} className="size-36" />
+            {/* <h1>{pokemonName}</h1> */}
+          </div>
+          <div
+            id="pokemonNameResult"
+            className="w-52 h-16 m-4 bg-red-500 rounded-xl grid justify-center items-center"
+          >
             <p className="text-xl font-bold text-white">{pokemonAnswer}</p>
           </div>
         </div>

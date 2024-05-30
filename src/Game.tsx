@@ -153,6 +153,7 @@ const Game = ({
         volume={volume}
         showResult={showResult}
         setShowResult={setShowResult}
+        correct={correct}
       />
 
       {/* Player Input */}
