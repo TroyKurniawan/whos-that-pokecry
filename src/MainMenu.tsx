@@ -45,7 +45,7 @@ const MainMenu = ({ setWindow }: MainMenuProps) => {
           border-gray-500 text-gray-500
           hover:bg-gray-500 hover:text-white active:bg-gray-600 active:border-gray-600 active:text-white
           dark:border-gray-200 dark:text-gray-200
-          dark:hover:border-gray-500 dark:hover:bg-gray-500 dark:hover:text-white dark:active:bg-gray-600 dark:active:border-gray-600 dark:active:text-white
+          dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-800 dark:active:bg-gray-400 dark:active:border-gray-400 dark:active:text-gray-800
           transition ease-out duration-100
           flex content-center justify-center items-center"
           onClick={togglePractice}
@@ -74,7 +74,7 @@ const MainMenu = ({ setWindow }: MainMenuProps) => {
           border-gray-500 text-gray-500
           hover:bg-gray-500 hover:text-white active:bg-gray-600 active:border-gray-600 active:text-white
           dark:border-gray-200 dark:text-gray-200
-          dark:hover:border-gray-500 dark:hover:bg-gray-500 dark:hover:text-white dark:active:bg-gray-600 dark:active:border-gray-600 dark:active:text-white
+          dark:hover:border-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-800 dark:active:bg-gray-400 dark:active:border-gray-400 dark:active:text-gray-800
           transition ease-out duration-100
           flex content-center justify-center items-center"
           onClick={toggleSettings}

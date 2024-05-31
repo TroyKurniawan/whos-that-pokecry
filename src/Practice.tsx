@@ -22,6 +22,10 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
   };
 
   useEffect(() => {
+    playCry(cry);
+  }, [cry]);
+
+  const playCry = (cry: string) => {
     if (cry) {
       // Setup play
       const audioPracticePromise = audioPractice.play();
@@ -39,7 +43,7 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
           });
       }
     }
-  }, [cry, audioPractice]);
+  };
 
   return (
     <div className="grid justify-items-center animate-bump">
@@ -126,8 +130,8 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
                 text-center items-center border-b hover:bg-gray-100 cursor-pointer flex"
                 onClick={(e) => {
                   // If the player clicks the same Pokemon's cry again
-                  if (cry === pkmn.latest_cry || pkmn.legacy_cry) {
-                    setCry(cry);
+                  if (cry == pkmn.latest_cry || cry == pkmn.legacy_cry) {
+                    playCry(cry);
                   }
                   // If Latest Cry
                   if (latestCry) {
