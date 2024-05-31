@@ -215,7 +215,7 @@ const Settings = ({
                       : false
                   }
                   icon={
-                    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png"
+                    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-glasses.png"
                   }
                 />
               </div>
