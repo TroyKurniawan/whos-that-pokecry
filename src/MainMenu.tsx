@@ -30,8 +30,8 @@ const MainMenu = ({ setWindow }: MainMenuProps) => {
     >
       {/* Start */}
       <button
-        className="size-64 p-4 m-4 bg-green-700 rounded-xl text-white font-bold text-4xl grid justify-center items-center
-        hover:bg-green-800 active:bg-green-900
+        className="size-64 p-4 m-4 bg-green-600 rounded-xl text-white font-bold text-4xl grid justify-center items-center
+        hover:bg-green-700 active:bg-green-800
         transition ease-out duration-100"
         onClick={toggleGame}
       >

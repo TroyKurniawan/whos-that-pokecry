@@ -40,7 +40,6 @@ const ToggleSwitch = ({
           className="hidden peer"
           checked={initCheck}
           onChange={(e) => {
-            console.log("Flip");
             // Toggle appearance of switch
             setInitCheck(!initCheck);
             // Invoke callback function

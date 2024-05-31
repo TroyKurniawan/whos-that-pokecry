@@ -41,9 +41,6 @@ const Game = ({
     let result: boolean;
 
     if (playerAnswer !== "") {
-      console.log("playerAnswer: " + playerAnswer);
-      console.log("currentPokemon: " + currentPokemon);
-
       // Legacy Cry
       if (legacyCry) {
         // Charizard/Rhyhorn edge case
@@ -97,7 +94,6 @@ const Game = ({
 
       // Correct
       if (result!) {
-        console.log("Yippee!");
         setCorrect(true);
         setShowResult(true);
         setTimeout(() => {
@@ -115,7 +111,6 @@ const Game = ({
       }
       // Incorrect
       else {
-        console.log("Nah lmao");
         setIncorrect(true);
         setTimeout(() => {
           setIncorrect(false);

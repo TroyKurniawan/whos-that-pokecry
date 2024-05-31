@@ -131,14 +131,12 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
                   }
                   // If Latest Cry
                   if (latestCry) {
-                    console.log("Latest!");
                     setCry(pkmn.latest_cry);
                   }
                   // If Legacy Cry
                   else {
                     // Only if legacy cry is present
                     if (pkmn.legacy_cry !== "") {
-                      console.log("Legacy!");
                       setCry(pkmn.legacy_cry);
                     }
                     // If not use latest cry

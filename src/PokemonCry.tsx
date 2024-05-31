@@ -88,12 +88,10 @@ const PokemonCry = ({
   // Generate new url string
   const randomCry = () => {
     if (game) {
-      console.log(filterGens);
       let newCry: number;
       while (true) {
         // Generate a number from 1 - 1025
         newCry = Math.floor(Math.random() * 1025) + 1;
-        console.log(newCry);
 
         // Check generation filter
         if (filterGens[0] && checkGen1(newCry)) break;
@@ -119,7 +117,7 @@ const PokemonCry = ({
   useEffect(() => {
     if (url) {
       axios.get(url).then((res) => {
-        console.log(res);
+        // console.log(res);
         audioGame.volume = volume;
         // Sets the URL of the new Pokemon's cry to Legacy.
         if (legacyCry && res.data.cries.legacy) setCry(res.data.cries.legacy);
@@ -142,16 +140,21 @@ const PokemonCry = ({
           ].includes(name)
         ) {
           // Keep "-"
-          console.log("- in name");
         } else {
           name = name.replace("-", " "); // replace "-" with " "
         }
         setCurrentPokemon(name); // Send the name of the new Pokemon to Game.tsx
-        console.log(name);
 
         // Set the new Pokemon's name and sprite.
         setTimeout(() => {
           setSprite(res.data.sprites.front_default);
+          if (legacyCry) {
+            if (name == "charizard" || name == "rhyhorn") {
+              name = "Charizard/Rhyhorn";
+            } else if (name == "ditto" || name == "poliwag") {
+              name = "Poliwag/Ditto";
+            }
+          }
           setPokemonAnswer(toTitleCase(name));
         }, TIMER);
       });
@@ -197,8 +200,8 @@ const PokemonCry = ({
         <div>
           {/* LISTEN */}
           <button
-            className="size-52 p-4 m-4 bg-green-700 rounded-xl text-white font-bold text-xl grid justify-center items-center
-        hover:bg-green-800 active:bg-green-900
+            className="size-52 p-4 m-4 bg-green-600 rounded-xl text-white font-bold text-xl grid justify-center items-center
+        hover:bg-green-700 active:bg-green-800
         transition ease-out duration-100"
             onClick={playAudio}
           >
@@ -260,14 +263,14 @@ const PokemonCry = ({
         <div className="animate-bump">
           <div
             id="pokemonSpriteResult"
-            className="size-52 m-4 p-4 bg-green-500 rounded-xl grid justify-center items-center"
+            className="size-52 m-4 p-4 bg-green-600 rounded-xl grid justify-center items-center"
           >
             <img src={sprite} className="size-36" />
             {/* <h1>{pokemonName}</h1> */}
           </div>
           <div
             id="pokemonNameResult"
-            className="w-52 h-16 m-4 bg-green-500 rounded-xl grid justify-center items-center"
+            className="w-52 h-16 m-4 bg-green-600 rounded-xl grid justify-center items-center"
           >
             <p className="text-xl font-bold text-white">{pokemonAnswer}</p>
           </div>
