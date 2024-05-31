@@ -6,6 +6,7 @@ type SettingsProps = {
   filterGens: boolean[];
   setLegacyCry: React.Dispatch<React.SetStateAction<boolean>>;
   legacyCry: boolean;
+  setDarkTheme: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 const Settings = ({
@@ -14,6 +15,7 @@ const Settings = ({
   filterGens,
   setLegacyCry,
   legacyCry,
+  setDarkTheme,
 }: SettingsProps) => {
   // Display/hide game window
   const toggleSettings = () => {
@@ -32,18 +34,32 @@ const Settings = ({
     alert("Please select at least one generation!");
   };
 
+  // Changes theme
+  const changeTheme = () => {
+    const page = document.getElementById("page");
+    if (page?.classList.contains("dark")) {
+      setDarkTheme(false);
+      page?.classList.remove("dark");
+    } else {
+      setDarkTheme(true);
+      page?.classList.add("dark");
+    }
+  };
+
+  // ==========================================
+
   return (
     <div className="grid justify-items-center animate-bump">
       {/* Container */}
       <div
         className="w-[20rem] h-[30rem]
-      md:w-[28rem] md:h-[38rem]
+      md:w-[28rem] md:h-[38rem] dark:bg-gray-800 dark:text-white 
       grid justify-center content-center bg-white rounded-xl text-center p-4 shadow"
       >
         {/* Header */}
         <h1 className="text-xl md:text-2xl font-bold mb-2">Settings</h1>
 
-        <div className="mt-2 border-b" />
+        <div className="mt-2 border-b dark:border-gray-700" />
 
         {/* Scroll Container */}
         <div className="overflow-y-auto overflow-x-hidden w-[20rem] md:w-[26rem] grid justify-center">
@@ -139,7 +155,7 @@ const Settings = ({
               </div>
             </div>
 
-            <div className="my-2 border-b" />
+            <div className="my-2 border-b dark:border-gray-700" />
 
             {/* Sound */}
             <div>
@@ -174,7 +190,7 @@ const Settings = ({
                     />
                   </svg>
 
-                  <p className=" text-[0.6rem] md:text-xs text-start w-64 text-gray-500">
+                  <p className=" text-[0.6rem] md:text-xs text-start w-64 text-gray-500 dark:text-gray-400">
                     Note that Charizard/Rhyhorn's legacy cries and
                     Poliwag/Ditto's legacy cries are the exact same. Both
                     respective answers will be valid.
@@ -182,9 +198,31 @@ const Settings = ({
                 </div>
               </div>
             </div>
-          </div>
 
-          {/* <div className="my-2 border-b" /> */}
+            <div className="my-2 border-b dark:border-gray-700" />
+
+            {/* Theme */}
+            <div>
+              <h2 className="text-base md:text-lg text-start font-bold my-2">
+                Theme
+              </h2>
+              <div className="pb-2 grid justify-center items-center place-items-center content-center">
+                <ToggleSwitch
+                  callback={changeTheme}
+                  title={"Dark mode"}
+                  subtitle={""}
+                  init={
+                    document.getElementById("page")?.classList.contains("dark")
+                      ? true
+                      : false
+                  }
+                  icon={
+                    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png"
+                  }
+                />
+              </div>
+            </div>
+          </div>
 
           {/* Gameplay */}
           {/* <div>

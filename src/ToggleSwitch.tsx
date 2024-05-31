@@ -21,7 +21,10 @@ const ToggleSwitch = ({
   return (
     <div className="grid justify-center">
       {/* Label = Clickable Area */}
-      <label className="w-64 md:w-80 p-2 place-content-between flex cursor-pointer hover:bg-gray-200 items-center">
+      <label
+        className="w-64 md:w-80 p-2 place-content-between flex cursor-pointer items-center
+      hover:bg-gray-200 dark:hover:bg-gray-900"
+      >
         <img src={icon} alt="toggle switch icon" className="size-7" />
 
         {/* Title/Subtitle */}
@@ -48,7 +51,7 @@ const ToggleSwitch = ({
         {/* Toggle Switch Itself */}
         <div
           className="w-[var(--toggle-width)] h-[var(--toggle-height)] ml-4
-          relative rounded-full bg-gray-300 peer-checked:bg-green-500
+          relative rounded-full bg-gray-300 dark:bg-gray-500 peer-checked:bg-green-500
           transition ease-out duration-100
           after:absolute after:top-0 after:left-0 after:h-[var(--toggle-height)] after:w-[var(--toggle-height)]
           after:bg-gray-100 after:shadow-md after:rounded-full peer-checked:after:translate-x-[--toggle-height]

@@ -25,7 +25,7 @@ const PlayerInput = ({ callbackPlayerAnswer }: PlayerInputProps) => {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="opacity-30 size-5 md:size-auto"
+          className="opacity-30 size-5 md:size-auto dark:stroke-gray-200"
           width="24"
           height="24"
           viewBox="0 0 24 24"
@@ -50,7 +50,9 @@ const PlayerInput = ({ callbackPlayerAnswer }: PlayerInputProps) => {
         autoComplete="off"
         className="w-80 text-sm
         md:w-96 md:text-base
-        m-4 pl-14 p-4 rounded-xl shadow"
+        m-4 pl-14 p-4 rounded-xl shadow
+        dark:bg-gray-800
+        dark:text-white"
         onChange={(e) =>
           setCurrentInput(
             (document.getElementById("playerInput") as HTMLInputElement)!.value

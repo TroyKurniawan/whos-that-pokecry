@@ -155,6 +155,7 @@ const Game = ({
         showResult={showResult}
         setShowResult={setShowResult}
         correct={correct}
+        setIncorrect={setIncorrect}
       />
 
       {/* Player Input */}

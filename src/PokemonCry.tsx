@@ -13,6 +13,7 @@ type PokemonCryProps = {
   showResult: boolean;
   setShowResult: React.Dispatch<React.SetStateAction<boolean>>;
   correct: boolean;
+  setIncorrect: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 const toTitleCase = (str: string) => {
@@ -35,6 +36,7 @@ const PokemonCry = ({
   showResult,
   setShowResult,
   correct,
+  setIncorrect,
 }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
   const [url, setUrl] = useState("");
@@ -186,7 +188,8 @@ const PokemonCry = ({
   return (
     <div
       className="size-80 md:size-96
-    bg-white grid justify-center content-center justify-items-center rounded-xl m-4 shadow"
+      bg-white dark:bg-gray-800
+      grid justify-center content-center justify-items-center rounded-xl m-4 shadow"
     >
       <audio src={cry} controls hidden className="m-4" id="audioGame" />
 
@@ -194,8 +197,8 @@ const PokemonCry = ({
         <div>
           {/* LISTEN */}
           <button
-            className="size-52 p-4 m-4 bg-gray-700 rounded-xl text-white font-bold text-xl grid justify-center items-center
-        hover:bg-gray-800 active:bg-gray-900
+            className="size-52 p-4 m-4 bg-green-700 rounded-xl text-white font-bold text-xl grid justify-center items-center
+        hover:bg-green-800 active:bg-green-900
         transition ease-out duration-100"
             onClick={playAudio}
           >
@@ -222,10 +225,12 @@ const PokemonCry = ({
               // Clear streak, show result
               setStreak(0);
               setShowResult(true);
+              setIncorrect(true);
 
               // Show Pokemon Answer for 1 sec
               setTimeout(() => {
                 setShowResult(false);
+                setIncorrect(false);
               }, TIMER);
 
               // Get new cry

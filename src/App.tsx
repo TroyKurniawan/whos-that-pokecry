@@ -5,7 +5,6 @@ import Game from "./Game";
 import Footer from "./Footer";
 import Practice from "./Practice";
 import Settings from "./Settings";
-import exp from "constants";
 
 // Master timer to set how long results appear for
 export const TIMER = 1900;
@@ -58,6 +57,9 @@ function App() {
   const [settings, setSettings] = useState(false);
   const setWindow = [setMainmenu, setGame, setPractice, setSettings];
 
+  // Light/Dark Themes
+  const [darkTheme, setDarkTheme] = useState(false);
+
   // Volume
   // (0.3 is the current max volume level, see VolumeSlider.tsx, line 15)
   const [volume, setVolume] = useState(0.15);
@@ -65,8 +67,11 @@ function App() {
   // ==============================
 
   return (
-    <>
-      <div className="h-screen w-screen fixed bg-gray-300 -z-50" />
+    <div id="page" className="">
+      <div
+        className="h-screen w-screen fixed -z-50
+      bg-gray-300 dark:bg-gray-900"
+      />
 
       {/* Page */}
       <div className="h-screen w-screen grid content-between justify-items-center">
@@ -101,6 +106,7 @@ function App() {
               filterGens={filterGens}
               setLegacyCry={setLegacyCry}
               legacyCry={legacyCry}
+              setDarkTheme={setDarkTheme}
             />
           )}
         </div>
@@ -110,7 +116,7 @@ function App() {
 
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 

@@ -17,7 +17,8 @@ const SearchResultContainer = ({
       <div className=" rounded-xl">
         <div
           id="search"
-          className="overflow-y-auto absolute m-4 bottom-16 p-4 size-96 bg-white justify-center rounded-xl -translate-y-6"
+          className="bg-white dark:bg-gray-800
+          overflow-y-auto absolute m-4 bottom-16 p-4 size-96  justify-center rounded-xl -translate-y-6"
         >
           {/* List out Pokemon from pokemon-list.js, then filter out results based on input */}
           {PokemonList.filter((pkmn) =>
@@ -29,7 +30,8 @@ const SearchResultContainer = ({
                   callbackPlayerAnswer(pkmn.name);
                   input = "";
                 }}
-                className="text-center items-center text-xl w-80 h-14 border-b hover:bg-gray-100 cursor-pointer flex"
+                className="text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-900 dark:border-gray-700 border-b
+                text-center items-center text-xl w-80 h-14 cursor-pointer flex"
               >
                 <img
                   src={pkmn.sprite}

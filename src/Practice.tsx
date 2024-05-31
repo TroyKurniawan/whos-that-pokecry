@@ -50,13 +50,15 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
       <div
         className=" w-[20rem] h-[30rem]
       md:w-[28rem] md:h-[38rem]
-      grid content-start bg-white rounded-xl text-center p-4 shadow"
+      bg-white dark:bg-gray-800 dark:text-white
+      grid content-start  rounded-xl text-center p-4 shadow"
       >
         {/* Header */}
-        <div className="border-b pb-2">
-          <h1 className="text-xl md:text-2xl font-bold mb-2">
-            Listen to all Pokémon cries!
-          </h1>
+        <div className="border-b pb-2 dark:border-gray-700">
+          <h1 className="text-xl md:text-2xl font-bold mb-4">Practice</h1>
+
+          <div className="mt-2 border-b dark:border-gray-700 mb-2" />
+
           <ToggleSwitch
             callback={setLatestCry}
             title={"Legacy cries"}
@@ -78,7 +80,7 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="opacity-30 size-5 md:size-auto"
+              className="opacity-30 size-5 md:size-auto dark:stroke-gray-200"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -101,7 +103,8 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
             type="search"
             id="practiceInput"
             autoComplete="off"
-            className="w-60 md:w-80 m-4 pl-14 p-4 rounded-xl border-2 text-xs md:text-base"
+            className="w-60 md:w-80 m-4 pl-14 p-4 rounded-xl border-2 text-xs md:text-base
+            bg-gray-100 dark:bg-gray-900 dark:border-gray-700"
             onChange={(e) =>
               setPracticeInput(
                 (document.getElementById("practiceInput") as HTMLInputElement)!
@@ -119,7 +122,7 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
             <div key={pkmn.id} className="grid justify-center">
               <button
                 className="text-base w-64
-                md:text-xl md:w-80 h-14
+                md:text-xl md:w-80 h-14 dark:border-gray-700 dark:hover:bg-gray-900
                 text-center items-center border-b hover:bg-gray-100 cursor-pointer flex"
                 onClick={(e) => {
                   // If the player clicks the same Pokemon's cry again

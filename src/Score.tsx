@@ -11,10 +11,11 @@ const Score = ({ streak, maxStreak, correct, incorrect }: ScoreProps) => {
   return (
     <div
       className="w-80 md:w-96 h-14
-    m-4 p-4 flex bg-white rounded-xl justify-center items-center items text-md text-black font-bold text-center shadow"
+      bg-white dark:bg-gray-800
+      m-4 p-4 flex  rounded-xl justify-center items-center items text-md dark:text-white font-bold text-center shadow"
     >
       <div className="w-1/2">Streak: {streak}</div>
-      <div className="h-full w-px bg-gray-200"></div>
+      <div className="h-full w-px bg-gray-200 dark:bg-gray-700"></div>
       <div className="w-1/2">Max: {maxStreak}</div>
 
       {/* Green Ping */}

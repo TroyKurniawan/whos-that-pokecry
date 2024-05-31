@@ -25,7 +25,8 @@ const MainMenu = ({ setWindow }: MainMenuProps) => {
     <div
       className="w-[20rem] h-[26rem]
       md:w-[24rem] md:h-[30rem]
-    bg-white grid justify-center content-center justify-items-center rounded-xl m-4 shadow animate-bump"
+    bg-white dark:bg-gray-800
+    grid justify-center content-center justify-items-center rounded-xl m-4 shadow animate-bump"
     >
       {/* Start */}
       <button
@@ -40,10 +41,13 @@ const MainMenu = ({ setWindow }: MainMenuProps) => {
       {/* Practice and Settings Buttons */}
       <div className="flex justify-between w-64 m-4">
         <button
-          className="w-32 p-2 border border-gray-500 text-gray-500 rounded-xl  text-lg
+          className="w-32 p-2 border rounded-xl text-lg
+          border-gray-500 text-gray-500
           hover:bg-gray-500 hover:text-white active:bg-gray-600 active:border-gray-600 active:text-white
-            transition ease-out duration-100
-            flex content-center justify-center items-center"
+          dark:border-gray-200 dark:text-gray-200
+          dark:hover:border-gray-500 dark:hover:bg-gray-500 dark:hover:text-white dark:active:bg-gray-600 dark:active:border-gray-600 dark:active:text-white
+          transition ease-out duration-100
+          flex content-center justify-center items-center"
           onClick={togglePractice}
         >
           <svg
@@ -66,8 +70,11 @@ const MainMenu = ({ setWindow }: MainMenuProps) => {
         <div className="w-2"></div>
 
         <button
-          className="w-32 p-2 border border-gray-500 text-gray-500 rounded-xl  text-lg
+          className="w-32 p-2 border rounded-xl text-lg
+          border-gray-500 text-gray-500
           hover:bg-gray-500 hover:text-white active:bg-gray-600 active:border-gray-600 active:text-white
+          dark:border-gray-200 dark:text-gray-200
+          dark:hover:border-gray-500 dark:hover:bg-gray-500 dark:hover:text-white dark:active:bg-gray-600 dark:active:border-gray-600 dark:active:text-white
           transition ease-out duration-100
           flex content-center justify-center items-center"
           onClick={toggleSettings}
