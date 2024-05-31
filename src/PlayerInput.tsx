@@ -18,10 +18,14 @@ const PlayerInput = ({ callbackPlayerAnswer }: PlayerInputProps) => {
       />
 
       {/* Magnifying Glass SVG */}
-      <div className="absolute m-4 p-4">
+      <div
+        className="absolute m-4 p-4
+        pl-[1.3rem]
+        md:pl-[1.2rem]"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="opacity-30"
+          className="opacity-30 size-5 md:size-auto"
           width="24"
           height="24"
           viewBox="0 0 24 24"
@@ -44,7 +48,9 @@ const PlayerInput = ({ callbackPlayerAnswer }: PlayerInputProps) => {
         type="search"
         id="playerInput"
         autoComplete="off"
-        className="w-96 m-4 pl-14 p-4 rounded-xl"
+        className="w-80 text-sm
+        md:w-96 md:text-base
+        m-4 pl-14 p-4 rounded-xl shadow"
         onChange={(e) =>
           setCurrentInput(
             (document.getElementById("playerInput") as HTMLInputElement)!.value

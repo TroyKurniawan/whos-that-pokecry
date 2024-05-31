@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="w-screen h-24 text-center grid content-center">
-      <p className="text-xs m-4">
+      <p className="text-[0.5rem] md:text-xs m-4">
         Built with{" "}
         <a
           href="https://react.dev"

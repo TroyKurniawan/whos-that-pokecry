@@ -105,6 +105,9 @@ function App() {
           )}
         </div>
 
+        {/* Background */}
+        <div className="h-screen w-screen bg-pokeball opacity-[3%] fixed -z-10 bg-no-repeat bg-center animate-spinIn"></div>
+
         <Footer />
       </div>
     </>

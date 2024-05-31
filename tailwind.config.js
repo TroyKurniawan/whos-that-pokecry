@@ -8,7 +8,8 @@ module.exports = {
       animation: {
         fadeIn: 'fadeIn 100ms ease-in-out',
         bump: 'bump 200ms',
-        load: 'load 1000ms ease-out'
+        load: 'load 1000ms ease-out',
+        spinIn: 'spinIn 2000ms ease-in-out'
       },
 
       keyframes: theme => ({
@@ -25,11 +26,15 @@ module.exports = {
           '30%': { opacity: 0, scale: "1.1" },
           '0%': { opacity: 0, scale: "1.1" },
         },
+        spinIn: {
+          '100%': { opacity: 0.03, scale: "1", transform: 'rotate(0deg)' },
+          '0%': { opacity: 0, scale: "2", transform: 'rotate(20deg)' },
+        },
       }),
 
       backgroundImage:
       {
-        'low-poly': "url('./assets/low-poly-bg.svg')"
+        'pokeball': "url('./assets/pokeball.svg')"
       }
     },
   },

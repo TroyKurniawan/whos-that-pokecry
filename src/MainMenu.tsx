@@ -22,7 +22,11 @@ const MainMenu = ({ setWindow }: MainMenuProps) => {
   // ================================================
 
   return (
-    <div className="w-[24rem] h-[30rem] bg-white grid justify-center content-center justify-items-center rounded-xl m-4 animate-bump">
+    <div
+      className="w-[20rem] h-[26rem]
+      md:w-[24rem] md:h-[30rem]
+    bg-white grid justify-center content-center justify-items-center rounded-xl m-4 shadow animate-bump"
+    >
       {/* Start */}
       <button
         className="size-64 p-4 m-4 bg-green-700 rounded-xl text-white font-bold text-4xl grid justify-center items-center

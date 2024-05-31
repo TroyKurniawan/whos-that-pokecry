@@ -21,13 +21,13 @@ const ToggleSwitch = ({
   return (
     <div className="grid justify-center">
       {/* Label = Clickable Area */}
-      <label className="w-80 p-2 place-content-between flex cursor-pointer hover:bg-gray-200 items-center">
+      <label className="w-64 md:w-80 p-2 place-content-between flex cursor-pointer hover:bg-gray-200 items-center">
         <img src={icon} alt="toggle switch icon" className="size-7" />
 
         {/* Title/Subtitle */}
-        <div className="text-start w-48">
-          <h2 className="font-bold">{title}</h2>
-          <h3 className="text-xs">{subtitle}</h3>
+        <div className="text-start w-32 md:w-48">
+          <h2 className="text-sm md:text-base font-bold">{title}</h2>
+          <h3 className="text-[0.6rem] md:text-xs">{subtitle}</h3>
         </div>
 
         {/* Hidden Checkbox */}

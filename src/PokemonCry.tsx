@@ -184,7 +184,10 @@ const PokemonCry = ({
   // ===============================================
 
   return (
-    <div className="size-96 bg-white grid justify-center content-center justify-items-center rounded-xl m-4">
+    <div
+      className="size-80 md:size-96
+    bg-white grid justify-center content-center justify-items-center rounded-xl m-4 shadow"
+    >
       <audio src={cry} controls hidden className="m-4" id="audioGame" />
 
       {!showResult && (

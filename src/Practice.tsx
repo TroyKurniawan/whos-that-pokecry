@@ -47,10 +47,14 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
       <audio src={cry} hidden id="audioPractice" />
 
       {/* Container */}
-      <div className="grid content-start w-[28rem] h-[38rem] bg-white rounded-xl text-center p-4 z-50">
+      <div
+        className=" w-[20rem] h-[30rem]
+      md:w-[28rem] md:h-[38rem]
+      grid content-start bg-white rounded-xl text-center p-4 shadow"
+      >
         {/* Header */}
         <div className="border-b pb-2">
-          <h1 className="text-2xl font-bold mb-2">
+          <h1 className="text-xl md:text-2xl font-bold mb-2">
             Listen to all Pokémon cries!
           </h1>
           <ToggleSwitch
@@ -66,10 +70,15 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
           />
 
           {/* Magnifying Glass SVG */}
-          <div className="absolute pl-[3.2rem] m-4 p-4">
+          <div
+            className="pl-[1.8rem] pt-[1rem]
+            md:pl-[3.2rem] md:pt-[1.1rem]
+            absolute
+            m-4 p-4"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="opacity-30"
+              className="opacity-30 size-5 md:size-auto"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -92,7 +101,7 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
             type="search"
             id="practiceInput"
             autoComplete="off"
-            className="w-80 m-4 pl-14 p-4 rounded-xl border-2"
+            className="w-60 md:w-80 m-4 pl-14 p-4 rounded-xl border-2 text-xs md:text-base"
             onChange={(e) =>
               setPracticeInput(
                 (document.getElementById("practiceInput") as HTMLInputElement)!
@@ -109,6 +118,9 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
           ).map((pkmn) => (
             <div key={pkmn.id} className="grid justify-center">
               <button
+                className="text-base w-64
+                md:text-xl md:w-80 h-14
+                text-center items-center border-b hover:bg-gray-100 cursor-pointer flex"
                 onClick={(e) => {
                   // If the player clicks the same Pokemon's cry again
                   if (cry === pkmn.latest_cry || pkmn.legacy_cry) {
@@ -130,12 +142,13 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
                     else setCry(pkmn.latest_cry);
                   }
                 }}
-                className="text-center items-center text-xl w-80 h-14 border-b hover:bg-gray-100 cursor-pointer flex"
               >
                 <img
                   src={pkmn.sprite}
                   alt={pkmn.name}
-                  className="size-10 ml-16 mr-4"
+                  className="size-10
+                  ml-10 md:ml-16
+                  mr-4"
                 ></img>
                 {pkmn.name}
               </button>

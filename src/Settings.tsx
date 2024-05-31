@@ -35,18 +35,22 @@ const Settings = ({
   return (
     <div className="grid justify-items-center animate-bump">
       {/* Container */}
-      <div className="grid justify-center content-center w-[28rem] h-[38rem] bg-white rounded-xl text-center p-4">
+      <div
+        className="w-[20rem] h-[30rem]
+      md:w-[28rem] md:h-[38rem]
+      grid justify-center content-center bg-white rounded-xl text-center p-4 shadow"
+      >
         {/* Header */}
-        <h1 className="text-2xl font-bold mb-2">Settings</h1>
+        <h1 className="text-xl md:text-2xl font-bold mb-2">Settings</h1>
 
         <div className="mt-2 border-b" />
 
         {/* Scroll Container */}
-        <div className="overflow-y-auto overflow-x-hidden w-[26rem] grid justify-center">
-          <div className="w-80">
+        <div className="overflow-y-auto overflow-x-hidden w-[20rem] md:w-[26rem] grid justify-center">
+          <div className="w-64 md:w-80">
             {/* Filter Generations */}
             <div>
-              <h2 className="text-start font-bold text-lg my-2">
+              <h2 className="text-base md:text-lg text-start font-bold my-2">
                 Filter generations
               </h2>
               {/* Switches */}
@@ -139,8 +143,10 @@ const Settings = ({
 
             {/* Sound */}
             <div>
-              <h2 className="text-start font-bold text-lg my-2">Sound</h2>
-              <div className="pb-2 grid justify-center items-center content-center">
+              <h2 className="text-base md:text-lg text-start font-bold my-2">
+                Sound
+              </h2>
+              <div className="pb-2 grid justify-center items-center place-items-center content-center">
                 <ToggleSwitch
                   callback={setLegacyCry}
                   title={"Legacy cries"}
@@ -152,7 +158,7 @@ const Settings = ({
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gb-sounds.png"
                   }
                 />
-                <div className="flex justify-center items-center my-2">
+                <div className="w-60 md:w-80 flex justify-center items-center my-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -168,7 +174,7 @@ const Settings = ({
                     />
                   </svg>
 
-                  <p className="text-xs text-start w-64 text-gray-500">
+                  <p className=" text-[0.6rem] md:text-xs text-start w-64 text-gray-500">
                     Note that Charizard/Rhyhorn's legacy cries and
                     Poliwag/Ditto's legacy cries are the exact same. Both
                     respective answers will be valid.
