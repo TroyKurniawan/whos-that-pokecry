@@ -149,9 +149,9 @@ const PokemonCry = ({
         setTimeout(() => {
           setSprite(res.data.sprites.front_default);
           if (legacyCry) {
-            if (name == "charizard" || name == "rhyhorn") {
+            if (name === "charizard" || name === "rhyhorn") {
               name = "Charizard/Rhyhorn";
-            } else if (name == "ditto" || name == "poliwag") {
+            } else if (name === "ditto" || name === "poliwag") {
               name = "Poliwag/Ditto";
             }
           }
@@ -265,7 +265,7 @@ const PokemonCry = ({
             id="pokemonSpriteResult"
             className="size-52 m-4 p-4 bg-green-600 rounded-xl grid justify-center items-center"
           >
-            <img src={sprite} className="size-36" />
+            <img src={sprite} alt={pokemonAnswer} className="size-36" />
             {/* <h1>{pokemonName}</h1> */}
           </div>
           <div
@@ -284,7 +284,7 @@ const PokemonCry = ({
             id="pokemonSpriteResult"
             className="size-52 m-4 p-4 bg-red-500 rounded-xl grid justify-center items-center"
           >
-            <img src={sprite} className="size-36" />
+            <img src={sprite} alt={pokemonAnswer} className="size-36" />
             {/* <h1>{pokemonName}</h1> */}
           </div>
           <div

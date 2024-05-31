@@ -241,10 +241,12 @@ const Settings = ({
       </div>
       {/* Exit */}
       <button
-        className="w-24 m-4 p-2 border border-red-500 text-red-500 rounded-xl  text-lg
-          hover:bg-red-500 hover:text-white active:bg-red-600 active:text-white
-            transition ease-out duration-100
-            flex content-center justify-center items-center"
+        className="w-24 m-4 p-2 border rounded-xl  text-lg
+        border-red-500 text-red-500 
+        hover:bg-red-500 hover:text-white
+        active:bg-red-600 active:border-red-600 active:text-white
+          transition ease-out duration-100
+          flex content-center justify-center items-center"
         onClick={checkGenerationFilter}
       >
         <svg

@@ -1,4 +1,4 @@
-import VolumeSlider from "./VolumeSlider";
+// import VolumeSlider from "./VolumeSlider";
 
 type HeaderProps = {
   setVolume: React.Dispatch<React.SetStateAction<number>>;
