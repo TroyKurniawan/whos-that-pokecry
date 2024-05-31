@@ -6,7 +6,6 @@ type SettingsProps = {
   filterGens: boolean[];
   setLegacyCry: React.Dispatch<React.SetStateAction<boolean>>;
   legacyCry: boolean;
-  setDarkTheme: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 const Settings = ({
@@ -15,7 +14,6 @@ const Settings = ({
   filterGens,
   setLegacyCry,
   legacyCry,
-  setDarkTheme,
 }: SettingsProps) => {
   // Display/hide game window
   const toggleSettings = () => {
@@ -38,11 +36,11 @@ const Settings = ({
   const changeTheme = () => {
     const page = document.getElementById("page");
     if (page?.classList.contains("dark")) {
-      setDarkTheme(false);
       page?.classList.remove("dark");
+      localStorage.setItem("darkCache", "light");
     } else {
-      setDarkTheme(true);
       page?.classList.add("dark");
+      localStorage.setItem("darkCache", "dark");
     }
   };
 

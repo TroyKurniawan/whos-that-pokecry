@@ -58,7 +58,13 @@ function App() {
   const setWindow = [setMainmenu, setGame, setPractice, setSettings];
 
   // Light/Dark Themes
-  const [darkTheme, setDarkTheme] = useState(false);
+  let darkCache = localStorage.getItem("darkCache");
+  const page = document.getElementById("page");
+  window.onload = function () {
+    if (darkCache == "dark") {
+      page?.classList.add("dark");
+    }
+  };
 
   // Volume
   // (0.3 is the current max volume level, see VolumeSlider.tsx, line 15)
@@ -67,7 +73,7 @@ function App() {
   // ==============================
 
   return (
-    <div id="page" className="">
+    <div id="page" className={darkCache!}>
       <div
         className="h-screen w-screen fixed -z-50
       bg-gray-300 dark:bg-gray-900"
@@ -106,7 +112,6 @@ function App() {
               filterGens={filterGens}
               setLegacyCry={setLegacyCry}
               legacyCry={legacyCry}
-              setDarkTheme={setDarkTheme}
             />
           )}
         </div>
