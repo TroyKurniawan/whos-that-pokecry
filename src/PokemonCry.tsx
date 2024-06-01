@@ -164,20 +164,10 @@ const PokemonCry = ({
   // Play cry
   const playAudio = () => {
     if (cry) {
-      // Setup play
-      const audioGamePromise = audioGame.play();
+      console.log("PLAY");
 
-      // Begin play's promise
-      if (audioGamePromise !== undefined) {
-        audioGamePromise
-          .then((_) => {
-            // Success
-            audioGame.volume = volume;
-          })
-          .catch((error) => {
-            // Auto-play was prevented
-          });
-      }
+      // Play
+      audioGame.play();
     }
   };
 
