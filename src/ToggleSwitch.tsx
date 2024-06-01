@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { iOSCheck } from "./App";
 
 type ToggleSwitchProps = {
   callback: React.Dispatch<React.SetStateAction<boolean>>;
@@ -6,6 +7,7 @@ type ToggleSwitchProps = {
   subtitle: string;
   init: boolean;
   icon: string;
+  enable: boolean;
 };
 
 const ToggleSwitch = ({
@@ -14,12 +16,18 @@ const ToggleSwitch = ({
   subtitle,
   init,
   icon,
+  enable,
 }: ToggleSwitchProps) => {
   // Handles the initial state of the switch
   const [initCheck, setInitCheck] = useState(init);
 
   return (
-    <div className="grid justify-center">
+    // <div className="grid justify-center" id="toggleswitch">
+    <div
+      className={
+        enable ? "grid justify-center" : "grid justify-center opacity-50"
+      }
+    >
       {/* Label = Clickable Area */}
       <label
         className="w-64 md:w-80 p-2 place-content-between flex cursor-pointer items-center
@@ -33,19 +41,21 @@ const ToggleSwitch = ({
           <h3 className="text-[0.6rem] md:text-xs">{subtitle}</h3>
         </div>
 
-        {/* Hidden Checkbox */}
-        <input
-          id="toggle"
-          type="checkbox"
-          className="hidden peer"
-          checked={initCheck}
-          onChange={(e) => {
-            // Toggle appearance of switch
-            setInitCheck(!initCheck);
-            // Invoke callback function
-            callback((prevLatestCry) => !prevLatestCry);
-          }}
-        ></input>
+        {/* Hidden Checkbox (Only available for non-iOS devices) */}
+        {enable && (
+          <input
+            id="toggle"
+            type="checkbox"
+            className="hidden peer"
+            checked={initCheck}
+            onChange={(e) => {
+              // Toggle appearance of switch
+              setInitCheck(!initCheck);
+              // Invoke callback function
+              callback((prevLatestCry) => !prevLatestCry);
+            }}
+          ></input>
+        )}
 
         {/* Toggle Switch Itself */}
         <div

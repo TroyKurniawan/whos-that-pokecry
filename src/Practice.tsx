@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { PokemonList } from "./assets/pokemon-list.js";
 import ToggleSwitch from "./ToggleSwitch";
+import { iOSCheck } from "./App";
 
 type PracticeProps = {
   setWindow: React.Dispatch<React.SetStateAction<boolean>>[];
@@ -21,7 +22,6 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
   const playCry = (cry: string) => {
     // Play cry
     if (cry) {
-      console.log("PLAY");
       cryPlayback = new Audio(cry);
       cryPlayback.volume = volume;
       // cryPlayback.autoplay = true;
@@ -47,16 +47,20 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
 
           <div className="mt-2 border-b dark:border-gray-700 mb-2" />
 
+          {/* Set Legacy Mode */}
           <ToggleSwitch
             callback={setLatestCry}
             title={"Legacy cries"}
             subtitle={
-              "When available, play original cries made before generation 6's update."
+              !iOSCheck
+                ? "When available, play original cries made before generation 6's update."
+                : "Legacy mode only available for non-iOS devices."
             }
             init={false}
             icon={
               "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gb-sounds.png"
             }
+            enable={iOSCheck ? false : true}
           />
 
           {/* Magnifying Glass SVG */}

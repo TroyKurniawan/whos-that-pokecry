@@ -93,8 +93,6 @@ const PokemonCry = ({
         // Generate a number from 1 - 1025
         newCryID = Math.floor(Math.random() * 1025) + 1;
 
-        newCryID = 150;
-
         // Check generation filter
         if (filterGens[0] && checkGen1(newCryID)) break;
         if (filterGens[1] && checkGen2(newCryID)) break;
@@ -111,7 +109,6 @@ const PokemonCry = ({
 
       // Get new Pokemon's object
       let newPokemon = PokemonList[newCryID - 1];
-      console.log(newPokemon);
 
       // Latest Cry URL or Legacy Cry URL
       if (legacyCry && newPokemon.legacy_cry) setCry(newPokemon.legacy_cry);
@@ -139,7 +136,6 @@ const PokemonCry = ({
   // Play cry
   const playAudio = () => {
     if (cry) {
-      console.log("PLAY");
       cryPlayback = new Audio(cry);
       cryPlayback.volume = volume;
       // cryPlayback.autoplay = true;

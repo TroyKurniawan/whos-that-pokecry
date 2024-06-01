@@ -9,6 +9,9 @@ import Settings from "./Settings";
 // Master timer to set how long results appear for
 export const TIMER = 1900;
 
+// Check if the user agent string contains "iPhone", "iPad", or "iPod"
+export const iOSCheck = /iPhone|iPad|iPod/.test(navigator.userAgent);
+
 function App() {
   // Generation Filter Bools
   const [filterGen1, setFilterGen1] = useState(true);
@@ -83,7 +86,7 @@ function App() {
       <div className="h-screen w-screen grid content-between justify-items-center">
         <Header setVolume={setVolume} />
 
-        <div className="h-20 w-screen"></div>
+        <div className="h-20 w-screen" />
 
         {/* Add fade in loading */}
         <div className="animate-load flex items-center">
@@ -121,7 +124,7 @@ function App() {
           className="h-screen w-screen bg-pokeball fixed -z-10 bg-no-repeat bg-center 
           opacity-[3%] animate-spinInLight
           dark:invert dark:opacity-[1%] dark:animate-spinInDark"
-        ></div>
+        />
 
         <Footer />
       </div>

@@ -1,3 +1,4 @@
+import { iOSCheck } from "./App";
 import ToggleSwitch from "./ToggleSwitch";
 
 type SettingsProps = {
@@ -77,6 +78,7 @@ const Settings = ({
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
                   }
+                  enable={true}
                 />
                 <ToggleSwitch
                   callback={setFilterGens[1]}
@@ -86,6 +88,7 @@ const Settings = ({
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png"
                   }
+                  enable={true}
                 />
                 <ToggleSwitch
                   callback={setFilterGens[2]}
@@ -95,6 +98,7 @@ const Settings = ({
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png"
                   }
+                  enable={true}
                 />
                 <ToggleSwitch
                   callback={setFilterGens[3]}
@@ -104,6 +108,7 @@ const Settings = ({
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png"
                   }
+                  enable={true}
                 />
                 <ToggleSwitch
                   callback={setFilterGens[4]}
@@ -113,6 +118,7 @@ const Settings = ({
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png"
                   }
+                  enable={true}
                 />
                 <ToggleSwitch
                   callback={setFilterGens[5]}
@@ -122,6 +128,7 @@ const Settings = ({
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
                   }
+                  enable={true}
                 />
                 <ToggleSwitch
                   callback={setFilterGens[6]}
@@ -131,6 +138,7 @@ const Settings = ({
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png"
                   }
+                  enable={true}
                 />
                 <ToggleSwitch
                   callback={setFilterGens[7]}
@@ -140,6 +148,7 @@ const Settings = ({
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png"
                   }
+                  enable={true}
                 />
                 <ToggleSwitch
                   callback={setFilterGens[8]}
@@ -149,6 +158,7 @@ const Settings = ({
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png"
                   }
+                  enable={true}
                 />
               </div>
             </div>
@@ -165,12 +175,15 @@ const Settings = ({
                   callback={setLegacyCry}
                   title={"Legacy cries"}
                   subtitle={
-                    "When available, play original cries made before generation 6's update."
+                    !iOSCheck
+                      ? "When available, play original cries made before generation 6's update."
+                      : "Legacy mode only available for non-iOS devices."
                   }
                   init={legacyCry}
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gb-sounds.png"
                   }
+                  enable={iOSCheck ? false : true}
                 />
                 <div className="w-60 md:w-80 flex justify-center items-center my-2">
                   <svg
@@ -217,6 +230,7 @@ const Settings = ({
                   icon={
                     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-glasses.png"
                   }
+                  enable={true}
                 />
               </div>
             </div>
