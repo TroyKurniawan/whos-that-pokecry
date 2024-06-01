@@ -121,7 +121,7 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
         {/* Contents */}
         <div className="overflow-y-auto overflow-x-hidden">
           {PokemonList.filter((pkmn) =>
-            pkmn.name.toLowerCase().includes(practiceInput)
+            pkmn.name.toLowerCase().includes(practiceInput.toLowerCase())
           ).map((pkmn) => (
             <div key={pkmn.id} className="grid justify-center">
               <button

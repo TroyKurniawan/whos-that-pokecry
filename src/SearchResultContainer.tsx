@@ -22,7 +22,7 @@ const SearchResultContainer = ({
         >
           {/* List out Pokemon from pokemon-list.js, then filter out results based on input */}
           {PokemonList.filter((pkmn) =>
-            pkmn.name.toLowerCase().includes(input)
+            pkmn.name.toLowerCase().includes(input.toLowerCase())
           ).map((pkmn) => (
             <div key={pkmn.id} className="grid justify-center">
               <button
