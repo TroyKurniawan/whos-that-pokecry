@@ -13,7 +13,7 @@ const PlayerInput = ({ callbackPlayerAnswer }: PlayerInputProps) => {
     <div className="relative">
       {/* Magnifying Glass SVG */}
       <div
-        className="absolute m-4 p-4
+        className="absolute m-2 p-4
         pl-[1.3rem]
         md:pl-[1.2rem]"
       >
@@ -44,7 +44,7 @@ const PlayerInput = ({ callbackPlayerAnswer }: PlayerInputProps) => {
         autoComplete="off"
         className="w-80 text-sm
         md:w-96 md:text-base
-        m-4 pl-14 p-4 rounded-xl shadow
+        m-2 pl-14 p-4 rounded-xl shadow
         dark:bg-gray-800
         dark:text-white"
         onChange={(e) =>

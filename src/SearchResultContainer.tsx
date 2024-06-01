@@ -12,7 +12,7 @@ const SearchResultContainer = ({
   focus,
 }: SearchResultContainerProps) => {
   // If user focuses, display results
-  if (focus && input.length > 1) {
+  if (focus && input.length > 0) {
     return (
       <div className=" rounded-xl">
         <div

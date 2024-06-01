@@ -190,9 +190,9 @@ const PokemonCry = ({
 
   return (
     <div
-      className="size-80 md:size-96
+      className="size-80 md:size-96 m-2
       bg-white dark:bg-gray-800
-      grid justify-center content-center justify-items-center rounded-xl m-4 shadow"
+      grid justify-center content-center justify-items-center rounded-xl shadow"
     >
       <audio src={cry} controls hidden className="m-4" id="audioGame" />
 
