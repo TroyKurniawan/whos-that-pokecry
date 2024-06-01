@@ -42,6 +42,7 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
     // Play cry
     if (cry) {
       console.log("PLAY");
+      audioPractice.autoplay = true;
 
       // Play
       audioPractice.play();
@@ -141,47 +142,49 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
         </div>
 
         {/* Contents */}
-        <div className="overflow-y-auto overflow-x-hidden">
-          {PokemonList.filter((pkmn) =>
-            pkmn.name.toLowerCase().includes(practiceInput.toLowerCase())
-          ).map((pkmn) => (
-            <div key={pkmn.id} className="grid justify-center">
-              <button
-                className="text-base w-64
+        {practiceInput.length > 1 && (
+          <div className="overflow-y-auto overflow-x-hidden">
+            {PokemonList.filter((pkmn) =>
+              pkmn.name.toLowerCase().includes(practiceInput.toLowerCase())
+            ).map((pkmn) => (
+              <div key={pkmn.id} className="grid justify-center">
+                <button
+                  className="text-base w-64
                 md:text-xl md:w-80 h-14 dark:border-gray-700 dark:hover:bg-gray-900
                 text-center items-center border-b hover:bg-gray-100 cursor-pointer flex"
-                onClick={(e) => {
-                  // If the player clicks the same Pokemon's cry again
-                  if (cry === pkmn.latest_cry || cry === pkmn.legacy_cry) {
-                    playCry(cry);
-                  }
-                  // If Latest Cry
-                  if (latestCry) {
-                    setCry(pkmn.latest_cry);
-                  }
-                  // If Legacy Cry
-                  else {
-                    // Only if legacy cry is present
-                    if (pkmn.legacy_cry !== "") {
-                      setCry(pkmn.legacy_cry);
+                  onClick={(e) => {
+                    // If the player clicks the same Pokemon's cry again
+                    if (cry === pkmn.latest_cry || cry === pkmn.legacy_cry) {
+                      playCry(cry);
                     }
-                    // If not use latest cry
-                    else setCry(pkmn.latest_cry);
-                  }
-                }}
-              >
-                <img
-                  src={pkmn.sprite}
-                  alt={pkmn.name}
-                  className="size-10
+                    // If Latest Cry
+                    if (latestCry) {
+                      setCry(pkmn.latest_cry);
+                    }
+                    // If Legacy Cry
+                    else {
+                      // Only if legacy cry is present
+                      if (pkmn.legacy_cry !== "") {
+                        setCry(pkmn.legacy_cry);
+                      }
+                      // If not use latest cry
+                      else setCry(pkmn.latest_cry);
+                    }
+                  }}
+                >
+                  <img
+                    src={pkmn.sprite}
+                    alt={pkmn.name}
+                    className="size-10
                   ml-10 md:ml-16
                   mr-4"
-                ></img>
-                {pkmn.name}
-              </button>
-            </div>
-          ))}
-        </div>
+                  ></img>
+                  {pkmn.name}
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* Exit */}
