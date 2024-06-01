@@ -52,7 +52,7 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
 
       {/* Container */}
       <div
-        className=" w-[20rem] h-[30rem]
+        className=" w-[20rem] h-[24rem]
       md:w-[28rem] md:h-[38rem]
       bg-white dark:bg-gray-800 dark:text-white
       grid content-start  rounded-xl text-center p-4 shadow"

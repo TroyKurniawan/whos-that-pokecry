@@ -10,13 +10,7 @@ const PlayerInput = ({ callbackPlayerAnswer }: PlayerInputProps) => {
   const [inputFocus, setInputFocus] = useState(false);
 
   return (
-    <div className="relative flex">
-      <SearchResultContainer
-        input={currentInput}
-        callbackPlayerAnswer={callbackPlayerAnswer}
-        focus={inputFocus}
-      />
-
+    <div className="relative">
       {/* Magnifying Glass SVG */}
       <div
         className="absolute m-4 p-4
@@ -61,6 +55,12 @@ const PlayerInput = ({ callbackPlayerAnswer }: PlayerInputProps) => {
         onFocus={(e) => setInputFocus(true)}
         onBlur={(e) => setInputFocus(false)}
       ></input>
+
+      <SearchResultContainer
+        input={currentInput}
+        callbackPlayerAnswer={callbackPlayerAnswer}
+        focus={inputFocus}
+      />
     </div>
   );
 };

@@ -138,6 +138,9 @@ const Game = ({
         incorrect={incorrect}
       />
 
+      {/* Player Input */}
+      <PlayerInput callbackPlayerAnswer={setPlayerAnswer} />
+
       {/* Pokémon's Cry */}
       <PokemonCry
         setCurrentPokemon={setCurrentPokemon}
@@ -152,9 +155,6 @@ const Game = ({
         correct={correct}
         setIncorrect={setIncorrect}
       />
-
-      {/* Player Input */}
-      <PlayerInput callbackPlayerAnswer={setPlayerAnswer} />
 
       {/* Exit */}
       <button

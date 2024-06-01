@@ -18,7 +18,8 @@ const SearchResultContainer = ({
         <div
           id="search"
           className="bg-white dark:bg-gray-800
-          overflow-y-auto absolute m-4 bottom-16 p-4 size-96  justify-center rounded-xl -translate-y-6"
+          overflow-y-auto absolute m-4 mt-10 p-4 size-80 justify-center rounded-xl -translate-y-6
+          md:size-96"
         >
           {/* List out Pokemon from pokemon-list.js, then filter out results based on input */}
           {PokemonList.filter((pkmn) =>
