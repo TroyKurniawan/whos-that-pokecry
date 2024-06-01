@@ -5,6 +5,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/1.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bulbasaur.mp3",
   },
   {
     "id": "2",
@@ -12,6 +13,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/2.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/2.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ivysaur.mp3",
   },
   {
     "id": "3",
@@ -19,6 +21,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/3.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/3.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/venusaur.mp3",
   },
   {
     "id": "4",
@@ -26,6 +29,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/4.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/4.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/charmander.mp3",
   },
   {
     "id": "5",
@@ -33,6 +37,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/5.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/5.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/charmeleon.mp3",
   },
   {
     "id": "6",
@@ -40,6 +45,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/6.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/6.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/charizard.mp3",
   },
   {
     "id": "7",
@@ -47,6 +53,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/7.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/7.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/squirtle.mp3",
   },
   {
     "id": "8",
@@ -54,6 +61,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/8.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/8.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wartortle.mp3",
   },
   {
     "id": "9",
@@ -61,6 +69,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/9.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/9.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/blastoise.mp3",
   },
   {
     "id": "10",
@@ -68,6 +77,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/10.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/caterpie.mp3",
   },
   {
     "id": "11",
@@ -75,6 +85,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/11.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/11.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/metapod.mp3",
   },
   {
     "id": "12",
@@ -82,6 +93,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/12.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/12.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/butterfree.mp3",
   },
   {
     "id": "13",
@@ -89,6 +101,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/13.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/13.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/weedle.mp3",
   },
   {
     "id": "14",
@@ -96,6 +109,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/14.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/14.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kakuna.mp3",
   },
   {
     "id": "15",
@@ -103,6 +117,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/15.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/15.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/beedrill.mp3",
   },
   {
     "id": "16",
@@ -110,6 +125,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/16.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/16.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pidgey.mp3",
   },
   {
     "id": "17",
@@ -117,6 +133,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/17.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/17.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pidgeotto.mp3",
   },
   {
     "id": "18",
@@ -124,6 +141,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/18.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/18.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pidgeot.mp3",
   },
   {
     "id": "19",
@@ -131,6 +149,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/19.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/19.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rattata.mp3",
   },
   {
     "id": "20",
@@ -138,6 +157,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/20.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/20.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/raticate.mp3",
   },
   {
     "id": "21",
@@ -145,6 +165,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/21.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/21.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/spearow.mp3",
   },
   {
     "id": "22",
@@ -152,6 +173,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/22.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/22.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/fearow.mp3",
   },
   {
     "id": "23",
@@ -159,6 +181,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/23.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/23.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ekans.mp3",
   },
   {
     "id": "24",
@@ -166,6 +189,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/24.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/24.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/arbok.mp3",
   },
   {
     "id": "25",
@@ -173,6 +197,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/25.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/25.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pikachu.mp3",
   },
   {
     "id": "26",
@@ -180,6 +205,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/26.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/26.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/raichu.mp3",
   },
   {
     "id": "27",
@@ -187,6 +213,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/27.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/27.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sandshrew.mp3",
   },
   {
     "id": "28",
@@ -194,6 +221,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/28.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/28.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sandslash.mp3",
   },
   {
     "id": "29",
@@ -201,6 +229,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/29.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/29.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nidoranâ™€.mp3",
   },
   {
     "id": "30",
@@ -208,6 +237,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/30.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/30.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nidorina.mp3",
   },
   {
     "id": "31",
@@ -215,6 +245,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/31.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/31.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nidoqueen.mp3",
   },
   {
     "id": "32",
@@ -222,6 +253,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/32.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/32.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nidoranâ™‚.mp3",
   },
   {
     "id": "33",
@@ -229,6 +261,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/33.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/33.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nidorino.mp3",
   },
   {
     "id": "34",
@@ -236,6 +269,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/34.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/34.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nidoking.mp3",
   },
   {
     "id": "35",
@@ -243,6 +277,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/35.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/35.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/clefairy.mp3",
   },
   {
     "id": "36",
@@ -250,6 +285,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/36.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/36.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/clefable.mp3",
   },
   {
     "id": "37",
@@ -257,6 +293,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/37.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/37.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vulpix.mp3",
   },
   {
     "id": "38",
@@ -264,6 +301,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/38.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/38.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ninetales.mp3",
   },
   {
     "id": "39",
@@ -271,6 +309,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/39.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/39.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/jigglypuff.mp3",
   },
   {
     "id": "40",
@@ -278,6 +317,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/40.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/40.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wigglytuff.mp3",
   },
   {
     "id": "41",
@@ -285,6 +325,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/41.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/41.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zubat.mp3",
   },
   {
     "id": "42",
@@ -292,6 +333,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/42.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/42.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/golbat.mp3",
   },
   {
     "id": "43",
@@ -299,6 +341,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/43.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/43.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/oddish.mp3",
   },
   {
     "id": "44",
@@ -306,6 +349,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/44.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/44.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gloom.mp3",
   },
   {
     "id": "45",
@@ -313,6 +357,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/45.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/45.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vileplume.mp3",
   },
   {
     "id": "46",
@@ -320,6 +365,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/46.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/46.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/paras.mp3",
   },
   {
     "id": "47",
@@ -327,6 +373,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/47.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/47.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/parasect.mp3",
   },
   {
     "id": "48",
@@ -334,6 +381,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/48.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/48.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/venonat.mp3",
   },
   {
     "id": "49",
@@ -341,6 +389,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/49.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/49.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/venomoth.mp3",
   },
   {
     "id": "50",
@@ -348,6 +397,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/50.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/50.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/diglett.mp3",
   },
   {
     "id": "51",
@@ -355,6 +405,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/51.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/51.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dugtrio.mp3",
   },
   {
     "id": "52",
@@ -362,6 +413,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/52.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/52.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/meowth.mp3",
   },
   {
     "id": "53",
@@ -369,6 +421,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/53.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/53.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/persian.mp3",
   },
   {
     "id": "54",
@@ -376,6 +429,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/54.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/54.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/psyduck.mp3",
   },
   {
     "id": "55",
@@ -383,6 +437,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/55.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/55.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/golduck.mp3",
   },
   {
     "id": "56",
@@ -390,6 +445,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/56.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/56.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mankey.mp3",
   },
   {
     "id": "57",
@@ -397,6 +453,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/57.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/57.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/primeape.mp3",
   },
   {
     "id": "58",
@@ -404,6 +461,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/58.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/58.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/growlithe.mp3",
   },
   {
     "id": "59",
@@ -411,6 +469,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/59.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/59.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/arcanine.mp3",
   },
   {
     "id": "60",
@@ -418,6 +477,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/60.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/60.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/poliwag.mp3",
   },
   {
     "id": "61",
@@ -425,6 +485,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/61.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/61.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/poliwhirl.mp3",
   },
   {
     "id": "62",
@@ -432,6 +493,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/62.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/62.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/poliwrath.mp3",
   },
   {
     "id": "63",
@@ -439,6 +501,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/63.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/63.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/abra.mp3",
   },
   {
     "id": "64",
@@ -446,6 +509,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/64.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/64.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kadabra.mp3",
   },
   {
     "id": "65",
@@ -453,6 +517,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/65.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/65.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/alakazam.mp3",
   },
   {
     "id": "66",
@@ -460,6 +525,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/66.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/66.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/machop.mp3",
   },
   {
     "id": "67",
@@ -467,6 +533,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/67.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/67.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/machoke.mp3",
   },
   {
     "id": "68",
@@ -474,6 +541,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/68.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/68.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/machamp.mp3",
   },
   {
     "id": "69",
@@ -481,6 +549,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/69.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/69.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bellsprout.mp3",
   },
   {
     "id": "70",
@@ -488,6 +557,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/70.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/70.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/weepinbell.mp3",
   },
   {
     "id": "71",
@@ -495,6 +565,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/71.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/71.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/victreebel.mp3",
   },
   {
     "id": "72",
@@ -502,6 +573,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/72.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/72.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tentacool.mp3",
   },
   {
     "id": "73",
@@ -509,6 +581,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/73.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/73.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tentacruel.mp3",
   },
   {
     "id": "74",
@@ -516,6 +589,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/74.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/74.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/geodude.mp3",
   },
   {
     "id": "75",
@@ -523,6 +597,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/75.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/75.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/graveler.mp3",
   },
   {
     "id": "76",
@@ -530,6 +605,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/76.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/76.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/golem.mp3",
   },
   {
     "id": "77",
@@ -537,6 +613,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/77.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/77.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ponyta.mp3",
   },
   {
     "id": "78",
@@ -544,6 +621,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/78.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/78.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rapidash.mp3",
   },
   {
     "id": "79",
@@ -551,6 +629,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/79.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/79.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/slowpoke.mp3",
   },
   {
     "id": "80",
@@ -558,6 +637,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/80.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/80.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/slowbro.mp3",
   },
   {
     "id": "81",
@@ -565,6 +645,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/81.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/81.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/magnemite.mp3",
   },
   {
     "id": "82",
@@ -572,6 +653,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/82.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/82.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/magneton.mp3",
   },
   {
     "id": "83",
@@ -579,6 +661,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/83.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/83.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/farfetchd.mp3",
   },
   {
     "id": "84",
@@ -586,6 +669,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/84.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/84.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/doduo.mp3",
   },
   {
     "id": "85",
@@ -593,6 +677,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/85.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/85.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dodrio.mp3",
   },
   {
     "id": "86",
@@ -600,6 +685,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/86.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/86.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/seel.mp3",
   },
   {
     "id": "87",
@@ -607,6 +693,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/87.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/87.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dewgong.mp3",
   },
   {
     "id": "88",
@@ -614,6 +701,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/88.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/88.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/grimer.mp3",
   },
   {
     "id": "89",
@@ -621,6 +709,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/89.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/89.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/muk.mp3",
   },
   {
     "id": "90",
@@ -628,6 +717,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/90.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/90.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shellder.mp3",
   },
   {
     "id": "91",
@@ -635,6 +725,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/91.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/91.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cloyster.mp3",
   },
   {
     "id": "92",
@@ -642,6 +733,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/92.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/92.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gastly.mp3",
   },
   {
     "id": "93",
@@ -649,6 +741,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/93.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/93.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/haunter.mp3",
   },
   {
     "id": "94",
@@ -656,6 +749,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/94.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/94.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gengar.mp3",
   },
   {
     "id": "95",
@@ -663,6 +757,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/95.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/95.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/onix.mp3",
   },
   {
     "id": "96",
@@ -670,6 +765,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/96.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/96.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/drowzee.mp3",
   },
   {
     "id": "97",
@@ -677,6 +773,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/97.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/97.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hypno.mp3",
   },
   {
     "id": "98",
@@ -684,6 +781,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/98.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/98.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/krabby.mp3",
   },
   {
     "id": "99",
@@ -691,6 +789,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/99.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/99.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kingler.mp3",
   },
   {
     "id": "100",
@@ -698,6 +797,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/100.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/100.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/voltorb.mp3",
   },
   {
     "id": "101",
@@ -705,6 +805,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/101.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/101.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/electrode.mp3",
   },
   {
     "id": "102",
@@ -712,6 +813,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/102.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/102.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/exeggcute.mp3",
   },
   {
     "id": "103",
@@ -719,6 +821,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/103.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/103.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/exeggutor.mp3",
   },
   {
     "id": "104",
@@ -726,6 +829,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/104.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/104.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cubone.mp3",
   },
   {
     "id": "105",
@@ -733,6 +837,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/105.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/105.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/marowak.mp3",
   },
   {
     "id": "106",
@@ -740,6 +845,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/106.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/106.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hitmonlee.mp3",
   },
   {
     "id": "107",
@@ -747,6 +853,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/107.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/107.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hitmonchan.mp3",
   },
   {
     "id": "108",
@@ -754,6 +861,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/108.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/108.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lickitung.mp3",
   },
   {
     "id": "109",
@@ -761,6 +869,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/109.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/109.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/koffing.mp3",
   },
   {
     "id": "110",
@@ -768,6 +877,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/110.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/110.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/weezing.mp3",
   },
   {
     "id": "111",
@@ -775,6 +885,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/111.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/111.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rhyhorn.mp3",
   },
   {
     "id": "112",
@@ -782,6 +893,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/112.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/112.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rhydon.mp3",
   },
   {
     "id": "113",
@@ -789,6 +901,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/113.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/113.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chansey.mp3",
   },
   {
     "id": "114",
@@ -796,6 +909,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/114.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/114.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tangela.mp3",
   },
   {
     "id": "115",
@@ -803,6 +917,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/115.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/115.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kangaskhan.mp3",
   },
   {
     "id": "116",
@@ -810,6 +925,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/116.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/116.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/horsea.mp3",
   },
   {
     "id": "117",
@@ -817,6 +933,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/117.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/117.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/seadra.mp3",
   },
   {
     "id": "118",
@@ -824,6 +941,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/118.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/118.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/goldeen.mp3",
   },
   {
     "id": "119",
@@ -831,6 +949,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/119.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/119.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/seaking.mp3",
   },
   {
     "id": "120",
@@ -838,6 +957,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/120.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/120.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/staryu.mp3",
   },
   {
     "id": "121",
@@ -845,6 +965,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/121.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/121.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/starmie.mp3",
   },
   {
     "id": "122",
@@ -852,6 +973,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/122.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/122.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mrmime.mp3",
   },
   {
     "id": "123",
@@ -859,6 +981,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/123.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/123.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/scyther.mp3",
   },
   {
     "id": "124",
@@ -866,6 +989,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/124.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/124.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/jynx.mp3",
   },
   {
     "id": "125",
@@ -873,6 +997,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/125.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/125.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/electabuzz.mp3",
   },
   {
     "id": "126",
@@ -880,6 +1005,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/126.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/126.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/magmar.mp3",
   },
   {
     "id": "127",
@@ -887,6 +1013,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/127.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/127.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pinsir.mp3",
   },
   {
     "id": "128",
@@ -894,6 +1021,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/128.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/128.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tauros.mp3",
   },
   {
     "id": "129",
@@ -901,6 +1029,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/129.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/129.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/magikarp.mp3",
   },
   {
     "id": "130",
@@ -908,6 +1037,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/130.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/130.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gyarados.mp3",
   },
   {
     "id": "131",
@@ -915,6 +1045,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/131.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/131.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lapras.mp3",
   },
   {
     "id": "132",
@@ -922,6 +1053,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/132.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/132.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ditto.mp3",
   },
   {
     "id": "133",
@@ -929,6 +1061,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/133.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/133.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/eevee.mp3",
   },
   {
     "id": "134",
@@ -936,6 +1069,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/134.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/134.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vaporeon.mp3",
   },
   {
     "id": "135",
@@ -943,6 +1077,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/135.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/135.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/jolteon.mp3",
   },
   {
     "id": "136",
@@ -950,6 +1085,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/136.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/136.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/flareon.mp3",
   },
   {
     "id": "137",
@@ -957,6 +1093,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/137.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/137.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/porygon.mp3",
   },
   {
     "id": "138",
@@ -964,6 +1101,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/138.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/138.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/omanyte.mp3",
   },
   {
     "id": "139",
@@ -971,6 +1109,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/139.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/139.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/omastar.mp3",
   },
   {
     "id": "140",
@@ -978,6 +1117,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/140.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/140.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kabuto.mp3",
   },
   {
     "id": "141",
@@ -985,6 +1125,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/141.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/141.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kabutops.mp3",
   },
   {
     "id": "142",
@@ -992,6 +1133,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/142.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/142.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/aerodactyl.mp3",
   },
   {
     "id": "143",
@@ -999,6 +1141,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/143.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/143.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/snorlax.mp3",
   },
   {
     "id": "144",
@@ -1006,6 +1149,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/144.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/144.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/articuno.mp3",
   },
   {
     "id": "145",
@@ -1013,6 +1157,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/145.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/145.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zapdos.mp3",
   },
   {
     "id": "146",
@@ -1020,6 +1165,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/146.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/146.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/moltres.mp3",
   },
   {
     "id": "147",
@@ -1027,6 +1173,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/147.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/147.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dratini.mp3",
   },
   {
     "id": "148",
@@ -1034,6 +1181,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/148.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/148.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dragonair.mp3",
   },
   {
     "id": "149",
@@ -1041,6 +1189,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/149.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/149.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dragonite.mp3",
   },
   {
     "id": "150",
@@ -1048,6 +1197,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/150.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/150.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mewtwo.mp3",
   },
   {
     "id": "151",
@@ -1055,6 +1205,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/151.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/151.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mew.mp3",
   },
   {
     "id": "152",
@@ -1062,6 +1213,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/152.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/152.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chikorita.mp3",
   },
   {
     "id": "153",
@@ -1069,6 +1221,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/153.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/153.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bayleef.mp3",
   },
   {
     "id": "154",
@@ -1076,6 +1229,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/154.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/154.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/meganium.mp3",
   },
   {
     "id": "155",
@@ -1083,6 +1237,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/155.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/155.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cyndaquil.mp3",
   },
   {
     "id": "156",
@@ -1090,6 +1245,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/156.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/156.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/quilava.mp3",
   },
   {
     "id": "157",
@@ -1097,6 +1253,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/157.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/157.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/typhlosion.mp3",
   },
   {
     "id": "158",
@@ -1104,6 +1261,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/158.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/158.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/totodile.mp3",
   },
   {
     "id": "159",
@@ -1111,6 +1269,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/159.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/159.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/croconaw.mp3",
   },
   {
     "id": "160",
@@ -1118,6 +1277,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/160.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/160.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/feraligatr.mp3",
   },
   {
     "id": "161",
@@ -1125,6 +1285,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/161.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/161.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sentret.mp3",
   },
   {
     "id": "162",
@@ -1132,6 +1293,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/162.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/162.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/furret.mp3",
   },
   {
     "id": "163",
@@ -1139,6 +1301,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/163.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/163.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hoothoot.mp3",
   },
   {
     "id": "164",
@@ -1146,6 +1309,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/164.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/164.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/noctowl.mp3",
   },
   {
     "id": "165",
@@ -1153,6 +1317,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/165.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/165.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ledyba.mp3",
   },
   {
     "id": "166",
@@ -1160,6 +1325,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/166.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/166.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ledian.mp3",
   },
   {
     "id": "167",
@@ -1167,6 +1333,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/167.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/167.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/spinarak.mp3",
   },
   {
     "id": "168",
@@ -1174,6 +1341,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/168.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/168.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ariados.mp3",
   },
   {
     "id": "169",
@@ -1181,6 +1349,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/169.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/169.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/crobat.mp3",
   },
   {
     "id": "170",
@@ -1188,6 +1357,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/170.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/170.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chinchou.mp3",
   },
   {
     "id": "171",
@@ -1195,6 +1365,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/171.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/171.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lanturn.mp3",
   },
   {
     "id": "172",
@@ -1202,6 +1373,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/172.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/172.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pichu.mp3",
   },
   {
     "id": "173",
@@ -1209,6 +1381,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/173.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/173.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cleffa.mp3",
   },
   {
     "id": "174",
@@ -1216,6 +1389,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/174.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/174.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/igglybuff.mp3",
   },
   {
     "id": "175",
@@ -1223,6 +1397,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/175.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/175.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/togepi.mp3",
   },
   {
     "id": "176",
@@ -1230,6 +1405,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/176.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/176.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/togetic.mp3",
   },
   {
     "id": "177",
@@ -1237,6 +1413,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/177.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/177.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/natu.mp3",
   },
   {
     "id": "178",
@@ -1244,6 +1421,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/178.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/178.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/xatu.mp3",
   },
   {
     "id": "179",
@@ -1251,6 +1429,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/179.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/179.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mareep.mp3",
   },
   {
     "id": "180",
@@ -1258,6 +1437,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/180.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/180.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/flaaffy.mp3",
   },
   {
     "id": "181",
@@ -1265,6 +1445,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/181.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/181.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ampharos.mp3",
   },
   {
     "id": "182",
@@ -1272,6 +1453,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/182.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/182.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bellossom.mp3",
   },
   {
     "id": "183",
@@ -1279,6 +1461,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/183.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/183.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/marill.mp3",
   },
   {
     "id": "184",
@@ -1286,6 +1469,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/184.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/184.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/azumarill.mp3",
   },
   {
     "id": "185",
@@ -1293,6 +1477,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/185.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/185.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sudowoodo.mp3",
   },
   {
     "id": "186",
@@ -1300,6 +1485,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/186.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/186.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/politoed.mp3",
   },
   {
     "id": "187",
@@ -1307,6 +1493,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/187.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/187.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hoppip.mp3",
   },
   {
     "id": "188",
@@ -1314,6 +1501,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/188.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/188.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/skiploom.mp3",
   },
   {
     "id": "189",
@@ -1321,6 +1509,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/189.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/189.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/jumpluff.mp3",
   },
   {
     "id": "190",
@@ -1328,6 +1517,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/190.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/190.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/aipom.mp3",
   },
   {
     "id": "191",
@@ -1335,6 +1525,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/191.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/191.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sunkern.mp3",
   },
   {
     "id": "192",
@@ -1342,6 +1533,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/192.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/192.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sunflora.mp3",
   },
   {
     "id": "193",
@@ -1349,6 +1541,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/193.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/193.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/yanma.mp3",
   },
   {
     "id": "194",
@@ -1356,6 +1549,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/194.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/194.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wooper.mp3",
   },
   {
     "id": "195",
@@ -1363,6 +1557,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/195.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/195.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/quagsire.mp3",
   },
   {
     "id": "196",
@@ -1370,6 +1565,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/196.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/196.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/espeon.mp3",
   },
   {
     "id": "197",
@@ -1377,6 +1573,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/197.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/197.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/umbreon.mp3",
   },
   {
     "id": "198",
@@ -1384,6 +1581,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/198.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/198.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/murkrow.mp3",
   },
   {
     "id": "199",
@@ -1391,6 +1589,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/199.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/199.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/slowking.mp3",
   },
   {
     "id": "200",
@@ -1398,6 +1597,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/200.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/200.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/misdreavus.mp3",
   },
   {
     "id": "201",
@@ -1405,6 +1605,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/201.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/201.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/unown.mp3",
   },
   {
     "id": "202",
@@ -1412,6 +1613,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/202.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/202.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wobbuffet.mp3",
   },
   {
     "id": "203",
@@ -1419,6 +1621,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/203.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/203.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/girafarig.mp3",
   },
   {
     "id": "204",
@@ -1426,6 +1629,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/204.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/204.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pineco.mp3",
   },
   {
     "id": "205",
@@ -1433,6 +1637,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/205.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/205.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/forretress.mp3",
   },
   {
     "id": "206",
@@ -1440,6 +1645,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/206.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/206.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dunsparce.mp3",
   },
   {
     "id": "207",
@@ -1447,6 +1653,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/207.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/207.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gligar.mp3",
   },
   {
     "id": "208",
@@ -1454,6 +1661,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/208.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/208.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/steelix.mp3",
   },
   {
     "id": "209",
@@ -1461,6 +1669,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/209.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/209.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/snubbull.mp3",
   },
   {
     "id": "210",
@@ -1468,6 +1677,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/210.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/210.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/granbull.mp3",
   },
   {
     "id": "211",
@@ -1475,6 +1685,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/211.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/211.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/qwilfish.mp3",
   },
   {
     "id": "212",
@@ -1482,6 +1693,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/212.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/212.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/scizor.mp3",
   },
   {
     "id": "213",
@@ -1489,6 +1701,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/213.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/213.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shuckle.mp3",
   },
   {
     "id": "214",
@@ -1496,6 +1709,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/214.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/214.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/heracross.mp3",
   },
   {
     "id": "215",
@@ -1503,6 +1717,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/215.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/215.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sneasel.mp3",
   },
   {
     "id": "216",
@@ -1510,6 +1725,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/216.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/216.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/teddiursa.mp3",
   },
   {
     "id": "217",
@@ -1517,6 +1733,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/217.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/217.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ursaring.mp3",
   },
   {
     "id": "218",
@@ -1524,6 +1741,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/218.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/218.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/slugma.mp3",
   },
   {
     "id": "219",
@@ -1531,6 +1749,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/219.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/219.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/magcargo.mp3",
   },
   {
     "id": "220",
@@ -1538,6 +1757,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/220.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/220.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/swinub.mp3",
   },
   {
     "id": "221",
@@ -1545,6 +1765,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/221.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/221.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/piloswine.mp3",
   },
   {
     "id": "222",
@@ -1552,6 +1773,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/222.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/222.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/corsola.mp3",
   },
   {
     "id": "223",
@@ -1559,6 +1781,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/223.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/223.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/remoraid.mp3",
   },
   {
     "id": "224",
@@ -1566,6 +1789,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/224.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/224.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/octillery.mp3",
   },
   {
     "id": "225",
@@ -1573,6 +1797,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/225.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/225.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/delibird.mp3",
   },
   {
     "id": "226",
@@ -1580,6 +1805,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/226.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/226.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mantine.mp3",
   },
   {
     "id": "227",
@@ -1587,6 +1813,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/227.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/227.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/skarmory.mp3",
   },
   {
     "id": "228",
@@ -1594,6 +1821,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/228.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/228.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/houndour.mp3",
   },
   {
     "id": "229",
@@ -1601,6 +1829,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/229.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/229.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/houndoom.mp3",
   },
   {
     "id": "230",
@@ -1608,6 +1837,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/230.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/230.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kingdra.mp3",
   },
   {
     "id": "231",
@@ -1615,6 +1845,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/231.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/231.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/phanpy.mp3",
   },
   {
     "id": "232",
@@ -1622,6 +1853,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/232.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/232.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/donphan.mp3",
   },
   {
     "id": "233",
@@ -1629,6 +1861,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/233.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/233.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/porygon2.mp3",
   },
   {
     "id": "234",
@@ -1636,6 +1869,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/234.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/234.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/stantler.mp3",
   },
   {
     "id": "235",
@@ -1643,6 +1877,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/235.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/235.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/smeargle.mp3",
   },
   {
     "id": "236",
@@ -1650,6 +1885,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/236.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/236.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tyrogue.mp3",
   },
   {
     "id": "237",
@@ -1657,6 +1893,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/237.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/237.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hitmontop.mp3",
   },
   {
     "id": "238",
@@ -1664,6 +1901,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/238.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/238.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/smoochum.mp3",
   },
   {
     "id": "239",
@@ -1671,6 +1909,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/239.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/239.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/elekid.mp3",
   },
   {
     "id": "240",
@@ -1678,6 +1917,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/240.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/240.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/magby.mp3",
   },
   {
     "id": "241",
@@ -1685,6 +1925,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/241.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/241.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/miltank.mp3",
   },
   {
     "id": "242",
@@ -1692,6 +1933,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/242.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/242.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/blissey.mp3",
   },
   {
     "id": "243",
@@ -1699,6 +1941,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/243.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/243.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/raikou.mp3",
   },
   {
     "id": "244",
@@ -1706,6 +1949,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/244.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/244.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/entei.mp3",
   },
   {
     "id": "245",
@@ -1713,6 +1957,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/245.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/245.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/suicune.mp3",
   },
   {
     "id": "246",
@@ -1720,6 +1965,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/246.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/246.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/larvitar.mp3",
   },
   {
     "id": "247",
@@ -1727,6 +1973,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/247.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/247.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pupitar.mp3",
   },
   {
     "id": "248",
@@ -1734,6 +1981,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/248.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/248.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tyranitar.mp3",
   },
   {
     "id": "249",
@@ -1741,6 +1989,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/249.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/249.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lugia.mp3",
   },
   {
     "id": "250",
@@ -1748,6 +1997,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/250.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/250.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hooh.mp3",
   },
   {
     "id": "251",
@@ -1755,6 +2005,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/251.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/251.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/celebi.mp3",
   },
   {
     "id": "252",
@@ -1762,6 +2013,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/252.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/252.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/treecko.mp3",
   },
   {
     "id": "253",
@@ -1769,6 +2021,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/253.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/253.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/grovyle.mp3",
   },
   {
     "id": "254",
@@ -1776,6 +2029,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/254.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/254.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sceptile.mp3",
   },
   {
     "id": "255",
@@ -1783,6 +2037,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/255.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/255.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/torchic.mp3",
   },
   {
     "id": "256",
@@ -1790,6 +2045,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/256.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/256.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/combusken.mp3",
   },
   {
     "id": "257",
@@ -1797,6 +2053,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/257.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/257.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/blaziken.mp3",
   },
   {
     "id": "258",
@@ -1804,6 +2061,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/258.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/258.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mudkip.mp3",
   },
   {
     "id": "259",
@@ -1811,6 +2069,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/259.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/259.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/marshtomp.mp3",
   },
   {
     "id": "260",
@@ -1818,6 +2077,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/260.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/260.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/swampert.mp3",
   },
   {
     "id": "261",
@@ -1825,6 +2085,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/261.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/261.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/poochyena.mp3",
   },
   {
     "id": "262",
@@ -1832,6 +2093,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/262.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/262.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mightyena.mp3",
   },
   {
     "id": "263",
@@ -1839,6 +2101,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/263.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/263.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zigzagoon.mp3",
   },
   {
     "id": "264",
@@ -1846,6 +2109,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/264.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/264.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/linoone.mp3",
   },
   {
     "id": "265",
@@ -1853,6 +2117,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/265.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/265.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wurmple.mp3",
   },
   {
     "id": "266",
@@ -1860,6 +2125,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/266.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/266.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/silcoon.mp3",
   },
   {
     "id": "267",
@@ -1867,6 +2133,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/267.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/267.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/beautifly.mp3",
   },
   {
     "id": "268",
@@ -1874,6 +2141,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/268.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/268.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cascoon.mp3",
   },
   {
     "id": "269",
@@ -1881,6 +2149,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/269.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/269.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dustox.mp3",
   },
   {
     "id": "270",
@@ -1888,6 +2157,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/270.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/270.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lotad.mp3",
   },
   {
     "id": "271",
@@ -1895,6 +2165,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/271.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/271.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lombre.mp3",
   },
   {
     "id": "272",
@@ -1902,6 +2173,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/272.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/272.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ludicolo.mp3",
   },
   {
     "id": "273",
@@ -1909,6 +2181,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/273.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/273.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/seedot.mp3",
   },
   {
     "id": "274",
@@ -1916,6 +2189,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/274.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/274.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nuzleaf.mp3",
   },
   {
     "id": "275",
@@ -1923,6 +2197,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/275.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/275.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shiftry.mp3",
   },
   {
     "id": "276",
@@ -1930,6 +2205,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/276.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/276.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/taillow.mp3",
   },
   {
     "id": "277",
@@ -1937,6 +2213,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/277.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/277.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/swellow.mp3",
   },
   {
     "id": "278",
@@ -1944,6 +2221,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/278.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/278.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wingull.mp3",
   },
   {
     "id": "279",
@@ -1951,6 +2229,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/279.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/279.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pelipper.mp3",
   },
   {
     "id": "280",
@@ -1958,6 +2237,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/280.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/280.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ralts.mp3",
   },
   {
     "id": "281",
@@ -1965,6 +2245,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/281.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/281.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kirlia.mp3",
   },
   {
     "id": "282",
@@ -1972,6 +2253,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/282.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/282.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gardevoir.mp3",
   },
   {
     "id": "283",
@@ -1979,6 +2261,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/283.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/283.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/surskit.mp3",
   },
   {
     "id": "284",
@@ -1986,6 +2269,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/284.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/284.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/masquerain.mp3",
   },
   {
     "id": "285",
@@ -1993,6 +2277,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/285.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/285.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shroomish.mp3",
   },
   {
     "id": "286",
@@ -2000,6 +2285,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/286.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/286.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/breloom.mp3",
   },
   {
     "id": "287",
@@ -2007,6 +2293,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/287.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/287.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/slakoth.mp3",
   },
   {
     "id": "288",
@@ -2014,6 +2301,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/288.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/288.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vigoroth.mp3",
   },
   {
     "id": "289",
@@ -2021,6 +2309,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/289.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/289.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/slaking.mp3",
   },
   {
     "id": "290",
@@ -2028,6 +2317,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/290.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/290.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nincada.mp3",
   },
   {
     "id": "291",
@@ -2035,6 +2325,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/291.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/291.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ninjask.mp3",
   },
   {
     "id": "292",
@@ -2042,6 +2333,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/292.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/292.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shedinja.mp3",
   },
   {
     "id": "293",
@@ -2049,6 +2341,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/293.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/293.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/whismur.mp3",
   },
   {
     "id": "294",
@@ -2056,6 +2349,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/294.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/294.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/loudred.mp3",
   },
   {
     "id": "295",
@@ -2063,6 +2357,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/295.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/295.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/exploud.mp3",
   },
   {
     "id": "296",
@@ -2070,6 +2365,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/296.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/296.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/makuhita.mp3",
   },
   {
     "id": "297",
@@ -2077,6 +2373,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/297.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/297.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hariyama.mp3",
   },
   {
     "id": "298",
@@ -2084,6 +2381,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/298.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/298.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/azurill.mp3",
   },
   {
     "id": "299",
@@ -2091,6 +2389,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/299.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/299.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nosepass.mp3",
   },
   {
     "id": "300",
@@ -2098,6 +2397,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/300.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/300.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/skitty.mp3",
   },
   {
     "id": "301",
@@ -2105,6 +2405,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/301.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/301.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/delcatty.mp3",
   },
   {
     "id": "302",
@@ -2112,6 +2413,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/302.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/302.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sableye.mp3",
   },
   {
     "id": "303",
@@ -2119,6 +2421,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/303.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/303.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mawile.mp3",
   },
   {
     "id": "304",
@@ -2126,6 +2429,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/304.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/304.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/aron.mp3",
   },
   {
     "id": "305",
@@ -2133,6 +2437,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/305.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/305.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lairon.mp3",
   },
   {
     "id": "306",
@@ -2140,6 +2445,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/306.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/306.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/aggron.mp3",
   },
   {
     "id": "307",
@@ -2147,6 +2453,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/307.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/307.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/meditite.mp3",
   },
   {
     "id": "308",
@@ -2154,6 +2461,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/308.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/308.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/medicham.mp3",
   },
   {
     "id": "309",
@@ -2161,6 +2469,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/309.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/309.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/electrike.mp3",
   },
   {
     "id": "310",
@@ -2168,6 +2477,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/310.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/310.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/manectric.mp3",
   },
   {
     "id": "311",
@@ -2175,6 +2485,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/311.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/311.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/plusle.mp3",
   },
   {
     "id": "312",
@@ -2182,6 +2493,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/312.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/312.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/minun.mp3",
   },
   {
     "id": "313",
@@ -2189,6 +2501,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/313.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/313.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/volbeat.mp3",
   },
   {
     "id": "314",
@@ -2196,6 +2509,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/314.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/314.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/illumise.mp3",
   },
   {
     "id": "315",
@@ -2203,6 +2517,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/315.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/315.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/roselia.mp3",
   },
   {
     "id": "316",
@@ -2210,6 +2525,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/316.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/316.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gulpin.mp3",
   },
   {
     "id": "317",
@@ -2217,6 +2533,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/317.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/317.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/swalot.mp3",
   },
   {
     "id": "318",
@@ -2224,6 +2541,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/318.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/318.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/carvanha.mp3",
   },
   {
     "id": "319",
@@ -2231,6 +2549,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/319.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/319.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sharpedo.mp3",
   },
   {
     "id": "320",
@@ -2238,6 +2557,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/320.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/320.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wailmer.mp3",
   },
   {
     "id": "321",
@@ -2245,6 +2565,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/321.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/321.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wailord.mp3",
   },
   {
     "id": "322",
@@ -2252,6 +2573,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/322.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/322.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/numel.mp3",
   },
   {
     "id": "323",
@@ -2259,6 +2581,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/323.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/323.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/camerupt.mp3",
   },
   {
     "id": "324",
@@ -2266,6 +2589,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/324.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/324.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/torkoal.mp3",
   },
   {
     "id": "325",
@@ -2273,6 +2597,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/325.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/325.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/spoink.mp3",
   },
   {
     "id": "326",
@@ -2280,6 +2605,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/326.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/326.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/grumpig.mp3",
   },
   {
     "id": "327",
@@ -2287,6 +2613,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/327.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/327.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/spinda.mp3",
   },
   {
     "id": "328",
@@ -2294,6 +2621,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/328.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/328.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/trapinch.mp3",
   },
   {
     "id": "329",
@@ -2301,6 +2629,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/329.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/329.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vibrava.mp3",
   },
   {
     "id": "330",
@@ -2308,6 +2637,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/330.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/330.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/flygon.mp3",
   },
   {
     "id": "331",
@@ -2315,6 +2645,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/331.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/331.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cacnea.mp3",
   },
   {
     "id": "332",
@@ -2322,6 +2653,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/332.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/332.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/332.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cacturne.mp3",
   },
   {
     "id": "333",
@@ -2329,6 +2661,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/333.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/333.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/swablu.mp3",
   },
   {
     "id": "334",
@@ -2336,6 +2669,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/334.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/334.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/altaria.mp3",
   },
   {
     "id": "335",
@@ -2343,6 +2677,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/335.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/335.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zangoose.mp3",
   },
   {
     "id": "336",
@@ -2350,6 +2685,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/336.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/336.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/seviper.mp3",
   },
   {
     "id": "337",
@@ -2357,6 +2693,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/337.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/337.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lunatone.mp3",
   },
   {
     "id": "338",
@@ -2364,6 +2701,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/338.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/338.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/solrock.mp3",
   },
   {
     "id": "339",
@@ -2371,6 +2709,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/339.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/339.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/barboach.mp3",
   },
   {
     "id": "340",
@@ -2378,6 +2717,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/340.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/340.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/whiscash.mp3",
   },
   {
     "id": "341",
@@ -2385,6 +2725,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/341.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/341.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/corphish.mp3",
   },
   {
     "id": "342",
@@ -2392,6 +2733,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/342.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/342.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/crawdaunt.mp3",
   },
   {
     "id": "343",
@@ -2399,6 +2741,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/343.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/343.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/baltoy.mp3",
   },
   {
     "id": "344",
@@ -2406,6 +2749,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/344.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/344.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/claydol.mp3",
   },
   {
     "id": "345",
@@ -2413,6 +2757,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/345.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/345.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lileep.mp3",
   },
   {
     "id": "346",
@@ -2420,6 +2765,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/346.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/346.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cradily.mp3",
   },
   {
     "id": "347",
@@ -2427,6 +2773,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/347.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/347.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/anorith.mp3",
   },
   {
     "id": "348",
@@ -2434,6 +2781,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/348.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/348.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/armaldo.mp3",
   },
   {
     "id": "349",
@@ -2441,6 +2789,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/349.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/349.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/feebas.mp3",
   },
   {
     "id": "350",
@@ -2448,6 +2797,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/350.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/350.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/milotic.mp3",
   },
   {
     "id": "351",
@@ -2455,6 +2805,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/351.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/351.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/castform.mp3",
   },
   {
     "id": "352",
@@ -2462,6 +2813,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/352.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/352.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kecleon.mp3",
   },
   {
     "id": "353",
@@ -2469,6 +2821,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/353.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/353.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shuppet.mp3",
   },
   {
     "id": "354",
@@ -2476,6 +2829,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/354.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/354.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/banette.mp3",
   },
   {
     "id": "355",
@@ -2483,6 +2837,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/355.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/355.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/duskull.mp3",
   },
   {
     "id": "356",
@@ -2490,6 +2845,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/356.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/356.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dusclops.mp3",
   },
   {
     "id": "357",
@@ -2497,6 +2853,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/357.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/357.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tropius.mp3",
   },
   {
     "id": "358",
@@ -2504,6 +2861,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/358.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/358.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chimecho.mp3",
   },
   {
     "id": "359",
@@ -2511,6 +2869,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/359.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/359.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/absol.mp3",
   },
   {
     "id": "360",
@@ -2518,6 +2877,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/360.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/360.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wynaut.mp3",
   },
   {
     "id": "361",
@@ -2525,6 +2885,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/361.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/361.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/snorunt.mp3",
   },
   {
     "id": "362",
@@ -2532,6 +2893,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/362.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/362.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/glalie.mp3",
   },
   {
     "id": "363",
@@ -2539,6 +2901,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/363.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/363.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/spheal.mp3",
   },
   {
     "id": "364",
@@ -2546,6 +2909,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/364.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/364.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sealeo.mp3",
   },
   {
     "id": "365",
@@ -2553,6 +2917,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/365.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/365.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/walrein.mp3",
   },
   {
     "id": "366",
@@ -2560,6 +2925,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/366.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/366.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/clamperl.mp3",
   },
   {
     "id": "367",
@@ -2567,6 +2933,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/367.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/367.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/huntail.mp3",
   },
   {
     "id": "368",
@@ -2574,6 +2941,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/368.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/368.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gorebyss.mp3",
   },
   {
     "id": "369",
@@ -2581,6 +2949,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/369.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/369.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/relicanth.mp3",
   },
   {
     "id": "370",
@@ -2588,6 +2957,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/370.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/370.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/luvdisc.mp3",
   },
   {
     "id": "371",
@@ -2595,6 +2965,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/371.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/371.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bagon.mp3",
   },
   {
     "id": "372",
@@ -2602,6 +2973,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/372.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/372.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shelgon.mp3",
   },
   {
     "id": "373",
@@ -2609,6 +2981,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/373.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/373.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/salamence.mp3",
   },
   {
     "id": "374",
@@ -2616,6 +2989,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/374.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/374.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/beldum.mp3",
   },
   {
     "id": "375",
@@ -2623,6 +2997,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/375.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/375.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/metang.mp3",
   },
   {
     "id": "376",
@@ -2630,6 +3005,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/376.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/376.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/metagross.mp3",
   },
   {
     "id": "377",
@@ -2637,6 +3013,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/377.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/377.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/regirock.mp3",
   },
   {
     "id": "378",
@@ -2644,6 +3021,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/378.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/378.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/regice.mp3",
   },
   {
     "id": "379",
@@ -2651,6 +3029,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/379.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/379.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/registeel.mp3",
   },
   {
     "id": "380",
@@ -2658,6 +3037,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/380.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/380.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/latias.mp3",
   },
   {
     "id": "381",
@@ -2665,6 +3045,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/381.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/381.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/latios.mp3",
   },
   {
     "id": "382",
@@ -2672,6 +3053,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/382.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/382.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kyogre.mp3",
   },
   {
     "id": "383",
@@ -2679,6 +3061,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/383.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/383.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/groudon.mp3",
   },
   {
     "id": "384",
@@ -2686,6 +3069,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/384.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/384.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rayquaza.mp3",
   },
   {
     "id": "385",
@@ -2693,6 +3077,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/385.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/385.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/jirachi.mp3",
   },
   {
     "id": "386",
@@ -2700,6 +3085,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/386.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/386.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/deoxys.mp3",
   },
   {
     "id": "387",
@@ -2707,6 +3093,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/387.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/387.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/turtwig.mp3",
   },
   {
     "id": "388",
@@ -2714,6 +3101,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/388.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/388.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/grotle.mp3",
   },
   {
     "id": "389",
@@ -2721,6 +3109,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/389.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/389.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/torterra.mp3",
   },
   {
     "id": "390",
@@ -2728,6 +3117,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/390.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/390.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chimchar.mp3",
   },
   {
     "id": "391",
@@ -2735,6 +3125,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/391.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/391.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/monferno.mp3",
   },
   {
     "id": "392",
@@ -2742,6 +3133,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/392.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/392.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/infernape.mp3",
   },
   {
     "id": "393",
@@ -2749,6 +3141,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/393.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/393.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/piplup.mp3",
   },
   {
     "id": "394",
@@ -2756,6 +3149,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/394.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/394.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/prinplup.mp3",
   },
   {
     "id": "395",
@@ -2763,6 +3157,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/395.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/395.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/empoleon.mp3",
   },
   {
     "id": "396",
@@ -2770,6 +3165,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/396.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/396.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/starly.mp3",
   },
   {
     "id": "397",
@@ -2777,6 +3173,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/397.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/397.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/staravia.mp3",
   },
   {
     "id": "398",
@@ -2784,6 +3181,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/398.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/398.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/staraptor.mp3",
   },
   {
     "id": "399",
@@ -2791,6 +3189,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/399.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/399.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bidoof.mp3",
   },
   {
     "id": "400",
@@ -2798,6 +3197,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/400.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/400.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bibarel.mp3",
   },
   {
     "id": "401",
@@ -2805,6 +3205,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/401.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/401.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kricketot.mp3",
   },
   {
     "id": "402",
@@ -2812,6 +3213,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/402.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/402.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kricketune.mp3",
   },
   {
     "id": "403",
@@ -2819,6 +3221,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/403.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/403.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shinx.mp3",
   },
   {
     "id": "404",
@@ -2826,6 +3229,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/404.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/404.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/luxio.mp3",
   },
   {
     "id": "405",
@@ -2833,6 +3237,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/405.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/405.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/luxray.mp3",
   },
   {
     "id": "406",
@@ -2840,6 +3245,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/406.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/406.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/budew.mp3",
   },
   {
     "id": "407",
@@ -2847,6 +3253,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/407.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/407.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/roserade.mp3",
   },
   {
     "id": "408",
@@ -2854,6 +3261,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/408.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/408.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cranidos.mp3",
   },
   {
     "id": "409",
@@ -2861,6 +3269,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/409.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/409.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rampardos.mp3",
   },
   {
     "id": "410",
@@ -2868,6 +3277,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/410.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/410.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shieldon.mp3",
   },
   {
     "id": "411",
@@ -2875,6 +3285,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/411.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/411.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bastiodon.mp3",
   },
   {
     "id": "412",
@@ -2882,6 +3293,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/412.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/412.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/burmy.mp3",
   },
   {
     "id": "413",
@@ -2889,6 +3301,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/413.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/413.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wormadam.mp3",
   },
   {
     "id": "414",
@@ -2896,6 +3309,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/414.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/414.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mothim.mp3",
   },
   {
     "id": "415",
@@ -2903,6 +3317,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/415.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/415.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/combee.mp3",
   },
   {
     "id": "416",
@@ -2910,6 +3325,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/416.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/416.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vespiquen.mp3",
   },
   {
     "id": "417",
@@ -2917,6 +3333,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/417.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/417.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pachirisu.mp3",
   },
   {
     "id": "418",
@@ -2924,6 +3341,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/418.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/418.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/buizel.mp3",
   },
   {
     "id": "419",
@@ -2931,6 +3349,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/419.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/419.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/floatzel.mp3",
   },
   {
     "id": "420",
@@ -2938,6 +3357,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/420.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/420.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cherubi.mp3",
   },
   {
     "id": "421",
@@ -2945,6 +3365,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/421.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/421.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cherrim.mp3",
   },
   {
     "id": "422",
@@ -2952,6 +3373,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/422.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/422.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shellos.mp3",
   },
   {
     "id": "423",
@@ -2959,6 +3381,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/423.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/423.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gastrodon.mp3",
   },
   {
     "id": "424",
@@ -2966,6 +3389,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/424.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/424.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ambipom.mp3",
   },
   {
     "id": "425",
@@ -2973,6 +3397,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/425.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/425.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/drifloon.mp3",
   },
   {
     "id": "426",
@@ -2980,6 +3405,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/426.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/426.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/drifblim.mp3",
   },
   {
     "id": "427",
@@ -2987,6 +3413,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/427.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/427.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/buneary.mp3",
   },
   {
     "id": "428",
@@ -2994,6 +3421,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/428.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/428.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lopunny.mp3",
   },
   {
     "id": "429",
@@ -3001,6 +3429,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/429.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/429.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mismagius.mp3",
   },
   {
     "id": "430",
@@ -3008,6 +3437,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/430.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/430.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/honchkrow.mp3",
   },
   {
     "id": "431",
@@ -3015,6 +3445,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/431.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/431.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/glameow.mp3",
   },
   {
     "id": "432",
@@ -3022,6 +3453,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/432.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/432.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/purugly.mp3",
   },
   {
     "id": "433",
@@ -3029,6 +3461,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/433.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/433.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chingling.mp3",
   },
   {
     "id": "434",
@@ -3036,6 +3469,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/434.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/434.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/stunky.mp3",
   },
   {
     "id": "435",
@@ -3043,6 +3477,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/435.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/435.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/skuntank.mp3",
   },
   {
     "id": "436",
@@ -3050,6 +3485,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/436.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/436.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bronzor.mp3",
   },
   {
     "id": "437",
@@ -3057,6 +3493,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/437.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/437.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bronzong.mp3",
   },
   {
     "id": "438",
@@ -3064,6 +3501,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/438.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/438.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bonsly.mp3",
   },
   {
     "id": "439",
@@ -3071,6 +3509,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/439.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/439.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mimejr.mp3",
   },
   {
     "id": "440",
@@ -3078,6 +3517,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/440.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/440.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/happiny.mp3",
   },
   {
     "id": "441",
@@ -3085,6 +3525,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/441.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/441.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chatot.mp3",
   },
   {
     "id": "442",
@@ -3092,6 +3533,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/442.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/442.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/spiritomb.mp3",
   },
   {
     "id": "443",
@@ -3099,6 +3541,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/443.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/443.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gible.mp3",
   },
   {
     "id": "444",
@@ -3106,6 +3549,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/444.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/444.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gabite.mp3",
   },
   {
     "id": "445",
@@ -3113,6 +3557,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/445.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/445.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/garchomp.mp3",
   },
   {
     "id": "446",
@@ -3120,6 +3565,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/446.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/446.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/munchlax.mp3",
   },
   {
     "id": "447",
@@ -3127,6 +3573,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/447.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/447.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/riolu.mp3",
   },
   {
     "id": "448",
@@ -3134,6 +3581,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/448.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/448.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lucario.mp3",
   },
   {
     "id": "449",
@@ -3141,6 +3589,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/449.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/449.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hippopotas.mp3",
   },
   {
     "id": "450",
@@ -3148,6 +3597,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/450.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/450.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hippowdon.mp3",
   },
   {
     "id": "451",
@@ -3155,6 +3605,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/451.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/451.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/skorupi.mp3",
   },
   {
     "id": "452",
@@ -3162,6 +3613,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/452.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/452.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/drapion.mp3",
   },
   {
     "id": "453",
@@ -3169,6 +3621,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/453.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/453.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/croagunk.mp3",
   },
   {
     "id": "454",
@@ -3176,6 +3629,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/454.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/454.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/toxicroak.mp3",
   },
   {
     "id": "455",
@@ -3183,6 +3637,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/455.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/455.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/carnivine.mp3",
   },
   {
     "id": "456",
@@ -3190,6 +3645,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/456.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/456.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/finneon.mp3",
   },
   {
     "id": "457",
@@ -3197,6 +3653,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/457.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/457.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lumineon.mp3",
   },
   {
     "id": "458",
@@ -3204,6 +3661,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/458.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/458.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mantyke.mp3",
   },
   {
     "id": "459",
@@ -3211,6 +3669,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/459.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/459.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/snover.mp3",
   },
   {
     "id": "460",
@@ -3218,6 +3677,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/460.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/460.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/abomasnow.mp3",
   },
   {
     "id": "461",
@@ -3225,6 +3685,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/461.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/461.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/weavile.mp3",
   },
   {
     "id": "462",
@@ -3232,6 +3693,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/462.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/462.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/magnezone.mp3",
   },
   {
     "id": "463",
@@ -3239,6 +3701,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/463.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/463.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lickilicky.mp3",
   },
   {
     "id": "464",
@@ -3246,6 +3709,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/464.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/464.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rhyperior.mp3",
   },
   {
     "id": "465",
@@ -3253,6 +3717,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/465.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/465.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tangrowth.mp3",
   },
   {
     "id": "466",
@@ -3260,6 +3725,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/466.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/466.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/electivire.mp3",
   },
   {
     "id": "467",
@@ -3267,6 +3733,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/467.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/467.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/magmortar.mp3",
   },
   {
     "id": "468",
@@ -3274,6 +3741,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/468.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/468.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/togekiss.mp3",
   },
   {
     "id": "469",
@@ -3281,6 +3749,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/469.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/469.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/yanmega.mp3",
   },
   {
     "id": "470",
@@ -3288,6 +3757,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/470.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/470.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/leafeon.mp3",
   },
   {
     "id": "471",
@@ -3295,6 +3765,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/471.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/471.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/glaceon.mp3",
   },
   {
     "id": "472",
@@ -3302,6 +3773,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/472.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/472.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gliscor.mp3",
   },
   {
     "id": "473",
@@ -3309,6 +3781,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/473.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/473.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mamoswine.mp3",
   },
   {
     "id": "474",
@@ -3316,6 +3789,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/474.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/474.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/porygonz.mp3",
   },
   {
     "id": "475",
@@ -3323,6 +3797,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/475.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/475.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gallade.mp3",
   },
   {
     "id": "476",
@@ -3330,6 +3805,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/476.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/476.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/probopass.mp3",
   },
   {
     "id": "477",
@@ -3337,6 +3813,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/477.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/477.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dusknoir.mp3",
   },
   {
     "id": "478",
@@ -3344,6 +3821,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/478.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/478.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/froslass.mp3",
   },
   {
     "id": "479",
@@ -3351,6 +3829,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/479.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/479.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rotom.mp3",
   },
   {
     "id": "480",
@@ -3358,6 +3837,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/480.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/480.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/uxie.mp3",
   },
   {
     "id": "481",
@@ -3365,6 +3845,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/481.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/481.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mesprit.mp3",
   },
   {
     "id": "482",
@@ -3372,6 +3853,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/482.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/482.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/azelf.mp3",
   },
   {
     "id": "483",
@@ -3379,6 +3861,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/483.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/483.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dialga.mp3",
   },
   {
     "id": "484",
@@ -3386,6 +3869,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/484.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/484.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/palkia.mp3",
   },
   {
     "id": "485",
@@ -3393,6 +3877,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/485.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/485.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/heatran.mp3",
   },
   {
     "id": "486",
@@ -3400,6 +3885,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/486.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/486.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/regigigas.mp3",
   },
   {
     "id": "487",
@@ -3407,6 +3893,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/487.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/487.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/giratina.mp3",
   },
   {
     "id": "488",
@@ -3414,6 +3901,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/488.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/488.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cresselia.mp3",
   },
   {
     "id": "489",
@@ -3421,6 +3909,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/489.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/489.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/phione.mp3",
   },
   {
     "id": "490",
@@ -3428,6 +3917,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/490.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/490.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/manaphy.mp3",
   },
   {
     "id": "491",
@@ -3435,6 +3925,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/491.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/491.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/darkrai.mp3",
   },
   {
     "id": "492",
@@ -3442,6 +3933,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/492.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/492.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shaymin.mp3",
   },
   {
     "id": "493",
@@ -3449,6 +3941,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/493.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/493.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/arceus.mp3",
   },
   {
     "id": "494",
@@ -3456,6 +3949,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/494.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/494.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/victini.mp3",
   },
   {
     "id": "495",
@@ -3463,6 +3957,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/495.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/495.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/snivy.mp3",
   },
   {
     "id": "496",
@@ -3470,6 +3965,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/496.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/496.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/servine.mp3",
   },
   {
     "id": "497",
@@ -3477,6 +3973,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/497.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/497.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/serperior.mp3",
   },
   {
     "id": "498",
@@ -3484,6 +3981,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/498.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/498.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tepig.mp3",
   },
   {
     "id": "499",
@@ -3491,6 +3989,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/499.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/499.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pignite.mp3",
   },
   {
     "id": "500",
@@ -3498,6 +3997,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/500.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/500.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/emboar.mp3",
   },
   {
     "id": "501",
@@ -3505,6 +4005,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/501.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/501.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/oshawott.mp3",
   },
   {
     "id": "502",
@@ -3512,6 +4013,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/502.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/502.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dewott.mp3",
   },
   {
     "id": "503",
@@ -3519,6 +4021,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/503.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/503.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/samurott.mp3",
   },
   {
     "id": "504",
@@ -3526,6 +4029,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/504.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/504.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/patrat.mp3",
   },
   {
     "id": "505",
@@ -3533,6 +4037,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/505.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/505.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/watchog.mp3",
   },
   {
     "id": "506",
@@ -3540,6 +4045,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/506.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/506.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lillipup.mp3",
   },
   {
     "id": "507",
@@ -3547,6 +4053,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/507.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/507.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/herdier.mp3",
   },
   {
     "id": "508",
@@ -3554,6 +4061,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/508.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/508.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/stoutland.mp3",
   },
   {
     "id": "509",
@@ -3561,6 +4069,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/509.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/509.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/purrloin.mp3",
   },
   {
     "id": "510",
@@ -3568,6 +4077,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/510.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/510.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/liepard.mp3",
   },
   {
     "id": "511",
@@ -3575,6 +4085,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/511.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/511.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pansage.mp3",
   },
   {
     "id": "512",
@@ -3582,6 +4093,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/512.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/512.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/simisage.mp3",
   },
   {
     "id": "513",
@@ -3589,6 +4101,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/513.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/513.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pansear.mp3",
   },
   {
     "id": "514",
@@ -3596,6 +4109,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/514.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/514.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/simisear.mp3",
   },
   {
     "id": "515",
@@ -3603,6 +4117,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/515.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/515.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/panpour.mp3",
   },
   {
     "id": "516",
@@ -3610,6 +4125,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/516.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/516.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/simipour.mp3",
   },
   {
     "id": "517",
@@ -3617,6 +4133,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/517.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/517.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/munna.mp3",
   },
   {
     "id": "518",
@@ -3624,6 +4141,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/518.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/518.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/musharna.mp3",
   },
   {
     "id": "519",
@@ -3631,6 +4149,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/519.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/519.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/519.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pidove.mp3",
   },
   {
     "id": "520",
@@ -3638,6 +4157,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/520.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/520.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/520.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tranquill.mp3",
   },
   {
     "id": "521",
@@ -3645,6 +4165,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/521.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/521.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/521.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/unfezant.mp3",
   },
   {
     "id": "522",
@@ -3652,6 +4173,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/522.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/522.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/blitzle.mp3",
   },
   {
     "id": "523",
@@ -3659,6 +4181,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/523.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/523.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zebstrika.mp3",
   },
   {
     "id": "524",
@@ -3666,6 +4189,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/524.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/524.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/roggenrola.mp3",
   },
   {
     "id": "525",
@@ -3673,6 +4197,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/525.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/525.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/boldore.mp3",
   },
   {
     "id": "526",
@@ -3680,6 +4205,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/526.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/526.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gigalith.mp3",
   },
   {
     "id": "527",
@@ -3687,6 +4213,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/527.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/527.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/woobat.mp3",
   },
   {
     "id": "528",
@@ -3694,6 +4221,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/528.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/528.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/swoobat.mp3",
   },
   {
     "id": "529",
@@ -3701,6 +4229,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/529.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/529.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/drilbur.mp3",
   },
   {
     "id": "530",
@@ -3708,6 +4237,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/530.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/530.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/excadrill.mp3",
   },
   {
     "id": "531",
@@ -3715,6 +4245,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/531.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/531.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/audino.mp3",
   },
   {
     "id": "532",
@@ -3722,6 +4253,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/532.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/532.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/timburr.mp3",
   },
   {
     "id": "533",
@@ -3729,6 +4261,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/533.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/533.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gurdurr.mp3",
   },
   {
     "id": "534",
@@ -3736,6 +4269,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/534.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/534.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/conkeldurr.mp3",
   },
   {
     "id": "535",
@@ -3743,6 +4277,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/535.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/535.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tympole.mp3",
   },
   {
     "id": "536",
@@ -3750,6 +4285,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/536.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/536.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/palpitoad.mp3",
   },
   {
     "id": "537",
@@ -3757,6 +4293,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/537.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/537.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/seismitoad.mp3",
   },
   {
     "id": "538",
@@ -3764,6 +4301,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/538.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/538.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/538.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/throh.mp3",
   },
   {
     "id": "539",
@@ -3771,6 +4309,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/539.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/539.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sawk.mp3",
   },
   {
     "id": "540",
@@ -3778,6 +4317,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/540.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/540.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sewaddle.mp3",
   },
   {
     "id": "541",
@@ -3785,6 +4325,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/541.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/541.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/swadloon.mp3",
   },
   {
     "id": "542",
@@ -3792,6 +4333,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/542.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/542.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/leavanny.mp3",
   },
   {
     "id": "543",
@@ -3799,6 +4341,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/543.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/543.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/venipede.mp3",
   },
   {
     "id": "544",
@@ -3806,6 +4349,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/544.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/544.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/whirlipede.mp3",
   },
   {
     "id": "545",
@@ -3813,6 +4357,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/545.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/545.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/scolipede.mp3",
   },
   {
     "id": "546",
@@ -3820,6 +4365,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/546.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/546.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cottonee.mp3",
   },
   {
     "id": "547",
@@ -3827,6 +4373,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/547.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/547.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/whimsicott.mp3",
   },
   {
     "id": "548",
@@ -3834,6 +4381,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/548.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/548.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/petilil.mp3",
   },
   {
     "id": "549",
@@ -3841,6 +4389,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/549.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/549.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lilligant.mp3",
   },
   {
     "id": "550",
@@ -3848,6 +4397,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/550.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/550.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/basculin.mp3",
   },
   {
     "id": "551",
@@ -3855,6 +4405,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/551.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/551.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sandile.mp3",
   },
   {
     "id": "552",
@@ -3862,6 +4413,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/552.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/552.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/krokorok.mp3",
   },
   {
     "id": "553",
@@ -3869,6 +4421,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/553.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/553.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/krookodile.mp3",
   },
   {
     "id": "554",
@@ -3876,6 +4429,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/554.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/554.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/darumaka.mp3",
   },
   {
     "id": "555",
@@ -3883,6 +4437,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/555.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/555.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/555.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/darmanitan.mp3",
   },
   {
     "id": "556",
@@ -3890,6 +4445,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/556.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/556.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/maractus.mp3",
   },
   {
     "id": "557",
@@ -3897,6 +4453,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/557.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/557.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dwebble.mp3",
   },
   {
     "id": "558",
@@ -3904,6 +4461,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/558.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/558.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/crustle.mp3",
   },
   {
     "id": "559",
@@ -3911,6 +4469,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/559.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/559.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/scraggy.mp3",
   },
   {
     "id": "560",
@@ -3918,6 +4477,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/560.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/560.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/scrafty.mp3",
   },
   {
     "id": "561",
@@ -3925,6 +4485,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/561.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/561.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sigilyph.mp3",
   },
   {
     "id": "562",
@@ -3932,6 +4493,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/562.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/562.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/yamask.mp3",
   },
   {
     "id": "563",
@@ -3939,6 +4501,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/563.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/563.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cofagrigus.mp3",
   },
   {
     "id": "564",
@@ -3946,6 +4509,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/564.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/564.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tirtouga.mp3",
   },
   {
     "id": "565",
@@ -3953,6 +4517,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/565.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/565.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/carracosta.mp3",
   },
   {
     "id": "566",
@@ -3960,6 +4525,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/566.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/566.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/archen.mp3",
   },
   {
     "id": "567",
@@ -3967,6 +4533,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/567.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/567.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/archeops.mp3",
   },
   {
     "id": "568",
@@ -3974,6 +4541,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/568.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/568.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/trubbish.mp3",
   },
   {
     "id": "569",
@@ -3981,6 +4549,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/569.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/569.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/garbodor.mp3",
   },
   {
     "id": "570",
@@ -3988,6 +4557,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/570.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/570.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zorua.mp3",
   },
   {
     "id": "571",
@@ -3995,6 +4565,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/571.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/571.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zoroark.mp3",
   },
   {
     "id": "572",
@@ -4002,6 +4573,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/572.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/572.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/minccino.mp3",
   },
   {
     "id": "573",
@@ -4009,6 +4581,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/573.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/573.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cinccino.mp3",
   },
   {
     "id": "574",
@@ -4016,6 +4589,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/574.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/574.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gothita.mp3",
   },
   {
     "id": "575",
@@ -4023,6 +4597,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/575.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/575.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gothorita.mp3",
   },
   {
     "id": "576",
@@ -4030,6 +4605,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/576.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/576.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gothitelle.mp3",
   },
   {
     "id": "577",
@@ -4037,6 +4613,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/577.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/577.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/solosis.mp3",
   },
   {
     "id": "578",
@@ -4044,6 +4621,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/578.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/578.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/duosion.mp3",
   },
   {
     "id": "579",
@@ -4051,6 +4629,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/579.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/579.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/reuniclus.mp3",
   },
   {
     "id": "580",
@@ -4058,6 +4637,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/580.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/580.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ducklett.mp3",
   },
   {
     "id": "581",
@@ -4065,6 +4645,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/581.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/581.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/swanna.mp3",
   },
   {
     "id": "582",
@@ -4072,6 +4653,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/582.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/582.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/582.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vanillite.mp3",
   },
   {
     "id": "583",
@@ -4079,6 +4661,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/583.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/583.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/583.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vanillish.mp3",
   },
   {
     "id": "584",
@@ -4086,6 +4669,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/584.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/584.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/584.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vanilluxe.mp3",
   },
   {
     "id": "585",
@@ -4093,6 +4677,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/585.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/585.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/deerling.mp3",
   },
   {
     "id": "586",
@@ -4100,6 +4685,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/586.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/586.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sawsbuck.mp3",
   },
   {
     "id": "587",
@@ -4107,6 +4693,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/587.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/587.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/emolga.mp3",
   },
   {
     "id": "588",
@@ -4114,6 +4701,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/588.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/588.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/karrablast.mp3",
   },
   {
     "id": "589",
@@ -4121,6 +4709,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/589.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/589.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/escavalier.mp3",
   },
   {
     "id": "590",
@@ -4128,6 +4717,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/590.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/590.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/foongus.mp3",
   },
   {
     "id": "591",
@@ -4135,6 +4725,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/591.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/591.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/amoonguss.mp3",
   },
   {
     "id": "592",
@@ -4142,6 +4733,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/592.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/592.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/frillish.mp3",
   },
   {
     "id": "593",
@@ -4149,6 +4741,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/593.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/593.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/jellicent.mp3",
   },
   {
     "id": "594",
@@ -4156,6 +4749,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/594.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/594.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/alomomola.mp3",
   },
   {
     "id": "595",
@@ -4163,6 +4757,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/595.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/595.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/joltik.mp3",
   },
   {
     "id": "596",
@@ -4170,6 +4765,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/596.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/596.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/galvantula.mp3",
   },
   {
     "id": "597",
@@ -4177,6 +4773,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/597.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/597.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ferroseed.mp3",
   },
   {
     "id": "598",
@@ -4184,6 +4781,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/598.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/598.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ferrothorn.mp3",
   },
   {
     "id": "599",
@@ -4191,6 +4789,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/599.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/599.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/klink.mp3",
   },
   {
     "id": "600",
@@ -4198,6 +4797,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/600.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/600.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/klang.mp3",
   },
   {
     "id": "601",
@@ -4205,6 +4805,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/601.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/601.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/klinklang.mp3",
   },
   {
     "id": "602",
@@ -4212,6 +4813,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/602.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/602.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tynamo.mp3",
   },
   {
     "id": "603",
@@ -4219,6 +4821,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/603.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/603.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/603.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/eelektrik.mp3",
   },
   {
     "id": "604",
@@ -4226,6 +4829,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/604.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/604.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/eelektross.mp3",
   },
   {
     "id": "605",
@@ -4233,6 +4837,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/605.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/605.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/elgyem.mp3",
   },
   {
     "id": "606",
@@ -4240,6 +4845,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/606.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/606.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/beheeyem.mp3",
   },
   {
     "id": "607",
@@ -4247,6 +4853,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/607.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/607.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/litwick.mp3",
   },
   {
     "id": "608",
@@ -4254,6 +4861,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/608.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/608.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lampent.mp3",
   },
   {
     "id": "609",
@@ -4261,6 +4869,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/609.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/609.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chandelure.mp3",
   },
   {
     "id": "610",
@@ -4268,6 +4877,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/610.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/610.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/axew.mp3",
   },
   {
     "id": "611",
@@ -4275,6 +4885,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/611.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/611.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/fraxure.mp3",
   },
   {
     "id": "612",
@@ -4282,6 +4893,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/612.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/612.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/haxorus.mp3",
   },
   {
     "id": "613",
@@ -4289,6 +4901,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/613.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/613.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cubchoo.mp3",
   },
   {
     "id": "614",
@@ -4296,6 +4909,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/614.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/614.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/beartic.mp3",
   },
   {
     "id": "615",
@@ -4303,6 +4917,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/615.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/615.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cryogonal.mp3",
   },
   {
     "id": "616",
@@ -4310,6 +4925,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/616.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/616.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shelmet.mp3",
   },
   {
     "id": "617",
@@ -4317,6 +4933,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/617.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/617.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/accelgor.mp3",
   },
   {
     "id": "618",
@@ -4324,6 +4941,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/618.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/618.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/stunfisk.mp3",
   },
   {
     "id": "619",
@@ -4331,6 +4949,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/619.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/619.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mienfoo.mp3",
   },
   {
     "id": "620",
@@ -4338,6 +4957,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/620.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/620.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mienshao.mp3",
   },
   {
     "id": "621",
@@ -4345,6 +4965,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/621.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/621.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/druddigon.mp3",
   },
   {
     "id": "622",
@@ -4352,6 +4973,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/622.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/622.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/golett.mp3",
   },
   {
     "id": "623",
@@ -4359,6 +4981,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/623.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/623.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/golurk.mp3",
   },
   {
     "id": "624",
@@ -4366,6 +4989,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/624.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/624.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pawniard.mp3",
   },
   {
     "id": "625",
@@ -4373,6 +4997,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/625.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/625.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bisharp.mp3",
   },
   {
     "id": "626",
@@ -4380,6 +5005,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/626.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/626.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bouffalant.mp3",
   },
   {
     "id": "627",
@@ -4387,6 +5013,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/627.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/627.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rufflet.mp3",
   },
   {
     "id": "628",
@@ -4394,6 +5021,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/628.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/628.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/braviary.mp3",
   },
   {
     "id": "629",
@@ -4401,6 +5029,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/629.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/629.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vullaby.mp3",
   },
   {
     "id": "630",
@@ -4408,6 +5037,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/630.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/630.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/630.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mandibuzz.mp3",
   },
   {
     "id": "631",
@@ -4415,6 +5045,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/631.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/631.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/heatmor.mp3",
   },
   {
     "id": "632",
@@ -4422,6 +5053,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/632.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/632.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/durant.mp3",
   },
   {
     "id": "633",
@@ -4429,6 +5061,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/633.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/633.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/deino.mp3",
   },
   {
     "id": "634",
@@ -4436,6 +5069,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/634.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/634.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zweilous.mp3",
   },
   {
     "id": "635",
@@ -4443,6 +5077,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/635.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/635.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hydreigon.mp3",
   },
   {
     "id": "636",
@@ -4450,6 +5085,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/636.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/636.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/larvesta.mp3",
   },
   {
     "id": "637",
@@ -4457,6 +5093,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/637.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/637.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/volcarona.mp3",
   },
   {
     "id": "638",
@@ -4464,6 +5101,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/638.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/638.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cobalion.mp3",
   },
   {
     "id": "639",
@@ -4471,6 +5109,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/639.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/639.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/terrakion.mp3",
   },
   {
     "id": "640",
@@ -4478,6 +5117,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/640.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/640.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/virizion.mp3",
   },
   {
     "id": "641",
@@ -4485,6 +5125,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/641.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/641.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tornadus.mp3",
   },
   {
     "id": "642",
@@ -4492,6 +5133,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/642.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/642.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/thundurus.mp3",
   },
   {
     "id": "643",
@@ -4499,6 +5141,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/643.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/643.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/reshiram.mp3",
   },
   {
     "id": "644",
@@ -4506,6 +5149,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/644.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/644.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zekrom.mp3",
   },
   {
     "id": "645",
@@ -4513,6 +5157,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/645.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/645.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/landorus.mp3",
   },
   {
     "id": "646",
@@ -4520,6 +5165,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/646.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/646.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kyurem.mp3",
   },
   {
     "id": "647",
@@ -4527,6 +5173,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/647.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/647.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/keldeo.mp3",
   },
   {
     "id": "648",
@@ -4534,6 +5181,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/648.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/648.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/meloetta.mp3",
   },
   {
     "id": "649",
@@ -4541,6 +5189,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/649.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/649.ogg",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/genesect.mp3",
   },
   {
     "id": "650",
@@ -4548,6 +5197,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/650.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chespin.mp3",
   },
   {
     "id": "651",
@@ -4555,6 +5205,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/651.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/quilladin.mp3",
   },
   {
     "id": "652",
@@ -4562,6 +5213,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/652.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chesnaught.mp3",
   },
   {
     "id": "653",
@@ -4569,6 +5221,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/653.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/fennekin.mp3",
   },
   {
     "id": "654",
@@ -4576,6 +5229,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/654.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/braixen.mp3",
   },
   {
     "id": "655",
@@ -4583,6 +5237,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/655.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/delphox.mp3",
   },
   {
     "id": "656",
@@ -4590,6 +5245,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/656.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/froakie.mp3",
   },
   {
     "id": "657",
@@ -4597,6 +5253,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/657.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/frogadier.mp3",
   },
   {
     "id": "658",
@@ -4604,6 +5261,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/658.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/greninja.mp3",
   },
   {
     "id": "659",
@@ -4611,6 +5269,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/659.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bunnelby.mp3",
   },
   {
     "id": "660",
@@ -4618,6 +5277,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/660.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/diggersby.mp3",
   },
   {
     "id": "661",
@@ -4625,6 +5285,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/661.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/fletchling.mp3",
   },
   {
     "id": "662",
@@ -4632,6 +5293,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/662.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/fletchinder.mp3",
   },
   {
     "id": "663",
@@ -4639,6 +5301,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/663.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/talonflame.mp3",
   },
   {
     "id": "664",
@@ -4646,6 +5309,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/664.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/scatterbug.mp3",
   },
   {
     "id": "665",
@@ -4653,6 +5317,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/665.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/spewpa.mp3",
   },
   {
     "id": "666",
@@ -4660,6 +5325,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/666.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vivillon.mp3",
   },
   {
     "id": "667",
@@ -4667,6 +5333,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/667.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/litleo.mp3",
   },
   {
     "id": "668",
@@ -4674,6 +5341,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/668.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pyroar.mp3",
   },
   {
     "id": "669",
@@ -4681,6 +5349,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/669.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/flabã©bã©.mp3",
   },
   {
     "id": "670",
@@ -4688,6 +5357,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/670.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/floette.mp3",
   },
   {
     "id": "671",
@@ -4695,6 +5365,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/671.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/florges.mp3",
   },
   {
     "id": "672",
@@ -4702,6 +5373,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/672.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/skiddo.mp3",
   },
   {
     "id": "673",
@@ -4709,6 +5381,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/673.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gogoat.mp3",
   },
   {
     "id": "674",
@@ -4716,6 +5389,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/674.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pancham.mp3",
   },
   {
     "id": "675",
@@ -4723,6 +5397,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/675.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pangoro.mp3",
   },
   {
     "id": "676",
@@ -4730,6 +5405,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/676.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/furfrou.mp3",
   },
   {
     "id": "677",
@@ -4737,6 +5413,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/677.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/espurr.mp3",
   },
   {
     "id": "678",
@@ -4744,6 +5421,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/678.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/meowstic.mp3",
   },
   {
     "id": "679",
@@ -4751,6 +5429,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/679.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/honedge.mp3",
   },
   {
     "id": "680",
@@ -4758,6 +5437,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/680.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/doublade.mp3",
   },
   {
     "id": "681",
@@ -4765,6 +5445,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/681.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/aegislash.mp3",
   },
   {
     "id": "682",
@@ -4772,6 +5453,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/682.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/spritzee.mp3",
   },
   {
     "id": "683",
@@ -4779,6 +5461,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/683.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/aromatisse.mp3",
   },
   {
     "id": "684",
@@ -4786,6 +5469,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/684.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/swirlix.mp3",
   },
   {
     "id": "685",
@@ -4793,6 +5477,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/685.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/slurpuff.mp3",
   },
   {
     "id": "686",
@@ -4800,6 +5485,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/686.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/inkay.mp3",
   },
   {
     "id": "687",
@@ -4807,6 +5493,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/687.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/malamar.mp3",
   },
   {
     "id": "688",
@@ -4814,6 +5501,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/688.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/binacle.mp3",
   },
   {
     "id": "689",
@@ -4821,6 +5509,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/689.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/barbaracle.mp3",
   },
   {
     "id": "690",
@@ -4828,6 +5517,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/690.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/skrelp.mp3",
   },
   {
     "id": "691",
@@ -4835,6 +5525,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/691.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dragalge.mp3",
   },
   {
     "id": "692",
@@ -4842,6 +5533,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/692.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/clauncher.mp3",
   },
   {
     "id": "693",
@@ -4849,6 +5541,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/693.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/clawitzer.mp3",
   },
   {
     "id": "694",
@@ -4856,6 +5549,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/694.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/helioptile.mp3",
   },
   {
     "id": "695",
@@ -4863,6 +5557,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/695.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/heliolisk.mp3",
   },
   {
     "id": "696",
@@ -4870,6 +5565,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/696.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tyrunt.mp3",
   },
   {
     "id": "697",
@@ -4877,6 +5573,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/697.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tyrantrum.mp3",
   },
   {
     "id": "698",
@@ -4884,6 +5581,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/698.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/amaura.mp3",
   },
   {
     "id": "699",
@@ -4891,6 +5589,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/699.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/aurorus.mp3",
   },
   {
     "id": "700",
@@ -4898,6 +5597,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/700.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sylveon.mp3",
   },
   {
     "id": "701",
@@ -4905,6 +5605,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/701.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hawlucha.mp3",
   },
   {
     "id": "702",
@@ -4912,6 +5613,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/702.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dedenne.mp3",
   },
   {
     "id": "703",
@@ -4919,6 +5621,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/703.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/carbink.mp3",
   },
   {
     "id": "704",
@@ -4926,6 +5629,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/704.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/goomy.mp3",
   },
   {
     "id": "705",
@@ -4933,6 +5637,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/705.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sliggoo.mp3",
   },
   {
     "id": "706",
@@ -4940,6 +5645,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/706.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/goodra.mp3",
   },
   {
     "id": "707",
@@ -4947,6 +5653,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/707.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/klefki.mp3",
   },
   {
     "id": "708",
@@ -4954,6 +5661,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/708.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/phantump.mp3",
   },
   {
     "id": "709",
@@ -4961,6 +5669,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/709.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/trevenant.mp3",
   },
   {
     "id": "710",
@@ -4968,6 +5677,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/710.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pumpkaboo.mp3",
   },
   {
     "id": "711",
@@ -4975,6 +5685,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/711.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gourgeist.mp3",
   },
   {
     "id": "712",
@@ -4982,6 +5693,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/712.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bergmite.mp3",
   },
   {
     "id": "713",
@@ -4989,6 +5701,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/713.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/avalugg.mp3",
   },
   {
     "id": "714",
@@ -4996,6 +5709,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/714.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/noibat.mp3",
   },
   {
     "id": "715",
@@ -5003,6 +5717,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/715.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/noivern.mp3",
   },
   {
     "id": "716",
@@ -5010,6 +5725,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/716.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/xerneas.mp3",
   },
   {
     "id": "717",
@@ -5017,6 +5733,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/717.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/yveltal.mp3",
   },
   {
     "id": "718",
@@ -5024,6 +5741,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/718.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zygarde.mp3",
   },
   {
     "id": "719",
@@ -5031,6 +5749,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/719.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/diancie.mp3",
   },
   {
     "id": "720",
@@ -5038,6 +5757,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/720.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hoopa.mp3",
   },
   {
     "id": "721",
@@ -5045,6 +5765,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/721.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/volcanion.mp3",
   },
   {
     "id": "722",
@@ -5052,6 +5773,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/722.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rowlet.mp3",
   },
   {
     "id": "723",
@@ -5059,6 +5781,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/723.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dartrix.mp3",
   },
   {
     "id": "724",
@@ -5066,6 +5789,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/724.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/decidueye.mp3",
   },
   {
     "id": "725",
@@ -5073,6 +5797,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/725.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/litten.mp3",
   },
   {
     "id": "726",
@@ -5080,6 +5805,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/726.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/torracat.mp3",
   },
   {
     "id": "727",
@@ -5087,6 +5813,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/727.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/incineroar.mp3",
   },
   {
     "id": "728",
@@ -5094,6 +5821,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/728.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/728.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/popplio.mp3",
   },
   {
     "id": "729",
@@ -5101,6 +5829,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/729.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/brionne.mp3",
   },
   {
     "id": "730",
@@ -5108,6 +5837,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/730.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/primarina.mp3",
   },
   {
     "id": "731",
@@ -5115,6 +5845,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/731.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pikipek.mp3",
   },
   {
     "id": "732",
@@ -5122,6 +5853,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/732.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/trumbeak.mp3",
   },
   {
     "id": "733",
@@ -5129,6 +5861,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/733.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/toucannon.mp3",
   },
   {
     "id": "734",
@@ -5136,6 +5869,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/734.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/yungoos.mp3",
   },
   {
     "id": "735",
@@ -5143,6 +5877,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/735.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gumshoos.mp3",
   },
   {
     "id": "736",
@@ -5150,6 +5885,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/736.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/grubbin.mp3",
   },
   {
     "id": "737",
@@ -5157,6 +5893,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/737.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/charjabug.mp3",
   },
   {
     "id": "738",
@@ -5164,6 +5901,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/738.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/vikavolt.mp3",
   },
   {
     "id": "739",
@@ -5171,6 +5909,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/739.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/crabrawler.mp3",
   },
   {
     "id": "740",
@@ -5178,6 +5917,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/740.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/crabominable.mp3",
   },
   {
     "id": "741",
@@ -5185,6 +5925,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/741.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/741.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/oricorio.mp3",
   },
   {
     "id": "742",
@@ -5192,6 +5933,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/742.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/742.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cutiefly.mp3",
   },
   {
     "id": "743",
@@ -5199,6 +5941,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/743.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ribombee.mp3",
   },
   {
     "id": "744",
@@ -5206,6 +5949,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/744.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rockruff.mp3",
   },
   {
     "id": "745",
@@ -5213,6 +5957,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/745.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lycanroc.mp3",
   },
   {
     "id": "746",
@@ -5220,6 +5965,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/746.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wishiwashi.mp3",
   },
   {
     "id": "747",
@@ -5227,6 +5973,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/747.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mareanie.mp3",
   },
   {
     "id": "748",
@@ -5234,6 +5981,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/748.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/toxapex.mp3",
   },
   {
     "id": "749",
@@ -5241,6 +5989,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/749.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mudbray.mp3",
   },
   {
     "id": "750",
@@ -5248,6 +5997,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/750.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mudsdale.mp3",
   },
   {
     "id": "751",
@@ -5255,6 +6005,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/751.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dewpider.mp3",
   },
   {
     "id": "752",
@@ -5262,6 +6013,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/752.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/araquanid.mp3",
   },
   {
     "id": "753",
@@ -5269,6 +6021,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/753.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/fomantis.mp3",
   },
   {
     "id": "754",
@@ -5276,6 +6029,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/754.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lurantis.mp3",
   },
   {
     "id": "755",
@@ -5283,6 +6037,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/755.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/morelull.mp3",
   },
   {
     "id": "756",
@@ -5290,6 +6045,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/756.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shiinotic.mp3",
   },
   {
     "id": "757",
@@ -5297,6 +6053,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/757.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/salandit.mp3",
   },
   {
     "id": "758",
@@ -5304,6 +6061,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/758.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/salazzle.mp3",
   },
   {
     "id": "759",
@@ -5311,6 +6069,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/759.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/stufful.mp3",
   },
   {
     "id": "760",
@@ -5318,6 +6077,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/760.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bewear.mp3",
   },
   {
     "id": "761",
@@ -5325,6 +6085,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/761.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bounsweet.mp3",
   },
   {
     "id": "762",
@@ -5332,6 +6093,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/762.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/steenee.mp3",
   },
   {
     "id": "763",
@@ -5339,6 +6101,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/763.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tsareena.mp3",
   },
   {
     "id": "764",
@@ -5346,6 +6109,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/764.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/comfey.mp3",
   },
   {
     "id": "765",
@@ -5353,6 +6117,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/765.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/oranguru.mp3",
   },
   {
     "id": "766",
@@ -5360,6 +6125,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/766.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/passimian.mp3",
   },
   {
     "id": "767",
@@ -5367,6 +6133,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/767.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wimpod.mp3",
   },
   {
     "id": "768",
@@ -5374,6 +6141,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/768.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/golisopod.mp3",
   },
   {
     "id": "769",
@@ -5381,6 +6149,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/769.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sandygast.mp3",
   },
   {
     "id": "770",
@@ -5388,6 +6157,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/770.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/palossand.mp3",
   },
   {
     "id": "771",
@@ -5395,6 +6165,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/771.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pyukumuku.mp3",
   },
   {
     "id": "772",
@@ -5402,6 +6173,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/772.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/typenull.mp3",
   },
   {
     "id": "773",
@@ -5409,6 +6181,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/773.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/silvally.mp3",
   },
   {
     "id": "774",
@@ -5416,6 +6189,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/774.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/minior.mp3",
   },
   {
     "id": "775",
@@ -5423,6 +6197,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/775.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/komala.mp3",
   },
   {
     "id": "776",
@@ -5430,6 +6205,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/776.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/turtonator.mp3",
   },
   {
     "id": "777",
@@ -5437,6 +6213,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/777.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/777.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/togedemaru.mp3",
   },
   {
     "id": "778",
@@ -5444,6 +6221,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/778.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mimikyu.mp3",
   },
   {
     "id": "779",
@@ -5451,6 +6229,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/779.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/779.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bruxish.mp3",
   },
   {
     "id": "780",
@@ -5458,6 +6237,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/780.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/drampa.mp3",
   },
   {
     "id": "781",
@@ -5465,6 +6245,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/781.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dhelmise.mp3",
   },
   {
     "id": "782",
@@ -5472,6 +6253,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/782.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/782.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/jangmoo.mp3",
   },
   {
     "id": "783",
@@ -5479,6 +6261,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/783.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/783.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hakamoo.mp3",
   },
   {
     "id": "784",
@@ -5486,6 +6269,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/784.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kommoo.mp3",
   },
   {
     "id": "785",
@@ -5493,6 +6277,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/785.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tapukoko.mp3",
   },
   {
     "id": "786",
@@ -5500,6 +6285,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/786.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tapulele.mp3",
   },
   {
     "id": "787",
@@ -5507,6 +6293,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/787.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tapubulu.mp3",
   },
   {
     "id": "788",
@@ -5514,6 +6301,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/788.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tapufini.mp3",
   },
   {
     "id": "789",
@@ -5521,6 +6309,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/789.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cosmog.mp3",
   },
   {
     "id": "790",
@@ -5528,6 +6317,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/790.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/790.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cosmoem.mp3",
   },
   {
     "id": "791",
@@ -5535,6 +6325,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/791.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/solgaleo.mp3",
   },
   {
     "id": "792",
@@ -5542,6 +6333,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/792.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lunala.mp3",
   },
   {
     "id": "793",
@@ -5549,6 +6341,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/793.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nihilego.mp3",
   },
   {
     "id": "794",
@@ -5556,6 +6349,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/794.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/794.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/buzzwole.mp3",
   },
   {
     "id": "795",
@@ -5563,6 +6357,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/795.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pheromosa.mp3",
   },
   {
     "id": "796",
@@ -5570,6 +6365,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/796.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/xurkitree.mp3",
   },
   {
     "id": "797",
@@ -5577,6 +6373,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/797.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/celesteela.mp3",
   },
   {
     "id": "798",
@@ -5584,6 +6381,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/798.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kartana.mp3",
   },
   {
     "id": "799",
@@ -5591,6 +6389,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/799.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/799.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/guzzlord.mp3",
   },
   {
     "id": "800",
@@ -5598,6 +6397,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/800.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/800.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/necrozma.mp3",
   },
   {
     "id": "801",
@@ -5605,6 +6405,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/801.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/801.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/magearna.mp3",
   },
   {
     "id": "802",
@@ -5612,6 +6413,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/802.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/802.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/marshadow.mp3",
   },
   {
     "id": "803",
@@ -5619,6 +6421,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/803.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/poipole.mp3",
   },
   {
     "id": "804",
@@ -5626,6 +6429,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/804.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/naganadel.mp3",
   },
   {
     "id": "805",
@@ -5633,6 +6437,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/805.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/805.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/stakataka.mp3",
   },
   {
     "id": "806",
@@ -5640,6 +6445,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/806.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/blacephalon.mp3",
   },
   {
     "id": "807",
@@ -5647,6 +6453,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/807.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/807.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zeraora.mp3",
   },
   {
     "id": "808",
@@ -5654,6 +6461,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/808.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/808.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/meltan.mp3",
   },
   {
     "id": "809",
@@ -5661,6 +6469,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/809.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/809.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/melmetal.mp3",
   },
   {
     "id": "810",
@@ -5668,6 +6477,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/810.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/grookey.mp3",
   },
   {
     "id": "811",
@@ -5675,6 +6485,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/811.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/811.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/thwackey.mp3",
   },
   {
     "id": "812",
@@ -5682,6 +6493,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/812.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/812.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rillaboom.mp3",
   },
   {
     "id": "813",
@@ -5689,6 +6501,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/813.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/813.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/scorbunny.mp3",
   },
   {
     "id": "814",
@@ -5696,6 +6509,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/814.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/814.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/raboot.mp3",
   },
   {
     "id": "815",
@@ -5703,6 +6517,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/815.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cinderace.mp3",
   },
   {
     "id": "816",
@@ -5710,6 +6525,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/816.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/816.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sobble.mp3",
   },
   {
     "id": "817",
@@ -5717,6 +6533,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/817.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/817.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/drizzile.mp3",
   },
   {
     "id": "818",
@@ -5724,6 +6541,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/818.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/818.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/inteleon.mp3",
   },
   {
     "id": "819",
@@ -5731,6 +6549,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/819.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/819.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/skwovet.mp3",
   },
   {
     "id": "820",
@@ -5738,6 +6557,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/820.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/820.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/greedent.mp3",
   },
   {
     "id": "821",
@@ -5745,6 +6565,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/821.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/821.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rookidee.mp3",
   },
   {
     "id": "822",
@@ -5752,6 +6573,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/822.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/822.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/corvisquire.mp3",
   },
   {
     "id": "823",
@@ -5759,6 +6581,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/823.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/corviknight.mp3",
   },
   {
     "id": "824",
@@ -5766,6 +6589,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/824.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/blipbug.mp3",
   },
   {
     "id": "825",
@@ -5773,6 +6597,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/825.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/825.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dottler.mp3",
   },
   {
     "id": "826",
@@ -5780,6 +6605,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/826.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/orbeetle.mp3",
   },
   {
     "id": "827",
@@ -5787,6 +6613,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/827.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nickit.mp3",
   },
   {
     "id": "828",
@@ -5794,6 +6621,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/828.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/828.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/thievul.mp3",
   },
   {
     "id": "829",
@@ -5801,6 +6629,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/829.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gossifleur.mp3",
   },
   {
     "id": "830",
@@ -5808,6 +6637,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/830.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/830.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/eldegoss.mp3",
   },
   {
     "id": "831",
@@ -5815,6 +6645,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/831.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/831.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wooloo.mp3",
   },
   {
     "id": "832",
@@ -5822,6 +6653,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/832.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/832.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dubwool.mp3",
   },
   {
     "id": "833",
@@ -5829,6 +6661,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/833.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chewtle.mp3",
   },
   {
     "id": "834",
@@ -5836,6 +6669,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/834.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/834.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/drednaw.mp3",
   },
   {
     "id": "835",
@@ -5843,6 +6677,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/835.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/yamper.mp3",
   },
   {
     "id": "836",
@@ -5850,6 +6685,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/836.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/836.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/boltund.mp3",
   },
   {
     "id": "837",
@@ -5857,6 +6693,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/837.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/837.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rolycoly.mp3",
   },
   {
     "id": "838",
@@ -5864,6 +6701,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/838.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/838.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/carkol.mp3",
   },
   {
     "id": "839",
@@ -5871,6 +6709,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/839.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/839.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/coalossal.mp3",
   },
   {
     "id": "840",
@@ -5878,6 +6717,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/840.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/applin.mp3",
   },
   {
     "id": "841",
@@ -5885,6 +6725,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/841.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/841.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/flapple.mp3",
   },
   {
     "id": "842",
@@ -5892,6 +6733,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/842.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/842.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/appletun.mp3",
   },
   {
     "id": "843",
@@ -5899,6 +6741,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/843.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/843.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/silicobra.mp3",
   },
   {
     "id": "844",
@@ -5906,6 +6749,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/844.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/844.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sandaconda.mp3",
   },
   {
     "id": "845",
@@ -5913,6 +6757,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/845.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/845.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cramorant.mp3",
   },
   {
     "id": "846",
@@ -5920,6 +6765,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/846.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/846.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/arrokuda.mp3",
   },
   {
     "id": "847",
@@ -5927,6 +6773,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/847.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/847.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/barraskewda.mp3",
   },
   {
     "id": "848",
@@ -5934,6 +6781,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/848.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/848.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/toxel.mp3",
   },
   {
     "id": "849",
@@ -5941,6 +6789,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/849.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/849.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/toxtricity.mp3",
   },
   {
     "id": "850",
@@ -5948,6 +6797,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/850.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/850.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sizzlipede.mp3",
   },
   {
     "id": "851",
@@ -5955,6 +6805,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/851.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/851.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/centiskorch.mp3",
   },
   {
     "id": "852",
@@ -5962,6 +6813,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/852.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/clobbopus.mp3",
   },
   {
     "id": "853",
@@ -5969,6 +6821,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/853.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/853.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/grapploct.mp3",
   },
   {
     "id": "854",
@@ -5976,6 +6829,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/854.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/854.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sinistea.mp3",
   },
   {
     "id": "855",
@@ -5983,6 +6837,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/855.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/polteageist.mp3",
   },
   {
     "id": "856",
@@ -5990,6 +6845,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/856.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hatenna.mp3",
   },
   {
     "id": "857",
@@ -5997,6 +6853,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/857.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/857.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hattrem.mp3",
   },
   {
     "id": "858",
@@ -6004,6 +6861,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/858.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hatterene.mp3",
   },
   {
     "id": "859",
@@ -6011,6 +6869,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/859.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/859.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/impidimp.mp3",
   },
   {
     "id": "860",
@@ -6018,6 +6877,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/860.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/860.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/morgrem.mp3",
   },
   {
     "id": "861",
@@ -6025,6 +6885,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/861.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/grimmsnarl.mp3",
   },
   {
     "id": "862",
@@ -6032,6 +6893,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/862.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/862.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/obstagoon.mp3",
   },
   {
     "id": "863",
@@ -6039,6 +6901,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/863.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/863.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/perrserker.mp3",
   },
   {
     "id": "864",
@@ -6046,6 +6909,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/864.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/864.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cursola.mp3",
   },
   {
     "id": "865",
@@ -6053,6 +6917,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/865.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/865.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sirfetchd.mp3",
   },
   {
     "id": "866",
@@ -6060,6 +6925,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/866.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mrrime.mp3",
   },
   {
     "id": "867",
@@ -6067,6 +6933,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/867.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/runerigus.mp3",
   },
   {
     "id": "868",
@@ -6074,6 +6941,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/868.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/868.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/milcery.mp3",
   },
   {
     "id": "869",
@@ -6081,6 +6949,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/869.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/alcremie.mp3",
   },
   {
     "id": "870",
@@ -6088,6 +6957,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/870.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/870.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/falinks.mp3",
   },
   {
     "id": "871",
@@ -6095,6 +6965,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/871.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/871.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pincurchin.mp3",
   },
   {
     "id": "872",
@@ -6102,6 +6973,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/872.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/872.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/snom.mp3",
   },
   {
     "id": "873",
@@ -6109,6 +6981,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/873.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/frosmoth.mp3",
   },
   {
     "id": "874",
@@ -6116,6 +6989,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/874.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/874.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/stonjourner.mp3",
   },
   {
     "id": "875",
@@ -6123,6 +6997,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/875.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/875.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/eiscue.mp3",
   },
   {
     "id": "876",
@@ -6130,6 +7005,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/876.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/876.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/indeedee.mp3",
   },
   {
     "id": "877",
@@ -6137,6 +7013,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/877.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/877.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/morpeko.mp3",
   },
   {
     "id": "878",
@@ -6144,6 +7021,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/878.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/878.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cufant.mp3",
   },
   {
     "id": "879",
@@ -6151,6 +7029,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/879.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/879.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/copperajah.mp3",
   },
   {
     "id": "880",
@@ -6158,6 +7037,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/880.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/880.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dracozolt.mp3",
   },
   {
     "id": "881",
@@ -6165,6 +7045,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/881.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/881.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/arctozolt.mp3",
   },
   {
     "id": "882",
@@ -6172,6 +7053,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/882.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/882.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dracovish.mp3",
   },
   {
     "id": "883",
@@ -6179,6 +7061,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/883.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/883.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/arctovish.mp3",
   },
   {
     "id": "884",
@@ -6186,6 +7069,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/884.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/duraludon.mp3",
   },
   {
     "id": "885",
@@ -6193,6 +7077,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/885.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/885.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dreepy.mp3",
   },
   {
     "id": "886",
@@ -6200,6 +7085,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/886.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/886.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/drakloak.mp3",
   },
   {
     "id": "887",
@@ -6207,6 +7093,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/887.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/887.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dragapult.mp3",
   },
   {
     "id": "888",
@@ -6214,6 +7101,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/888.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/888.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zacian.mp3",
   },
   {
     "id": "889",
@@ -6221,6 +7109,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/889.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/889.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zamazenta.mp3",
   },
   {
     "id": "890",
@@ -6228,6 +7117,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/890.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/890.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/eternatus.mp3",
   },
   {
     "id": "891",
@@ -6235,6 +7125,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/891.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/891.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kubfu.mp3",
   },
   {
     "id": "892",
@@ -6242,6 +7133,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/892.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/urshifu.mp3",
   },
   {
     "id": "893",
@@ -6249,6 +7141,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/893.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/893.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/zarude.mp3",
   },
   {
     "id": "894",
@@ -6256,6 +7149,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/894.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/894.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/regieleki.mp3",
   },
   {
     "id": "895",
@@ -6263,6 +7157,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/895.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/895.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/regidrago.mp3",
   },
   {
     "id": "896",
@@ -6270,6 +7165,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/896.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/896.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/glastrier.mp3",
   },
   {
     "id": "897",
@@ -6277,6 +7173,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/897.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/897.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/spectrier.mp3",
   },
   {
     "id": "898",
@@ -6284,6 +7181,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/898.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/898.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/calyrex.mp3",
   },
   {
     "id": "899",
@@ -6291,6 +7189,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/899.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wyrdeer.mp3",
   },
   {
     "id": "900",
@@ -6298,6 +7197,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/900.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kleavor.mp3",
   },
   {
     "id": "901",
@@ -6305,6 +7205,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/901.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ursaluna.mp3",
   },
   {
     "id": "902",
@@ -6312,6 +7213,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/902.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/902.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/basculegion.mp3",
   },
   {
     "id": "903",
@@ -6319,6 +7221,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/903.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sneasler.mp3",
   },
   {
     "id": "904",
@@ -6326,6 +7229,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/904.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/overqwil.mp3",
   },
   {
     "id": "905",
@@ -6333,6 +7237,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/905.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/905.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/enamorus.mp3",
   },
   {
     "id": "906",
@@ -6340,6 +7245,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/906.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sprigatito.mp3",
   },
   {
     "id": "907",
@@ -6347,6 +7253,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/907.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/907.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/floragato.mp3",
   },
   {
     "id": "908",
@@ -6354,6 +7261,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/908.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/908.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/meowscarada.mp3",
   },
   {
     "id": "909",
@@ -6361,6 +7269,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/909.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/fuecoco.mp3",
   },
   {
     "id": "910",
@@ -6368,6 +7277,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/910.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/crocalor.mp3",
   },
   {
     "id": "911",
@@ -6375,6 +7285,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/911.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/skeledirge.mp3",
   },
   {
     "id": "912",
@@ -6382,6 +7293,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/912.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/quaxly.mp3",
   },
   {
     "id": "913",
@@ -6389,6 +7301,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/913.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/913.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/quaxwell.mp3",
   },
   {
     "id": "914",
@@ -6396,6 +7309,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/914.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/quaquaval.mp3",
   },
   {
     "id": "915",
@@ -6403,6 +7317,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/915.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/915.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lechonk.mp3",
   },
   {
     "id": "916",
@@ -6410,6 +7325,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/916.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/916.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/oinkologne.mp3",
   },
   {
     "id": "917",
@@ -6417,6 +7333,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/917.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tarountula.mp3",
   },
   {
     "id": "918",
@@ -6424,6 +7341,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/918.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/918.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/spidops.mp3",
   },
   {
     "id": "919",
@@ -6431,6 +7349,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/919.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/919.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nymble.mp3",
   },
   {
     "id": "920",
@@ -6438,6 +7357,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/920.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/920.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/lokix.mp3",
   },
   {
     "id": "921",
@@ -6445,6 +7365,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/921.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/921.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pawmi.mp3",
   },
   {
     "id": "922",
@@ -6452,6 +7373,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/922.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pawmo.mp3",
   },
   {
     "id": "923",
@@ -6459,6 +7381,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/923.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/923.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pawmot.mp3",
   },
   {
     "id": "924",
@@ -6466,6 +7389,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/924.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/924.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tandemaus.mp3",
   },
   {
     "id": "925",
@@ -6473,6 +7397,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/925.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/925.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/maushold.mp3",
   },
   {
     "id": "926",
@@ -6480,6 +7405,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/926.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/fidough.mp3",
   },
   {
     "id": "927",
@@ -6487,6 +7413,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/927.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/927.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dachsbun.mp3",
   },
   {
     "id": "928",
@@ -6494,6 +7421,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/928.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/smoliv.mp3",
   },
   {
     "id": "929",
@@ -6501,6 +7429,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/929.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/929.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dolliv.mp3",
   },
   {
     "id": "930",
@@ -6508,6 +7437,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/930.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/930.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/arboliva.mp3",
   },
   {
     "id": "931",
@@ -6515,6 +7445,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/931.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/931.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/squawkabilly.mp3",
   },
   {
     "id": "932",
@@ -6522,6 +7453,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/932.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nacli.mp3",
   },
   {
     "id": "933",
@@ -6529,6 +7461,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/933.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/933.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/naclstack.mp3",
   },
   {
     "id": "934",
@@ -6536,6 +7469,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/934.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/garganacl.mp3",
   },
   {
     "id": "935",
@@ -6543,6 +7477,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/935.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/charcadet.mp3",
   },
   {
     "id": "936",
@@ -6550,6 +7485,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/936.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/armarouge.mp3",
   },
   {
     "id": "937",
@@ -6557,6 +7493,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/937.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ceruledge.mp3",
   },
   {
     "id": "938",
@@ -6564,6 +7501,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/938.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/938.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tadbulb.mp3",
   },
   {
     "id": "939",
@@ -6571,6 +7509,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/939.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/939.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bellibolt.mp3",
   },
   {
     "id": "940",
@@ -6578,6 +7517,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/940.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/940.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wattrel.mp3",
   },
   {
     "id": "941",
@@ -6585,6 +7525,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/941.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kilowattrel.mp3",
   },
   {
     "id": "942",
@@ -6592,6 +7533,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/942.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/942.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/maschiff.mp3",
   },
   {
     "id": "943",
@@ -6599,6 +7541,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/943.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/943.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/mabosstiff.mp3",
   },
   {
     "id": "944",
@@ -6606,6 +7549,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/944.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/944.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/shroodle.mp3",
   },
   {
     "id": "945",
@@ -6613,6 +7557,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/945.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/945.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/grafaiai.mp3",
   },
   {
     "id": "946",
@@ -6620,6 +7565,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/946.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bramblin.mp3",
   },
   {
     "id": "947",
@@ -6627,6 +7573,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/947.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/947.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/brambleghast.mp3",
   },
   {
     "id": "948",
@@ -6634,6 +7581,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/948.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/toedscool.mp3",
   },
   {
     "id": "949",
@@ -6641,6 +7589,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/949.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/toedscruel.mp3",
   },
   {
     "id": "950",
@@ -6648,6 +7597,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/950.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/950.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/klawf.mp3",
   },
   {
     "id": "951",
@@ -6655,6 +7605,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/951.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/capsakid.mp3",
   },
   {
     "id": "952",
@@ -6662,6 +7613,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/952.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/952.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/scovillain.mp3",
   },
   {
     "id": "953",
@@ -6669,6 +7621,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/953.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/953.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rellor.mp3",
   },
   {
     "id": "954",
@@ -6676,6 +7629,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/954.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/954.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/rabsca.mp3",
   },
   {
     "id": "955",
@@ -6683,6 +7637,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/955.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/flittle.mp3",
   },
   {
     "id": "956",
@@ -6690,6 +7645,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/956.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/956.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/espathra.mp3",
   },
   {
     "id": "957",
@@ -6697,6 +7653,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/957.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/957.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tinkatink.mp3",
   },
   {
     "id": "958",
@@ -6704,6 +7661,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/958.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/958.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tinkatuff.mp3",
   },
   {
     "id": "959",
@@ -6711,6 +7669,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/959.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tinkaton.mp3",
   },
   {
     "id": "960",
@@ -6718,6 +7677,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/960.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/960.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wiglett.mp3",
   },
   {
     "id": "961",
@@ -6725,6 +7685,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/961.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/961.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wugtrio.mp3",
   },
   {
     "id": "962",
@@ -6732,6 +7693,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/962.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/962.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/bombirdier.mp3",
   },
   {
     "id": "963",
@@ -6739,6 +7701,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/963.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/963.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/finizen.mp3",
   },
   {
     "id": "964",
@@ -6746,6 +7709,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/964.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/palafin.mp3",
   },
   {
     "id": "965",
@@ -6753,6 +7717,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/965.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/965.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/varoom.mp3",
   },
   {
     "id": "966",
@@ -6760,6 +7725,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/966.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/966.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/revavroom.mp3",
   },
   {
     "id": "967",
@@ -6767,6 +7733,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/967.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/967.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cyclizar.mp3",
   },
   {
     "id": "968",
@@ -6774,6 +7741,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/968.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/orthworm.mp3",
   },
   {
     "id": "969",
@@ -6781,6 +7749,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/969.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/969.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/glimmet.mp3",
   },
   {
     "id": "970",
@@ -6788,6 +7757,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/970.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/glimmora.mp3",
   },
   {
     "id": "971",
@@ -6795,6 +7765,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/971.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/971.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/greavard.mp3",
   },
   {
     "id": "972",
@@ -6802,6 +7773,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/972.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/houndstone.mp3",
   },
   {
     "id": "973",
@@ -6809,6 +7781,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/973.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/973.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/flamigo.mp3",
   },
   {
     "id": "974",
@@ -6816,6 +7789,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/974.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/974.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cetoddle.mp3",
   },
   {
     "id": "975",
@@ -6823,6 +7797,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/975.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/975.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/cetitan.mp3",
   },
   {
     "id": "976",
@@ -6830,6 +7805,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/976.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/976.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/veluza.mp3",
   },
   {
     "id": "977",
@@ -6837,6 +7813,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/977.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/977.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dondozo.mp3",
   },
   {
     "id": "978",
@@ -6844,6 +7821,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/978.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tatsugiri.mp3",
   },
   {
     "id": "979",
@@ -6851,6 +7829,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/979.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/annihilape.mp3",
   },
   {
     "id": "980",
@@ -6858,6 +7837,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/980.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/clodsire.mp3",
   },
   {
     "id": "981",
@@ -6865,6 +7845,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/981.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/farigiraf.mp3",
   },
   {
     "id": "982",
@@ -6872,6 +7853,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/982.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/982.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dudunsparce.mp3",
   },
   {
     "id": "983",
@@ -6879,6 +7861,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/983.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/kingambit.mp3",
   },
   {
     "id": "984",
@@ -6886,6 +7869,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/984.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/984.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/greattusk.mp3",
   },
   {
     "id": "985",
@@ -6893,6 +7877,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/985.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/985.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/screamtail.mp3",
   },
   {
     "id": "986",
@@ -6900,6 +7885,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/986.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/986.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/brutebonnet.mp3",
   },
   {
     "id": "987",
@@ -6907,6 +7893,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/987.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/987.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/fluttermane.mp3",
   },
   {
     "id": "988",
@@ -6914,6 +7901,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/988.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/988.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/slitherwing.mp3",
   },
   {
     "id": "989",
@@ -6921,6 +7909,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/989.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/989.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sandyshocks.mp3",
   },
   {
     "id": "990",
@@ -6928,6 +7917,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/990.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/990.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/irontreads.mp3",
   },
   {
     "id": "991",
@@ -6935,6 +7925,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/991.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/991.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ironbundle.mp3",
   },
   {
     "id": "992",
@@ -6942,6 +7933,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/992.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/992.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ironhands.mp3",
   },
   {
     "id": "993",
@@ -6949,6 +7941,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/993.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/993.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ironjugulis.mp3",
   },
   {
     "id": "994",
@@ -6956,6 +7949,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/994.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/994.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ironmoth.mp3",
   },
   {
     "id": "995",
@@ -6963,6 +7957,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/995.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/995.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ironthorns.mp3",
   },
   {
     "id": "996",
@@ -6970,6 +7965,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/996.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/frigibax.mp3",
   },
   {
     "id": "997",
@@ -6977,6 +7973,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/997.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/arctibax.mp3",
   },
   {
     "id": "998",
@@ -6984,6 +7981,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/998.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/baxcalibur.mp3",
   },
   {
     "id": "999",
@@ -6991,6 +7989,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/999.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/999.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gimmighoul.mp3",
   },
   {
     "id": "1000",
@@ -6998,6 +7997,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1000.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gholdengo.mp3",
   },
   {
     "id": "1001",
@@ -7005,6 +8005,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1001.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/wochien.mp3",
   },
   {
     "id": "1002",
@@ -7012,6 +8013,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1002.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chienpao.mp3",
   },
   {
     "id": "1003",
@@ -7019,6 +8021,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1003.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1003.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/tinglu.mp3",
   },
   {
     "id": "1004",
@@ -7026,6 +8029,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1004.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1004.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/chiyu.mp3",
   },
   {
     "id": "1005",
@@ -7033,6 +8037,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1005.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/roaringmoon.mp3",
   },
   {
     "id": "1006",
@@ -7040,6 +8045,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1006.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1006.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ironvaliant.mp3",
   },
   {
     "id": "1007",
@@ -7047,6 +8053,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1007.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1007.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/koraidon.mp3",
   },
   {
     "id": "1008",
@@ -7054,6 +8061,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1008.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/miraidon.mp3",
   },
   {
     "id": "1009",
@@ -7061,6 +8069,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1009.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1009.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/walkingwake.mp3",
   },
   {
     "id": "1010",
@@ -7068,6 +8077,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1010.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1010.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ironleaves.mp3",
   },
   {
     "id": "1011",
@@ -7075,6 +8085,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1011.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1011.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/dipplin.mp3",
   },
   {
     "id": "1012",
@@ -7082,6 +8093,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1012.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1012.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/poltchageist.mp3",
   },
   {
     "id": "1013",
@@ -7089,6 +8101,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1013.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1013.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/sinistcha.mp3",
   },
   {
     "id": "1014",
@@ -7096,6 +8109,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1014.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1014.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/okidogi.mp3",
   },
   {
     "id": "1015",
@@ -7103,6 +8117,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1015.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1015.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/munkidori.mp3",
   },
   {
     "id": "1016",
@@ -7110,6 +8125,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1016.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1016.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/fezandipiti.mp3",
   },
   {
     "id": "1017",
@@ -7117,6 +8133,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1017.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1017.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ogerpon.mp3",
   },
   {
     "id": "1018",
@@ -7124,6 +8141,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1018.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1018.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/archaludon.mp3",
   },
   {
     "id": "1019",
@@ -7131,6 +8149,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1019.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1019.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/hydrapple.mp3",
   },
   {
     "id": "1020",
@@ -7138,6 +8157,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1020.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1020.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/gougingfire.mp3",
   },
   {
     "id": "1021",
@@ -7145,6 +8165,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1021.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1021.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ragingbolt.mp3",
   },
   {
     "id": "1022",
@@ -7152,6 +8173,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1022.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1022.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ironboulder.mp3",
   },
   {
     "id": "1023",
@@ -7159,6 +8181,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1023.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1023.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/ironcrown.mp3",
   },
   {
     "id": "1024",
@@ -7166,6 +8189,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1024.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1024.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/terapagos.mp3",
   },
   {
     "id": "1025",
@@ -7173,5 +8197,6 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1025.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1025.ogg",
     "legacy_cry": "",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/pecharunt.mp3",
   },
 ]

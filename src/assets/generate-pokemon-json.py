@@ -21,7 +21,10 @@ with open(write_file, 'w', errors='ignore') as w_file:
                 w_file.write("]")
                 break
 
-            # Write JSON entry
+            # ========================
+            # === Write JSON entry ===
+            # ========================
+
             line = line.strip()
             w_file.write("  {\n")
             w_file.write("    " + "\"id\": \"" + str(i) + "\",\n")
@@ -31,14 +34,26 @@ with open(write_file, 'w', errors='ignore') as w_file:
             elif i == 32:    w_file.write("    " + "\"name\": \"" + "Nidoran♂" + "\",\n")
             else:            w_file.write("    " + "\"name\": \"" + line + "\",\n")
 
+            # Sprite
             w_file.write("    " + "\"sprite\": \"" + "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + str(i) + ".png" + "\",\n")
+
+            # Latest Cry
             w_file.write("    " + "\"latest_cry\": \"" + "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/" + str(i) + ".ogg" + "\",\n")
 
-            # Pokemon from Gen 6 and above (#650 = Chespin) do not have legacy cries
+            # Legacy Cry - Pokemon from Gen 6 and above (#650 = Chespin) do not have legacy cries
             if i < 650:
                 w_file.write("    " + "\"legacy_cry\": \"" + "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/" + str(i) + ".ogg" + "\",\n")
             else:
                 w_file.write("    " + "\"legacy_cry\": \"" + "\",\n")
+
+            # mp3 Cry
+            line = line.replace(" ", "") #spaces
+            line = line.replace("-", "") #dashes
+            line = line.replace(".", "") #periods
+            line = line.replace(":", "") #colons
+            line = line.replace("'", "") #apostrophe
+            line = line.lower()          #lowercase
+            w_file.write("    " + "\"mp3_cry\": \"" + "https://play.pokemonshowdown.com/audio/cries/" + line + ".mp3" + "\",\n")
 
             w_file.write("  },\n")
 

@@ -14,6 +14,8 @@ module.exports = {
         spinInDark: 'spinInDark 2000ms ease-in-out',
         greenFade: 'greenFade 2000ms ease-in-out',
         redFade: 'redFade 2000ms ease-in-out',
+        greenFadeDark: 'greenFadeDark 2000ms ease-in-out',
+        redFadeDark: 'redFadeDark 2000ms ease-in-out',
       },
 
       keyframes: theme => ({
@@ -41,11 +43,21 @@ module.exports = {
           '0%': { opacity: 0, scale: "2", transform: 'rotate(20deg)' },
         },
         greenFade: {
-          '100%': { color: 'white' },
+          '100%': { color: 'black' },
           '50%': { color: 'rgb(34 197 94)' },
           '0%': { color: 'rgb(34 197 94)' },
         },
         redFade: {
+          '100%': { color: 'black' },
+          '50%': { color: 'rgb(239 68 68)' },
+          '0%': { color: 'rgb(239 68 68)' },
+        },
+        greenFadeDark: {
+          '100%': { color: 'white' },
+          '50%': { color: 'rgb(34 197 94)' },
+          '0%': { color: 'rgb(34 197 94)' },
+        },
+        redFadeDark: {
           '100%': { color: 'white' },
           '50%': { color: 'rgb(239 68 68)' },
           '0%': { color: 'rgb(239 68 68)' },

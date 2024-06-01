@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { TIMER } from "./App";
+import { PokemonList } from "./assets/pokemon-list.js";
 
 type PokemonCryProps = {
   setCurrentPokemon: React.Dispatch<React.SetStateAction<string>>;
@@ -39,7 +40,6 @@ const PokemonCry = ({
   setIncorrect,
 }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
-  const [url, setUrl] = useState("");
   const [sprite, setSprite] = useState("");
   const [pokemonAnswer, setPokemonAnswer] = useState("");
   let cryPlayback: HTMLAudioElement;
@@ -85,80 +85,56 @@ const PokemonCry = ({
 
   // ===============================================
 
-  // Generate new url string
+  // Generate new cry
   const randomCry = () => {
     if (game) {
-      let newCry: number;
+      let newCryID: number;
       while (true) {
         // Generate a number from 1 - 1025
-        newCry = Math.floor(Math.random() * 1025) + 1;
+        newCryID = Math.floor(Math.random() * 1025) + 1;
+
+        newCryID = 150;
 
         // Check generation filter
-        if (filterGens[0] && checkGen1(newCry)) break;
-        if (filterGens[1] && checkGen2(newCry)) break;
-        if (filterGens[2] && checkGen3(newCry)) break;
-        if (filterGens[3] && checkGen4(newCry)) break;
-        if (filterGens[4] && checkGen5(newCry)) break;
-        if (filterGens[5] && checkGen6(newCry)) break;
-        if (filterGens[6] && checkGen7(newCry)) break;
-        if (filterGens[7] && checkGen8(newCry)) break;
-        if (filterGens[8] && checkGen9(newCry)) break;
+        if (filterGens[0] && checkGen1(newCryID)) break;
+        if (filterGens[1] && checkGen2(newCryID)) break;
+        if (filterGens[2] && checkGen3(newCryID)) break;
+        if (filterGens[3] && checkGen4(newCryID)) break;
+        if (filterGens[4] && checkGen5(newCryID)) break;
+        if (filterGens[5] && checkGen6(newCryID)) break;
+        if (filterGens[6] && checkGen7(newCryID)) break;
+        if (filterGens[7] && checkGen8(newCryID)) break;
+        if (filterGens[8] && checkGen9(newCryID)) break;
 
         // If the number fails all checks, generate a new number
       }
 
-      // Concat a string of the random Pokemon
-      let newUrl: string = "https://pokeapi.co/api/v2/pokemon/" + newCry + "/";
-      setUrl(newUrl);
+      // Get new Pokemon's object
+      let newPokemon = PokemonList[newCryID - 1];
+      console.log(newPokemon);
+
+      // Latest Cry URL or Legacy Cry URL
+      if (legacyCry && newPokemon.legacy_cry) setCry(newPokemon.legacy_cry);
+      else setCry(newPokemon.mp3_cry);
+
+      // Send the name of the new Pokemon to Game.tsx for answer checking purposes
+      setCurrentPokemon(newPokemon.name.toLowerCase());
+
+      // Set the new Pokemon's name and sprite.
+      let name = newPokemon.name;
+      setTimeout(() => {
+        setSprite(newPokemon.sprite);
+        if (legacyCry) {
+          if (name === "charizard" || name === "rhyhorn") {
+            name = "Charizard/Rhyhorn";
+          } else if (name === "ditto" || name === "poliwag") {
+            name = "Poliwag/Ditto";
+          }
+        }
+        setPokemonAnswer(toTitleCase(name));
+      }, TIMER);
     }
   };
-
-  // Get new cry using new url string
-  useEffect(() => {
-    if (url) {
-      axios.get(url).then((res) => {
-        // console.log(res);
-        // Sets the URL of the new Pokemon's cry to Legacy.
-        if (legacyCry && res.data.cries.legacy) setCry(res.data.cries.legacy);
-        // Sets the URL of the new Pokemon's cry to Latest.
-        else setCry(res.data.cries.latest);
-
-        // Some Pokemon have "-" in their name
-        let name: string = res.data.species.name;
-        if (
-          [
-            "ho-oh",
-            "porygon-Z",
-            "jangmo-o",
-            "hakamo-o",
-            "kommo-o",
-            "wo-chien",
-            "chien-pao",
-            "ting-lu",
-            "chi-yu",
-          ].includes(name)
-        ) {
-          // Keep "-"
-        } else {
-          name = name.replace("-", " "); // replace "-" with " "
-        }
-        setCurrentPokemon(name); // Send the name of the new Pokemon to Game.tsx
-
-        // Set the new Pokemon's name and sprite.
-        setTimeout(() => {
-          setSprite(res.data.sprites.front_default);
-          if (legacyCry) {
-            if (name === "charizard" || name === "rhyhorn") {
-              name = "Charizard/Rhyhorn";
-            } else if (name === "ditto" || name === "poliwag") {
-              name = "Poliwag/Ditto";
-            }
-          }
-          setPokemonAnswer(toTitleCase(name));
-        }, TIMER);
-      });
-    }
-  }, [url, setCurrentPokemon]);
 
   // Play cry
   const playAudio = () => {
@@ -218,8 +194,10 @@ const PokemonCry = ({
               // Clear streak, show result
               document
                 .getElementById("streak")
-                ?.classList.add("animate-redFade");
-              document.getElementById("max")?.classList.add("animate-redFade");
+                ?.classList.add("animate-redFade", "dark:animate-redFadeDark");
+              document
+                .getElementById("max")
+                ?.classList.add("animate-redFade", "dark:animate-redFadeDark");
               setStreak(0);
               setShowResult(true);
               setIncorrect(true);
@@ -228,10 +206,16 @@ const PokemonCry = ({
               setTimeout(() => {
                 document
                   .getElementById("streak")
-                  ?.classList.remove("animate-redFade");
+                  ?.classList.remove(
+                    "animate-redFade",
+                    "dark:animate-redFadeDark"
+                  );
                 document
                   .getElementById("max")
-                  ?.classList.remove("animate-redFade");
+                  ?.classList.remove(
+                    "animate-redFade",
+                    "dark:animate-redFadeDark"
+                  );
                 setShowResult(false);
                 setIncorrect(false);
               }, TIMER);

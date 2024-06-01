@@ -34,6 +34,8 @@ const Game = ({
     setWindow[0]((prevMainmenu) => !prevMainmenu);
   };
 
+  const darkCache = localStorage.getItem("darkCache");
+
   // ===============================================
 
   // Check answer
@@ -94,15 +96,28 @@ const Game = ({
 
       // Correct
       if (result!) {
-        document.getElementById("streak")?.classList.add("animate-greenFade");
-        document.getElementById("max")?.classList.add("animate-greenFade");
+        document
+          .getElementById("streak")
+          ?.classList.add("animate-greenFade", "dark:animate-greenFadeDark");
+        document
+          .getElementById("max")
+          ?.classList.add("animate-greenFade", "dark:animate-greenFadeDark");
         setCorrect(true);
         setShowResult(true);
+
         setTimeout(() => {
           document
             .getElementById("streak")
-            ?.classList.remove("animate-greenFade");
-          document.getElementById("max")?.classList.remove("animate-greenFade");
+            ?.classList.remove(
+              "animate-greenFade",
+              "dark:animate-greenFadeDark"
+            );
+          document
+            .getElementById("max")
+            ?.classList.remove(
+              "animate-greenFade",
+              "dark:animate-greenFadeDark"
+            );
           setCorrect(false);
           setShowResult(false);
         }, TIMER);
@@ -117,14 +132,21 @@ const Game = ({
       }
       // Incorrect
       else {
-        document.getElementById("streak")?.classList.add("animate-redFade");
-        document.getElementById("max")?.classList.add("animate-redFade");
+        document
+          .getElementById("streak")
+          ?.classList.add("animate-redFade", "dark:animate-redFadeDark");
+        document
+          .getElementById("max")
+          ?.classList.add("animate-redFade", "dark:animate-redFadeDark");
         setIncorrect(true);
+
         setTimeout(() => {
           document
             .getElementById("streak")
-            ?.classList.remove("animate-redFade");
-          document.getElementById("max")?.classList.remove("animate-redFade");
+            ?.classList.remove("animate-redFade", "dark:animate-redFadeDark");
+          document
+            .getElementById("max")
+            ?.classList.remove("animate-redFade", "dark:animate-redFadeDark");
           setIncorrect(false);
         }, TIMER);
 

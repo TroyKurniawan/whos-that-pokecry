@@ -8,7 +8,6 @@ type PracticeProps = {
 };
 
 const Practice = ({ setWindow, volume }: PracticeProps) => {
-  const [cry, setCry] = useState("");
   const [latestCry, setLatestCry] = useState(true);
   const [practiceInput, setPracticeInput] = useState("");
   let cryPlayback: HTMLAudioElement;
@@ -18,10 +17,6 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
     setWindow[2]((prevPractice) => !prevPractice);
     setWindow[0]((prevMainmenu) => !prevMainmenu);
   };
-
-  useEffect(() => {
-    playCry(cry);
-  }, [cry]);
 
   const playCry = (cry: string) => {
     // Play cry
@@ -119,22 +114,14 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
                 md:text-xl md:w-80 h-14 dark:border-gray-700 dark:hover:bg-gray-900
                 text-center items-center border-b hover:bg-gray-100 cursor-pointer flex"
                   onClick={(e) => {
-                    // If the player clicks the same Pokemon's cry again
-                    if (cry === pkmn.latest_cry || cry === pkmn.legacy_cry) {
-                      playCry(cry);
-                    }
                     // If Latest Cry
-                    if (latestCry) {
-                      setCry(pkmn.latest_cry);
-                    }
+                    if (latestCry) playCry(pkmn.mp3_cry);
                     // If Legacy Cry
                     else {
                       // Only if legacy cry is present
-                      if (pkmn.legacy_cry !== "") {
-                        setCry(pkmn.legacy_cry);
-                      }
+                      if (pkmn.legacy_cry !== "") playCry(pkmn.legacy_cry);
                       // If not use latest cry
-                      else setCry(pkmn.latest_cry);
+                      else playCry(pkmn.mp3_cry);
                     }
                   }}
                 >
