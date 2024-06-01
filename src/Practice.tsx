@@ -11,9 +11,14 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
   const [cry, setCry] = useState("");
   const [latestCry, setLatestCry] = useState(true);
   const [practiceInput, setPracticeInput] = useState("");
+
+  // Audio setup
   const audioPractice = document.getElementById(
     "audioPractice"
   ) as HTMLAudioElement;
+  // Create context
+  // const audioContext = new AudioContext();
+  // let track: MediaElementAudioSourceNode;
 
   // Display/hide game window
   const togglePractice = () => {
@@ -26,33 +31,50 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
   }, [cry]);
 
   const playCry = (cry: string) => {
+    // If first time
+    // if (track) {
+    //   console.log("init audioContext");
+    //   // Connect the audio tag "audioPractice" to the audioContext
+    //   const track = audioContext.createMediaElementSource(audioPractice);
+    //   // Connect the "audioPractice" to the audioContext's destination (output)
+    //   track.connect(audioContext.destination);
+    // }
+    // Play cry
     if (cry) {
-      // Setup play
-      const audioPracticePromise = audioPractice.play();
+      console.log("PLAY");
 
-      // Begin play's promise
-      if (audioPracticePromise !== undefined) {
-        audioPracticePromise
-          .then((_) => {
-            // Success
-            audioPractice.volume = volume;
-          })
-          .catch((error) => {
-            // Auto-play was prevented
-            console.log(error);
-          });
-      }
+      // Play
+      audioPractice.play();
     }
   };
+  // const playCry = (cry: string) => {
+  //   if (cry) {
+  //     // Setup play
+  //     const audioPracticePromise = audioPractice.play();
+
+  //     // Begin play's promise
+  //     if (audioPracticePromise !== undefined) {
+  //       audioPracticePromise
+  //         .then((_) => {
+  //           // Success
+  //           audioPractice.volume = volume;
+  //         })
+  //         .catch((error) => {
+  //           // Auto-play was prevented
+  //           console.log(error);
+  //         });
+  //     }
+  //   }
+  // };
 
   return (
     <div className="grid justify-items-center animate-bump">
       {/* Cry */}
-      <audio src={cry} hidden id="audioPractice" />
+      <audio src={cry} hidden crossOrigin="" id="audioPractice" />
 
       {/* Container */}
       <div
-        className=" w-[20rem] h-[24rem]
+        className=" w-[20rem] h-[28rem]
       md:w-[28rem] md:h-[38rem]
       bg-white dark:bg-gray-800 dark:text-white
       grid content-start  rounded-xl text-center p-4 shadow"

@@ -50,7 +50,7 @@ const Settings = ({
     <div className="grid justify-items-center animate-bump">
       {/* Container */}
       <div
-        className="w-[20rem] h-[24rem]
+        className="w-[20rem] h-[28rem]
       md:w-[28rem] md:h-[38rem] dark:bg-gray-800 dark:text-white 
       grid justify-center content-center bg-white rounded-xl text-center p-4 shadow"
       >

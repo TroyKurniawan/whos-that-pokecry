@@ -20,11 +20,11 @@ const Score = ({ streak, maxStreak, correct, incorrect }: ScoreProps) => {
 
       {/* Green Ping */}
       {correct && (
-        <div className="size-16 fixed bg-green-500 rounded-full animate-ping" />
+        <div className="size-16 fixed bg-green-500 rounded-full animate-ping z-10" />
       )}
       {/* Red Ping */}
       {incorrect && (
-        <div className="size-16 fixed bg-red-500 rounded-full animate-ping" />
+        <div className="size-16 fixed bg-red-500 rounded-full animate-ping z-10" />
       )}
     </div>
   );
