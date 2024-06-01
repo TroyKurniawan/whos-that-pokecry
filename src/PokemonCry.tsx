@@ -40,9 +40,9 @@ const PokemonCry = ({
 }: PokemonCryProps) => {
   const [cry, setCry] = useState("");
   const [url, setUrl] = useState("");
-  const audioGame = document.getElementById("audioGame") as HTMLAudioElement;
   const [sprite, setSprite] = useState("");
   const [pokemonAnswer, setPokemonAnswer] = useState("");
+  let cryPlayback: HTMLAudioElement;
 
   // ===============================================
 
@@ -118,7 +118,6 @@ const PokemonCry = ({
     if (url) {
       axios.get(url).then((res) => {
         // console.log(res);
-        audioGame.volume = volume;
         // Sets the URL of the new Pokemon's cry to Legacy.
         if (legacyCry && res.data.cries.legacy) setCry(res.data.cries.legacy);
         // Sets the URL of the new Pokemon's cry to Latest.
@@ -159,15 +158,16 @@ const PokemonCry = ({
         }, TIMER);
       });
     }
-  }, [url, audioGame, setCurrentPokemon]);
+  }, [url, setCurrentPokemon]);
 
   // Play cry
   const playAudio = () => {
     if (cry) {
       console.log("PLAY");
-
-      // Play
-      audioGame.play();
+      cryPlayback = new Audio(cry);
+      cryPlayback.volume = volume;
+      // cryPlayback.autoplay = true;
+      cryPlayback.play();
     }
   };
 
@@ -184,7 +184,7 @@ const PokemonCry = ({
       bg-white dark:bg-gray-800
       grid justify-center content-center justify-items-center rounded-xl shadow"
     >
-      <audio src={cry} controls hidden className="m-4" id="audioGame" />
+      {/* <audio src={cry} controls hidden className="m-4" id="audioGame" /> */}
 
       {!showResult && (
         <div>
@@ -216,12 +216,22 @@ const PokemonCry = ({
           <button
             onClick={(e) => {
               // Clear streak, show result
+              document
+                .getElementById("streak")
+                ?.classList.add("animate-redFade");
+              document.getElementById("max")?.classList.add("animate-redFade");
               setStreak(0);
               setShowResult(true);
               setIncorrect(true);
 
               // Show Pokemon Answer for 1 sec
               setTimeout(() => {
+                document
+                  .getElementById("streak")
+                  ?.classList.remove("animate-redFade");
+                document
+                  .getElementById("max")
+                  ?.classList.remove("animate-redFade");
                 setShowResult(false);
                 setIncorrect(false);
               }, TIMER);

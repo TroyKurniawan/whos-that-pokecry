@@ -94,9 +94,15 @@ const Game = ({
 
       // Correct
       if (result!) {
+        document.getElementById("streak")?.classList.add("animate-greenFade");
+        document.getElementById("max")?.classList.add("animate-greenFade");
         setCorrect(true);
         setShowResult(true);
         setTimeout(() => {
+          document
+            .getElementById("streak")
+            ?.classList.remove("animate-greenFade");
+          document.getElementById("max")?.classList.remove("animate-greenFade");
           setCorrect(false);
           setShowResult(false);
         }, TIMER);
@@ -111,8 +117,14 @@ const Game = ({
       }
       // Incorrect
       else {
+        document.getElementById("streak")?.classList.add("animate-redFade");
+        document.getElementById("max")?.classList.add("animate-redFade");
         setIncorrect(true);
         setTimeout(() => {
+          document
+            .getElementById("streak")
+            ?.classList.remove("animate-redFade");
+          document.getElementById("max")?.classList.remove("animate-redFade");
           setIncorrect(false);
         }, TIMER);
 
