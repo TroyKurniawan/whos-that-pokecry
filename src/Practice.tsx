@@ -53,8 +53,8 @@ const Practice = ({ setWindow, volume }: PracticeProps) => {
             title={"Legacy cries"}
             subtitle={
               !iOSCheck
-                ? "When available, play original cries made before generation 6's update."
-                : "Legacy mode only available for non-iOS devices."
+                ? "When available, play original cries made before generation 6."
+                : "Legacy mode not available for iOS devices."
             }
             init={false}
             icon={
