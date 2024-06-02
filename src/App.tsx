@@ -62,12 +62,6 @@ function App() {
 
   // Light/Dark Themes
   const darkCache = localStorage.getItem("darkCache");
-  // const page = document.getElementById("page");
-  // window.onload = function () {
-  //   if (darkCache == "dark") {
-  //     page?.classList.add("dark");
-  //   }
-  // };
 
   // Volume
   // (0.3 is the current max volume level, see VolumeSlider.tsx, line 15)

@@ -31,16 +31,7 @@ const Footer = () => {
         </a>
         .
         <br />
-        Deployed with{" "}
-        <a
-          href="https://vercel.com"
-          rel="noreferrer"
-          target="_blank"
-          className="font-bold hover:text-red-500"
-        >
-          Vercel
-        </a>
-        . Pokémon data API by{" "}
+        Pokémon data by{" "}
         <a
           href="https://pokeapi.co"
           rel="noreferrer"
@@ -48,6 +39,15 @@ const Footer = () => {
           className="font-bold hover:text-red-500"
         >
           PokéAPI
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://play.pokemonshowdown.com/audio/cries/"
+          rel="noreferrer"
+          target="_blank"
+          className="font-bold hover:text-red-500"
+        >
+          Pokémon Showdown
         </a>
         . Icons by{" "}
         <a
@@ -58,6 +58,7 @@ const Footer = () => {
         >
           Heroicons
         </a>
+        .
         <br />
         ©️ 2024{" "}
         <a
