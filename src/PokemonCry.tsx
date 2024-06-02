@@ -118,7 +118,7 @@ const PokemonCry = ({
       setCurrentPokemon(newPokemon.name.toLowerCase());
 
       // Set the new Pokemon's name and sprite.
-      let name = newPokemon.name;
+      let name = newPokemon.name.toLowerCase();
       setTimeout(() => {
         setSprite(newPokemon.sprite);
         if (legacyCry) {
@@ -138,7 +138,6 @@ const PokemonCry = ({
     if (cry) {
       cryPlayback = new Audio(cry);
       cryPlayback.volume = volume;
-      // cryPlayback.autoplay = true;
       cryPlayback.play();
     }
   };
