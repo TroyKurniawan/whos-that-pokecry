@@ -29,9 +29,10 @@ with open(write_file, 'w', errors='ignore') as w_file:
             w_file.write("  {\n")
             w_file.write("    " + "\"id\": \"" + str(i) + "\",\n")
 
-            # Write edge case for Nidoran ♂ and ♀
+            # Write edge case for Nidoran ♂ and ♀ and Flabebe
             if i == 29:      w_file.write("    " + "\"name\": \"" + "Nidoran♀" + "\",\n")
             elif i == 32:    w_file.write("    " + "\"name\": \"" + "Nidoran♂" + "\",\n")
+            elif i == 669:   w_file.write("    " + "\"name\": \"" + "Flabébé" + "\",\n")
             else:            w_file.write("    " + "\"name\": \"" + line + "\",\n")
 
             # Sprite
@@ -46,13 +47,19 @@ with open(write_file, 'w', errors='ignore') as w_file:
             else:
                 w_file.write("    " + "\"legacy_cry\": \"" + "\",\n")
 
-            # mp3 Cry
-            line = line.replace(" ", "") #spaces
-            line = line.replace("-", "") #dashes
-            line = line.replace(".", "") #periods
-            line = line.replace(":", "") #colons
-            line = line.replace("'", "") #apostrophe
-            line = line.lower()          #lowercase
+            # mp3 Cry: Replace or remove characters that aren't needed for the mp3 cry link
+            line = line.replace(" ", "")    #spaces
+            line = line.replace("-", "")    #dashes
+            line = line.replace(".", "")    #periods
+            line = line.replace(":", "")    #colons
+            line = line.replace("'", "")    #apostrophe
+            line = line.replace("é", "e")   #é
+            line = line.lower()             #lowercase
+
+            if i == 29:     line = "nidoranf"
+            elif i == 32:     line = "nidoranm"
+            elif i == 669:     line = "flabebe"
+
             w_file.write("    " + "\"mp3_cry\": \"" + "https://play.pokemonshowdown.com/audio/cries/" + line + ".mp3" + "\",\n")
 
             w_file.write("  },\n")

@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
 import { TIMER } from "./App";
 import { PokemonList } from "./assets/pokemon-list.js";
 

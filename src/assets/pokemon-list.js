@@ -229,7 +229,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/29.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/29.ogg",
-    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nidoranâ™€.mp3",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nidoranf.mp3",
   },
   {
     "id": "30",
@@ -253,7 +253,7 @@ export const PokemonList = [
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/32.ogg",
     "legacy_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/32.ogg",
-    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nidoranâ™‚.mp3",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/nidoranm.mp3",
   },
   {
     "id": "33",
@@ -5345,11 +5345,11 @@ export const PokemonList = [
   },
   {
     "id": "669",
-    "name": "FlabÃ©bÃ©",
+    "name": "Flabébé",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png",
     "latest_cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/669.ogg",
     "legacy_cry": "",
-    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/flabã©bã©.mp3",
+    "mp3_cry": "https://play.pokemonshowdown.com/audio/cries/flabebe.mp3",
   },
   {
     "id": "670",
